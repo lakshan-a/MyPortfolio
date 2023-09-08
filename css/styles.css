@@ -98,6 +98,7 @@ body main section:first-child>div:nth-child(3)>aside>div:first-child>h1{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    top: 20vh;
 
 }
 body main section:first-child>div:nth-child(3)>aside>div:first-child>h1>span{
@@ -142,36 +143,52 @@ body main section:first-child>div:nth-child(3)>aside>strong{
 
 }
 
+body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
+    font-family: Inter, SansSerif;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.7vw;
+    background-color: #05BFDB;
+    border-radius: 8px;
+    box-shadow: #05BFDB 0px 4px 12px;
+
+    position: absolute;
+    top: 52vh;
+    left: 0vw;
+    margin: auto;
+}
+
 
 #linkedIn{
-    width: 1%;
+    width: 2%;
     position: absolute;
-    left: 23vw;
-    top: 59.5vh;
+    left: 21vw;
+    top: 72.5vh;
     margin: auto;
 }
 
 #instergram{
-    width: 1%;
+    width: 2%;
     position: absolute;
-    left: 25vw;
-    top: 59.5vh;
+    left: 23vw;
+    top: 72.5vh;
     margin: auto;
 }
 
 #facebook{
-    width: 1%;
+    width: 2%;
     position: absolute;
-    left: 27vw;
-    top: 59.5vh;
+    left: 25vw;
+    top: 72.5vh;
     margin: auto;
 }
 
 #discord{
-    width: 1%;
+    width: 2%;
     position: absolute;
-    left: 29vw;
-    top: 59.5vh;
+    left: 27vw;
+    top: 72.5vh;
     margin: auto;
 }
 
