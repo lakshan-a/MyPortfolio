@@ -218,8 +218,8 @@ body main section:first-child>div:nth-child(7)>img{
     position: absolute;
     top: 515px;
     right: 144px;
-    border-bottom-right-radius:12%;
-    width: 4vw;
+    border-bottom-right-radius:0%;
+    width: 2vw;
 }
 
 
