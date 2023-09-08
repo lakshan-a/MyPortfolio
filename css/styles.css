@@ -64,6 +64,17 @@ header>nav>ul>li:nth-child(7):hover{
     background-color: #088395;
     box-shadow: #088395 0px 4px 12px;
 }
+/*----------------------------------------home section---------------------------------------------------*/
+
+body main section:first-child>div:nth-child(2){
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+body main section:first-child>div:nth-child(2)>img{
+    border-bottom-right-radius:12%;
+    width: 45vw;
+}
 
 
 
