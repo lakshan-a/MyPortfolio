@@ -66,12 +66,10 @@ header>nav>ul>li:nth-child(7):hover{
 }
 /*----------------------------------------home section---------------------------------------------------*/
 
-body main section:first-child>div:nth-child(2){
-    position: absolute;
-    top: 40px;
-    right: 15px;
-}
 body main section:first-child>div:nth-child(2)>img{
+    position: absolute;
+    top: 25px;
+    right: 60px;
     border-bottom-right-radius:12%;
     width: 45vw;
 }
@@ -191,6 +189,40 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     top: 72.5vh;
     margin: auto;
 }
+
+body main section:first-child>div:nth-child(4)>img{
+    position: absolute;
+    top: 500px;
+    right: 595px;
+    border-bottom-right-radius:12%;
+    width: 4vw;
+}
+
+body main section:first-child>div:nth-child(5)>img{
+    position: absolute;
+    top: 100px;
+    right: 170px;
+    border-bottom-right-radius:12%;
+    width: 4vw;
+}
+
+body main section:first-child>div:nth-child(6)>img{
+    position: absolute;
+    top: 168px;
+    right: 570px;
+    border-bottom-right-radius:12%;
+    width: 4vw;
+}
+
+body main section:first-child>div:nth-child(7)>img{
+    position: absolute;
+    top: 515px;
+    right: 144px;
+    border-bottom-right-radius:12%;
+    width: 4vw;
+}
+
+
 
 
 
