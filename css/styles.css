@@ -82,6 +82,15 @@ body main section:first-child>div:nth-child(3)>aside{
     left: 13.5vw;
 }
 
+body main section:first-child>div:nth-child(3)>aside>div:first-child p:first-child{
+    color: #000000;
+    font-family: JejuGothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 
 /*--------------------------------------features section-------------------------------------------------*/
