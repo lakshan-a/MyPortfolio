@@ -10,6 +10,33 @@ la{
     font-family: "Microsoft Tai Le";
 }
 
+/*---------------------------------------header section---------------------------------------------------*/
+header>nav>ul>li{
+    display: inline;
+    font-family: Inter, SansSerif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 0.8vw;
+    padding-left: 0.8vw;
+}
+
+header>nav>ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+header>nav>ul>li:nth-child(7){
+    background-color: #05BFDB;
+    border-radius: 8px;
+    padding: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+}
+
+header>nav>ul>li:nth-child(7):hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
+}
+
 
 
 /*--------------------------------------features section-------------------------------------------------*/
