@@ -76,6 +76,12 @@ body main section:first-child>div:nth-child(2)>img{
     width: 45vw;
 }
 
+body main section:first-child>div:nth-child(3)>aside{
+    position: absolute;
+    top: 125px;
+    left: 13.5vw;
+}
+
 
 
 /*--------------------------------------features section-------------------------------------------------*/
