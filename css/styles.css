@@ -16,12 +16,13 @@ header{
     width: 72.73vw;
     padding-left: 13vw;
     padding-right: 13vw;
-    background-color: #8be5f75c;
+    background-color: #d9f3f5;
     position: relative;
     position: sticky;
     top: 0;
     z-index: 3;
 }
+
 
 header>img{
     position: absolute;
