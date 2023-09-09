@@ -323,4 +323,53 @@ body main section:nth-child(2)>div:nth-child(2)>img{
     margin: auto;
 }
 
+body main section:nth-child(2)>div:nth-child(3){
+    height: 40vh;
+    width: 20vw;
+
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(3)>h1{
+    font-family: 'Catamaran';
+    font-size: 1vw;
+    font-weight: 600;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 15vh;
+    left: 9vh;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(3)>h2{
+    width: 12vw;
+    font-family: Inter, SansSerif;
+    font-size: 0.8vw;
+    font-weight: 300;
+    color: #0A0A0A;
+    text-align: center;
+
+    position: absolute;
+    top: 18vh;
+    left: 8vh;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(3)>img{
+    width: 20%;
+
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
 
