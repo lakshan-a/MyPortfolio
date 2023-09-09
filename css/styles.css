@@ -239,6 +239,7 @@ body main section:nth-child(2)>div:first-child{
     position: absolute;
     /*top: 15vh;*/
     margin: auto;
+    background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
 }
 
 body main section:nth-child(2)>div:first-child>h1{
@@ -287,6 +288,7 @@ body main section:nth-child(2)>div:nth-child(2){
     top: 18vh;
     left: 18vw;
     margin: auto;
+    background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
 }
 
 body main section:nth-child(2)>div:nth-child(2)>h1{
@@ -334,6 +336,7 @@ body main section:nth-child(2)>div:nth-child(3){
     top: -23vh;
     left: 35vw;
     margin: auto;
+    background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
 }
 
 body main section:nth-child(2)>div:nth-child(3)>h1{
@@ -381,6 +384,7 @@ body main section:nth-child(2)>div:nth-child(4){
     top: 25vh;
     left: 39vw;
     margin: auto;
+    background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
 }
 
 body main section:nth-child(2)>div:nth-child(4)>h1{
