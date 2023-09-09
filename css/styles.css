@@ -415,40 +415,36 @@ body main section:nth-child(2)>div:nth-child(4)>img{
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(5){
-    height: 40vh;
-    width: 30vw;
+
+body main section:nth-child(2)>h5{
+    width: 7vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #05BFDB;
+
     position: absolute;
-    top: 30vh;
-    right: 12vw;
+    top: 10vh;
+    left: 0;
+    right: 0;
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(5)>h5{
-    width: 5vw;
-    font-family: Inter,"Arial Black";
-    font-size: 4vw;
-    font-weight: 700;
-    color: #D9D9D9;
-    position: absolute;
-    top: 0vh;
-    right: 25.3vw;
-    margin: auto;
-}
-
-section:nth-child(2)>div:nth-child(5)>h1{
-    width: 20vw;
+body main section:nth-child(2)>h1{
+    width: 14vw;
     font-family: 'Catamaran';
     font-size: 3vw;
     font-weight: 700;
     color: #0A0A0A;
 
     position: absolute;
-    top: 6vh;
+    top: 13vh;
+    right: 0;
+    left: 0;
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(5)>h2{
+body main section:nth-child(2)>h2{
     width: 20vw;
     font-family: Inter, SansSerif;
     font-size: 1vw;
@@ -458,7 +454,39 @@ section:nth-child(2)>div:nth-child(5)>h2{
     position: absolute;
     top: 22vh;
     margin: auto;
+
 }
+
+
+body main section:nth-child(2)>div{
+    width: 23.5vw;
+    height: 35vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 4px 12px;
+    border-radius: 1vh;
+
+    position: absolute;
+    margin: auto;
+}
+
+section:nth-child(2)>div:hover{
+    box-shadow: #959393 0px 4px 12px;
+}
+
+#box1{
+    top: 25vh;
+    left: 14vw;
+}
+
+#box1>img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 4vh;
+    margin: auto;
+}
+
 
 
 
