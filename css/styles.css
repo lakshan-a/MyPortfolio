@@ -415,6 +415,51 @@ body main section:nth-child(2)>div:nth-child(4)>img{
     margin: auto;
 }
 
+section:nth-child(2)>div:nth-child(5){
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 30vh;
+    right: 12vw;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(5)>h5{
+    width: 5vw;
+    font-family: Inter,"Arial Black";
+    font-size: 4vw;
+    font-weight: 700;
+    color: #D9D9D9;
+    position: absolute;
+    top: 0vh;
+    right: 25.3vw;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(5)>h1{
+    width: 20vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 6vh;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(5)>h2{
+    width: 20vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #808080;
+
+    position: absolute;
+    top: 22vh;
+    margin: auto;
+}
+
 
 
 
