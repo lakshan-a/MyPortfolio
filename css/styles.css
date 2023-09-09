@@ -388,7 +388,7 @@ body main section:nth-child(2)>div:nth-child(4){
 }
 
 body main section:nth-child(2)>div:nth-child(4)>h1{
-    width: 15vh;
+    width: 20vh;
     font-family: 'Catamaran';
     font-size: 1vw;
     font-weight: 600;
@@ -494,6 +494,8 @@ section:nth-child(2)>div:hover{
     top: 3vh;
     margin: auto;
 }
+
+
 
 
 
