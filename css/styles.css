@@ -586,6 +586,23 @@ section:nth-child(3)>ul{
     margin: auto;
 }
 
+/*--------------------------------------education section section-------------------------------------------------*/
+
+section:nth-child(4)>img{
+    position: absolute;
+    top: 1px;
+}
+
+section:nth-child(4)>div{
+    position: relative;
+    height: 100vh;
+    width: 65vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+
+
 
 
 
