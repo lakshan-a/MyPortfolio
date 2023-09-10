@@ -259,12 +259,12 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(1){
 section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>h1{
     width: 20vh;
     font-family: 'Catamaran';
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 600;
     color: #0A0A0A;
     position: absolute;
     top: 17vh;
-    left: 3vh;
+    left: 5vh;
     margin: auto;
 }
 
@@ -316,12 +316,12 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(2){
 section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h1{
     width: 20vh;
     font-family: 'Catamaran';
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 600;
     color: #0A0A0A;
     position: absolute;
     top: 17vh;
-    left: 3vh;
+    left: 6vh;
     margin: auto;
 }
 
@@ -347,7 +347,7 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>img{
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3){
     width: 27vh;
     height: 36vh;
     background-color: white;
@@ -357,23 +357,80 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(2){
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2):hover{
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3):hover{
     box-shadow: #959393 0px 4px 12px;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3){
     height: 35vh;
     width: 25vh;
     position: absolute;
-    top: -18vh;
-    left: 33vw;
+    top: 25vh;
+    left: 37vw;
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h1{
-    width: 20vh;
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3)>h1{
+    width: 23vh;
     font-family: 'Catamaran';
-    font-size: 1.2vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #0A0A0A;
+    position: absolute;
+    top: 15vh;
+    left: 4vh;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3)>h2{
+    width: 8vw;
+    font-family: Inter, SansSerif;
+    font-size: 0.9vw;
+    font-weight: 300;
+    color: #0A0A0A;
+    text-align: center;
+    position: absolute;
+    top: 23vh;
+    left: 4vh;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(3)>img{
+    width: 30%;
+    position: absolute;
+    top: 6vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4){
+    width: 27vh;
+    height: 36vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 4px 12px;
+    border-radius: 1vh;
+    position: absolute;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4):hover{
+    box-shadow: #959393 0px 4px 12px;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4){
+    height: 35vh;
+    width: 25vh;
+    position: absolute;
+    top: 18vh;
+    left: 18vw;
+    margin: auto;
+}
+
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4)>h1{
+    width: 23vh;
+    font-family: 'Catamaran';
+    font-size: 1vw;
     font-weight: 600;
     color: #0A0A0A;
     position: absolute;
@@ -382,7 +439,7 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h1{
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h2{
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4)>h2{
     width: 8vw;
     font-family: Inter, SansSerif;
     font-size: 0.9vw;
@@ -391,11 +448,11 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h2{
     text-align: center;
     position: absolute;
     top: 21vh;
-    left: 4vh;
+    left: 3vh;
     margin: auto;
 }
 
-section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>img{
+section:nth-child(2)>div:nth-child(1)>div:nth-child(4)>img{
     width: 30%;
     position: absolute;
     top: 6vh;
