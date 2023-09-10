@@ -516,4 +516,20 @@ section:nth-child(2)>div:nth-child(3)>div:nth-child(2){
 }
 
 /*--------------------------------------About me section-------------------------------------------------*/
+section:nth-child(3){
+    position: relative;
+    height: 100vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+#section3MyImage{
+    width: 28vw;
+    height: 90vh;
+    position: absolute;
+    top: -8vh;
+    left: 14vw;
+    margin: auto;
+}
 
