@@ -461,4 +461,12 @@ section:nth-child(2)>div:nth-child(1)>div:nth-child(4)>img{
     margin: auto;
 }
 
+section:nth-child(2)>div:nth-child(2)>h5 {
+    width: 0vw;
+    font-family: Inter,"Arial Black";
+    font-size: 4vw;
+    font-weight: 600;
+    color: #05BFDA;
+    margin: auto;
+}
 
