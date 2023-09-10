@@ -304,6 +304,53 @@ body main section:nth-child(2)>div:nth-child(1)>div:nth-child(2){
     background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
 }
 
+body main section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h1{
+    width: 15vh;
+    font-family: 'Catamaran';
+    font-size: 1vw;
+    font-weight: 600;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 15vh;
+    left: 5vh;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>h2{
+    width: 8vw;
+    font-family: Inter, SansSerif;
+    font-size: 0.9vw;
+    font-weight: 300;
+    color: #0A0A0A;
+    text-align: center;
+
+    position: absolute;
+    top: 20vh;
+    left: 4vh;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>img{
+    width: 30%;
+
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body main section:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+    height: 35vh;
+    width: 12vw;
+
+    position: absolute;
+    top: -23vh;
+    left: 35vw;
+    margin: auto;
+    background:linear-gradient(to top, #d6f0f5, rgba(0, 153, 201, 0.3));
+}
 
 
 
