@@ -470,3 +470,16 @@ section:nth-child(2)>div:nth-child(2)>h5 {
     margin: auto;
 }
 
+section:nth-child(2)>div:nth-child(2)>h1 {
+    width: 21vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    left: 15vw;
+    top: 7vh;
+    margin: auto;
+}
+
+
