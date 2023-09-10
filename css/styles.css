@@ -556,12 +556,23 @@ section:nth-child(3)>div{
 section:nth-child(3)>div>h5{
     width: 14vw;
     font-family: Inter, SansSerif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 600;
     color: #05BFDB;
     margin: auto;
     position: absolute;
     top: -30vh;
+}
+
+section:nth-child(3)>div>h1{
+    width: 30vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: -26vh;
+    margin: auto;
 }
 
 
