@@ -976,6 +976,11 @@ section:nth-child(5)>img:hover{
     left: 0vw;
 }
 
+#figmaLogo{
+    right: 0vw;
+    left: 45vw;
+}
+
 
 
 
