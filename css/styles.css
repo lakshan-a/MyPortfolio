@@ -938,6 +938,18 @@ section:nth-child(5)>h1{
 
 }
 
+section:nth-child(5)>img{
+    width: 5%;
+    position: absolute;
+    top: 452vh;
+    margin: auto;
+    z-index: 1;
+}
+
+section:nth-child(5)>img:hover{
+    width: 6%;
+}
+
 
 
 
