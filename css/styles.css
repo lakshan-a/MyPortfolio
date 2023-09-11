@@ -740,6 +740,15 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>img{
     bottom: 58vh;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>h1{
+    width: 50vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: relative;
+    bottom: 82vh;
+    left: 13vh;
+}
+
 
 
 
