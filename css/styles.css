@@ -667,16 +667,18 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
     position: relative;
     font-family: system-ui;
     font-size: 3vh;
-    left: 15vh;
-    top: 4vh;
+    left: 13vh;
+    top: -17.5vh;
+    bottom: 10vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{
     position: relative;
-    left: 35vh;
+    left: 31vh;
     bottom: 7vh;
     height: 12vh;
     width: 12vh;
+    bottom: 31vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{
