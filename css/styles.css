@@ -623,6 +623,26 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
     position: relative;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{
+    width: 50vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: relative;
+    bottom: 15vh;
+    left: 90vh;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: relative;
+    bottom: 15vh;
+    left: 100vh;
+}
+
+
+
 
 
 
