@@ -640,7 +640,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2){
     position: absolute;
     padding-left: 14vw;
     padding-right: 14vw;
-    top: 35vh;
+    top: 45vh;
     z-index: 1;
 }
 
@@ -650,7 +650,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>hr{
     height: 6px;
     width: 130vh;
     left: 47vh;
-    bottom: 79vh;
+    bottom: 77.1vh;
     background-color: #00B4D8;
 }
 
@@ -658,52 +658,52 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(1){
     position: absolute;
     height: 4vh;
     left: 175.8vh;
-    bottom: 79vh;
+    bottom: 77vh;
 }
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(2){*/
-/*    position: relative;*/
-/*    top: -2.65vh;*/
-/*    right: 1vh;*/
-/*    width: 8vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(2){
+    position: relative;
+    bottom: 26.6vh;
+    left: 8vh;
+    width: 8vh;
+}
 
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{*/
-/*    position: relative;*/
-/*    font-family: system-ui;*/
-/*    font-size: 3vh;*/
-/*    left: 13vh;*/
-/*    top: -17.5vh;*/
-/*    bottom: 10vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
+    position: relative;
+    font-family: system-ui;
+    font-size: 3vh;
+    left: 14vh;
+    /* top: -24.5vh; */
+    bottom: 41vh;
+}
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{*/
-/*    position: relative;*/
-/*    left: 31vh;*/
-/*    bottom: 7vh;*/
-/*    height: 12vh;*/
-/*    width: 12vh;*/
-/*    bottom: 31vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{
+    position: relative;
+    left: 31vh;
+    bottom: 7vh;
+    height: 12vh;
+    width: 12vh;
+    bottom: 55vh;
+}
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{*/
-/*    width: 50vh;*/
-/*    font-size: 3vh;*/
-/*    font-family: system-ui;*/
-/*    position: relative;*/
-/*    bottom: 42vh;*/
-/*    left: 85vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{
+    width: 50vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: relative;
+    bottom: 67vh;
+    left: 85vh;
+}
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{*/
-/*    width: 50vh;*/
-/*    font-size: 2vh;*/
-/*    font-family: system-ui,cursive;*/
-/*    position: relative;*/
-/*    bottom: 43vh;*/
-/*    left: 95vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: relative;
+    bottom: 68vh;
+    left: 95vh;
+}
 
 
 /*section:nth-child(4)>div:nth-child(2)>div:nth-child(3){*/
