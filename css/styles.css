@@ -950,6 +950,11 @@ section:nth-child(5)>img:hover{
     width: 6%;
 }
 
+#javaLogo{
+    right: 0;
+    left: 0;
+}
+
 
 
 
