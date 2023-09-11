@@ -602,12 +602,27 @@ section:nth-child(4)>div:nth-child(1)>img{
     z-index: 1;
 }
 
-section:nth-child(4)>div:nth-child(2)>div:nth-child(1){
+section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h1{
     position: relative;
-    padding-left: 14vw;
-    padding-right: 14vw;
-    bottom: 301vh;
-    left: 60vh;
+    font-family: Inter, "Arial Black";
+    font-weight: 600;
+    font-size: 2vw;
+    color: #D9D9D9;
+    bottom: 300vh;
+    left: 84vh;
+    margin: auto;
+    z-index: 1;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h2{
+    position: relative;
+    font-family: 'Catamaran';
+    font-weight: 600;
+    font-size: 3vw;
+    color: #000000;
+    bottom: 303vh;
+    left: 78vh;
+    margin: auto;
     z-index: 1;
 }
 
@@ -619,6 +634,16 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2){
     z-index: 1;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>hr{
+    position: relative;
+    box-sizing: content-box;
+    height: 6px;
+    width: 127vh;
+    left: 11vh;
+    top: 6vh;
+    background-color: #00B4D8;
+}
+
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
     position: relative;
     font-family: system-ui;
@@ -627,12 +652,20 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
     top: 4vh;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{
+    position: relative;
+    left: 35vh;
+    bottom: 7vh;
+    height: 12vh;
+    width: 12vh;
+}
+
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{
     width: 50vh;
     font-size: 3vh;
     font-family: system-ui;
     position: relative;
-    bottom: 15vh;
+    bottom: 19vh;
     left: 90vh;
 }
 
@@ -641,7 +674,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
     font-size: 2vh;
     font-family: system-ui,cursive;
     position: relative;
-    bottom: 15vh;
+    bottom: 20vh;
     left: 100vh;
 }
 
