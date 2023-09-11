@@ -981,6 +981,17 @@ section:nth-child(5)>img:hover{
     left: 45vw;
 }
 
+#wordpressLogo{
+    right: 45vw;
+    left: 0vw;
+}
+
+#arduinoLogo{
+    right: 0vw;
+    left: 60vw;
+}
+
+
 
 
 
