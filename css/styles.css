@@ -919,7 +919,7 @@ section:nth-child(5)>h5{
     font-size: 2vw;
     color: #D9D9D9;
     bottom: 54vh;
-    left: 37vh;
+    left: 21vh;
     margin: auto;
     z-index: 1;
 }
@@ -932,7 +932,7 @@ section:nth-child(5)>h1{
     font-size: 3vw;
     color: #000000;
     bottom: 56vh;
-    left: 30vh;
+    left: 12vh;
     margin: auto;
     z-index: 1;
 
