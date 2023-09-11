@@ -960,6 +960,11 @@ section:nth-child(5)>img:hover{
     left: 15vw;
 }
 
+#jsLogo{
+    border-radius: 15%;
+    right: 15vw;
+    left: 0vw;
+}
 
 
 
