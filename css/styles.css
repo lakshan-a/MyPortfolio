@@ -654,12 +654,12 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>hr{
     background-color: #00B4D8;
 }
 
-/*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(1){*/
-/*    position: absolute;*/
-/*    height: 4vh;*/
-/*    left: 164.8vh;*/
-/*    bottom: 53vh;*/
-/*}*/
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(1){
+    position: absolute;
+    height: 4vh;
+    left: 175.8vh;
+    bottom: 79vh;
+}
 
 /*section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(2){*/
 /*    position: relative;*/
