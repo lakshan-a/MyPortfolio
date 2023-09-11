@@ -724,6 +724,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>img{
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>h5{
+    width: 16vh;
     position: relative;
     font-family: system-ui;
     font-size: 3vh;
@@ -789,6 +790,24 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>h5{
     font-size: 3vh;
     left: 12vh;
     bottom: 99.9vh;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>img{
+    position: relative;
+    left: 27vh;
+    bottom: 7vh;
+    height: 12vh;
+    width: 12vh;
+    bottom: 112.5vh;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>h1{
+    width: 61vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: relative;
+    bottom: 125vh;
+    left: 72vh;
 }
 
 
