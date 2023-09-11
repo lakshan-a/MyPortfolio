@@ -766,6 +766,16 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(4){
     z-index: 1;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>hr{
+    position: relative;
+    box-sizing: content-box;
+    height: 6px;
+    width: 125vh;
+    left: 12.3vh;
+    bottom: 82.3vh;
+    background-color: #00B4D8;
+}
+
 
 
 
