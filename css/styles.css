@@ -819,13 +819,25 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>h2{
     left: 84vh;
 }
 
-section:nth-child(4)>div:nth-child(2)>div:nth-child(4){
+section:nth-child(4)>div:nth-child(2)>div:nth-child(5){
     position: relative;
     padding-left: 14vw;
     padding-right: 14vw;
     bottom: 301vh;
     z-index: 1;
 }
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>hr{
+    position: relative;
+    box-sizing: content-box;
+    height: 6px;
+    width: 125vh;
+    left: 11vh;
+    bottom: 124.7vh;
+    background-color: #00B4D8;
+}
+
+
 
 
 
