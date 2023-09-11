@@ -819,6 +819,14 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>h2{
     left: 84vh;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(4){
+    position: relative;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    bottom: 301vh;
+    z-index: 1;
+}
+
 
 
 
