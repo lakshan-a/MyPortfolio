@@ -955,6 +955,10 @@ section:nth-child(5)>img:hover{
     left: 0;
 }
 
+#sqlLogo{
+    right: 0vw;
+    left: 15vw;
+}
 
 
 
