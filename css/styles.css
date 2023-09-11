@@ -603,25 +603,28 @@ section:nth-child(4)>div:nth-child(1)>img{
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h1{
+    width: 68vh;
     position: relative;
     font-family: Inter, "Arial Black";
     font-weight: 600;
     font-size: 2vw;
     color: #D9D9D9;
     bottom: 300vh;
-    left: 84vh;
+    /* right: -64vh; */
+    left: 60vh;
     margin: auto;
     z-index: 1;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h2{
+    width: 63vh;
     position: relative;
     font-family: 'Catamaran';
     font-weight: 600;
     font-size: 3vw;
     color: #000000;
     bottom: 303vh;
-    left: 78vh;
+    left: 53vh;
     margin: auto;
     z-index: 1;
 }
@@ -638,11 +641,27 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>hr{
     position: relative;
     box-sizing: content-box;
     height: 6px;
-    width: 127vh;
+    width: 130vh;
     left: 11vh;
-    top: 6vh;
+    top: 0vh;
     background-color: #00B4D8;
 }
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(1){
+    position: relative;
+    height: 4vh;
+    left: 140.8vh;
+    bottom: 14.7vh;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(2){
+    position: relative;
+    top: -2.65vh;
+    /* left: -2vh; */
+    right: 1vh;
+    width: 8vh;
+}
+
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h5{
     position: relative;
