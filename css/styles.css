@@ -610,7 +610,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h1{
     font-family: Inter, "Arial Black";
     font-weight: 600;
     font-size: 2vw;
-    color: #D9D9D9;
+    color: #ffffff;
     bottom: 3vh;
     left: 57vh;
     margin: auto;
@@ -917,7 +917,7 @@ section:nth-child(5)>h5{
     font-family: Inter, "Arial Black";
     font-weight: 600;
     font-size: 2vw;
-    color: #D9D9D9;
+    color: #ffffff;
     bottom: 54vh;
     left: 21vh;
     margin: auto;
