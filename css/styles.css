@@ -749,6 +749,15 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>h1{
     left: 13vh;
 }
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: relative;
+    bottom: 83vh;
+    left: 24vh;
+}
+
 
 
 
