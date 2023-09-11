@@ -604,12 +604,6 @@ section:nth-child(4)>div:nth-child(1)>img{
     z-index: 1;
 }
 
-section:nth-child(4)>div:nth-child(2)>div{
-    position: relative;
-    top: -186vh;
-    left: 7vh;
-}
-
 section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h1{
     width: 68vh;
     position: relative;
@@ -634,6 +628,12 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h2{
     left: 50vh;
     margin: auto;
     z-index: 1;
+}
+
+section:nth-child(4)>div:nth-child(2)>div{
+    position: relative;
+    top: -186vh;
+    left: 7vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2){
@@ -910,6 +910,35 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(6)>div>img{
     left: 5.8vh;
     bottom: 168.7vh;
 }
+
+section:nth-child(5)>h5{
+    width: 68vh;
+    position: relative;
+    font-family: Inter, "Arial Black";
+    font-weight: 600;
+    font-size: 2vw;
+    color: #D9D9D9;
+    bottom: 54vh;
+    left: 37vh;
+    margin: auto;
+    z-index: 1;
+}
+
+section:nth-child(5)>h1{
+    width: 63vh;
+    position: relative;
+    font-family: 'Catamaran';
+    font-weight: 600;
+    font-size: 3vw;
+    color: #000000;
+    bottom: 56vh;
+    left: 30vh;
+    margin: auto;
+    z-index: 1;
+
+}
+
+
 
 
 
