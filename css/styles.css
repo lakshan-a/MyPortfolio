@@ -700,6 +700,33 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
 }
 
 
+section:nth-child(4)>div:nth-child(2)>div:nth-child(3){
+    position: relative;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    bottom: 301vh;
+    z-index: 1;
+}
+section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>hr{
+    position: relative;
+    box-sizing: content-box;
+    height: 6px;
+    width: 125vh;
+    left: 11.49vh;
+    bottom: 42.09vh;
+    background-color: #00B4D8;
+}
+
+section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>img{
+    position: relative;
+    width: 8vh;
+    left: 136vh;
+    bottom: 44.7vh;
+}
+
+
+
+
 
 
 
