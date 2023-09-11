@@ -686,8 +686,8 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h1{
     font-size: 3vh;
     font-family: system-ui;
     position: relative;
-    bottom: 19vh;
-    left: 90vh;
+    bottom: 42vh;
+    left: 85vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
@@ -695,8 +695,8 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
     font-size: 2vh;
     font-family: system-ui,cursive;
     position: relative;
-    bottom: 20vh;
-    left: 100vh;
+    bottom: 43vh;
+    left: 95vh;
 }
 
 
