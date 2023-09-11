@@ -586,7 +586,7 @@ section:nth-child(3)>ul{
     margin: auto;
 }
 
-/*--------------------------------------education section section-------------------------------------------------*/
+/*--------------------------------------education section-------------------------------------------------*/
 
 section:nth-child(4){
     position: relative;
@@ -637,10 +637,10 @@ section:nth-child(4)>div:nth-child(2)>div{
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2){
-    position: relative;
+    position: absolute;
     padding-left: 14vw;
     padding-right: 14vw;
-    bottom: 301vh;
+    top: 20vh;
     z-index: 1;
 }
 
@@ -650,7 +650,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>hr{
     height: 6px;
     width: 130vh;
     left: 11vh;
-    top: 0vh;
+    bottom: 0.1vh;
     background-color: #00B4D8;
 }
 
@@ -707,11 +707,11 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>h2{
 
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(3){
-    position: relative;
+    position: absolute;
     padding-left: 14vw;
     padding-right: 14vw;
     bottom: 301vh;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>hr{
     position: relative;
@@ -827,7 +827,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>h2{
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(5){
-    position: relative;
+    position: absolute;
     padding-left: 14vw;
     padding-right: 14vw;
     bottom: 301vh;
@@ -867,6 +867,14 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>img{
     height: 12vh;
     width: 12vh;
     bottom: 140.5vh;
+
+    /*position: absolute;*/
+    /*flex-shrink: 0;*/
+    /*!*background: rgb(253, 208, 79);*!*/
+    /*height: 12vh;*/
+    /*left: 12vh;*/
+    /*bottom: 140.5vh;*/
+    /*right: 100px*/
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>h1{
@@ -996,7 +1004,27 @@ section:nth-child(5)>img:hover{
     left: 0vw;
 }
 
+/*--------------------------------------expertise section-------------------------------------------------*/
 
+section:nth-child(6){
+    position: relative;
+    /*height: 500vh;*/
+    width: 65vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+section:nth-child(6)>div:nth-child(1)>h1{
+    width: 37vw;
+    font-family:Inter, SansSerif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #808080;
+
+    position: absolute;
+    top: 10vh;
+    margin: auto;
+}
 
 
 
