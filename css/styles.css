@@ -971,6 +971,10 @@ section:nth-child(5)>img:hover{
     left: 30vw;
 }
 
+#htmlLogo{
+    right: 30vw;
+    left: 0vw;
+}
 
 
 
