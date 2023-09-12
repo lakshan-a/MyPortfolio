@@ -1688,17 +1688,14 @@ section:nth-child(9){
 }
 
 section:nth-child(9)>h5{
-    width: 6vw;
-    font-family: Inter, SansSerif;
-    font-size: 1vw;
+    width: 13vw;
+    font-family: Inter, "Arial Black";
+    font-size: 2vw;
     font-weight: 600;
-    color: #05BFDB;
-
+    color: #808080;
     position: absolute;
-    top: 30vh;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 23vh;
+    left: 45vw;
 }
 
 section:nth-child(9)>h1{
