@@ -1358,7 +1358,7 @@ section:nth-child(6)>div>h4{
 section:nth-child(6)>div>h3{
     width: 20vw;
     font-family: Inter, SansSerif;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 600;
     text-align: center;
     color: #808080;
