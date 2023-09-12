@@ -1721,19 +1721,15 @@ section:nth-child(9)>div{
 }
 
 #section10div1{
-    left: 14vw;
+    left: 15vw;
 }
 
 #section10div2{
-    left: 32vw;
+    left: 40vw;
 }
 
 #section10div3{
-    right: 32vw;
-}
-
-#section10div4{
-    right: 14vw;
+    right: 15vw;
 }
 
 
