@@ -67,6 +67,13 @@ header>nav>ul>li:nth-child(7):hover{
 
 /*----------------------------------------home section---------------------------------------------------*/
 
+body main section:first-child>div:nth-child(1)>img{
+    position: relative;
+    width: 220.8vh;
+    height: 120vh;
+
+}
+
 body main section:first-child>div:nth-child(2)>img{
     position: absolute;
     top: 25px;
