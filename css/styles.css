@@ -1024,7 +1024,7 @@ section:nth-child(6)>div:nth-child(1)>h1{
     color: #808080;
     position: absolute;
     top: 0vh;
-    left: 30vh;
+    left: 18vh;
     right: 0px;
     margin: auto;
 }
@@ -1039,7 +1039,20 @@ section:nth-child(6)>div:nth-child(1)>h2{
     position: absolute;
     top: 3vh;
     right: 0;
-    left: 32vh;
+    left: 15vh;
+    margin: auto;
+}
+
+section:nth-child(6)>div:nth-child(1)>h3{
+    width: 63vw;
+    font-family: Inter, " Thin";
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    left: 25vh;
     margin: auto;
 }
 
