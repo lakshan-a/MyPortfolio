@@ -1118,6 +1118,17 @@ section:nth-child(6)>div:nth-child(1)>h3{
 }
 
 /*////////////////////////////////////////////*/
+.content-inner .content-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: rotateY(180deg);
+    background: linear-gradient(40deg, rgba(38, 219, 234, 0.3), rgba(255, 255, 255, 0.58));
+}
+
 
 
 
