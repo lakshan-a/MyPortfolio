@@ -1055,6 +1055,7 @@ section:nth-child(6)>div:nth-child(1)>h3{
     right: 0;
     left: 25vh;
     margin: auto;
+    align-items: center;
 }
 
 .content-inner {
