@@ -574,7 +574,7 @@ section:nth-child(3)>div>h1{
 
 section:nth-child(3)>div>h3{
     width: 37vw;
-    font-family:Inter, "Arial Black";
+    font-family:'Signika';
     font-size: 1.5vw;
     font-weight: 300;
     color: #808080;
@@ -1555,18 +1555,16 @@ section:nth-child(7)>h2{
 }
 
 section:nth-child(7)>h7{
-    width: 13vw;
+    width: 11vw;
     font-family: Inter, SansSerif;
     font-size: 1vw;
     font-weight: 600;
     color: #0A0A0A;
-
     position: absolute;
-    bottom: 7vh;
+    bottom: 15vh;
     right: 0;
     left: 0;
     margin: auto;
-
     background-color: #05BFDB;
     border-radius: 8px;
     padding: 1vh;
