@@ -1231,6 +1231,12 @@ section:nth-child(6)>div:nth-child(1)>h3{
     margin:0 4px;
 }
 
+.col-md-1{
+    position:absolute;
+    top: 30vh;
+    left: 14vw;
+}
+
 
 
 
