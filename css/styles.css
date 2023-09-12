@@ -1289,14 +1289,14 @@ section:nth-child(5)>img:hover{
 
 section:nth-child(6){
     position: relative;
-    height: 140vh;
+    height: 110vh;
     width: 70vw;
     padding-left: 14vw;
     padding-right: 14vw;
 }
 
 section:nth-child(6)>h5{
-    width: 13vw;
+    width: 15vw;
     font-family: Inter,"Arial Black";
     font-size: 2vw;
     font-weight: 600;
