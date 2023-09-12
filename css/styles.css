@@ -1114,7 +1114,7 @@ section:nth-child(6)>div:nth-child(1)>h3{
     width:50px;
     height:50px;
     border-color: rgb(0, 0, 0);
-    z-index:1;
+    z-index:5;
 }
 
 /*////////////////////////////////////////////*/
@@ -1167,6 +1167,19 @@ section:nth-child(6)>div:nth-child(1)>h3{
 .dec-icon:before {
     left:-15px;
     top:12px;
+}
+
+.dec-icon:after  {
+    right:-15px;
+    bottom:12px;
+}
+
+/*///////////////////////////////////////////////////////////*/
+.dec-icon i {
+    z-index:1;
+}
+.content-back .dec-icon {
+    top:-20px;
 }
 
 
