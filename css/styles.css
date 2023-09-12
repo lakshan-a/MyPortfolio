@@ -1196,7 +1196,22 @@ section:nth-child(6)>div:nth-child(1)>h3{
     font-size: 9px;
     letter-spacing: 4px;
 }
-
+.serv-num {
+    position:absolute;
+    bottom:27px;
+    left:10px;
+    color: #000000;
+    font-family: 'Playfair Display', cursive;
+    z-index:3;
+    font-size:20px;
+}
+.content-inner .cf-inner .inner h2  {
+    position:relative;
+    font-size:22px;
+    font-weight:800;
+    padding-bottom:20px;
+    font-family: 'Playfair Display', cursive;
+}
 
 
 
