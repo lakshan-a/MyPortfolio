@@ -1129,6 +1129,23 @@ section:nth-child(6)>div:nth-child(1)>h3{
     background: linear-gradient(40deg, rgba(38, 219, 234, 0.3), rgba(255, 255, 255, 0.58));
 }
 
+.content-inner .cf-inner {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    width:100%;
+    padding:150px 30px;
+}
+.content-inner .cf-inner .inner {
+    align-items: stretch;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    transform: translateZ(95px) scale(0.81);
+    text-align: center;
+    position:relative;
+    z-index:2;
+}
+
 
 
 
