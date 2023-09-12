@@ -1182,6 +1182,21 @@ section:nth-child(6)>div:nth-child(1)>h3{
     top:-20px;
 }
 
+.content-inner .cf-inner .inner p {
+    color: #000000;
+}
+.content-back:after  {
+    color: black;
+    position:absolute;
+    content: '\25CF\25CF\25CF';
+    width:50px;
+    left:50%;
+    bottom:30px;
+    margin-left:-25px;
+    font-size: 9px;
+    letter-spacing: 4px;
+}
+
 
 
 
