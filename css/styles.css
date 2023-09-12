@@ -1593,10 +1593,10 @@ section:nth-child(8){
 
 section:nth-child(8)>h5{
     width: 2.5vw;
-    font-family: Inter, SansSerif;
+    font-family: Inter, "Arial Black";
     font-size: 2vw;
     font-weight: 600;
-    color: #05BFDB;
+    color: #808080;
     position: absolute;
     top: 8vh;
     left: 0;
@@ -1605,16 +1605,15 @@ section:nth-child(8)>h5{
 }
 
 section:nth-child(8)>h1{
-    width: 21vw;
+    width: 22vw;
     font-family: 'Catamaran';
     font-size: 3vw;
     font-weight: 700;
     color: #0A0A0A;
-
     position: absolute;
-    top: 18vh;
+    top: 13vh;
     right: 0;
-    left: 0;
+    left: 7vh;
     margin: auto;
 }
 
@@ -1637,28 +1636,26 @@ section:nth-child(8)>h1{
 }
 
 #section8Img3{
-    width: 21%;
-
+    width: 23%;
     position: absolute;
     top: 29.8vh;
-    left: 37.5vw;
+    left: 39vw;
     margin: auto;
 }
 
 #section8Img4{
-    width: 21%;
-
+    width: 23%;
+    /* height: 25%; */
     position: absolute;
-    top: 55vh;
-    left: 37.5vw;
+    top: 103vh;
+    left: 39vw;
     margin: auto;
 }
 
 #section8Img5{
-    width: 27%;
-
+    width: 20.5%;
     position: absolute;
-    top: 30vh;
+    top: 29.8vh;
     right: 14vw;
     margin: auto;
 }
