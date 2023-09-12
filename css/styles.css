@@ -1512,23 +1512,19 @@ section:nth-child(7)>h2{
 
 #section7Project1{
     width: 40%;
-
     position: absolute;
-    top: 45vh;
+    top: 34vh;
     left: -17vw;
     margin: auto;
-
     opacity: 90%;
 }
 
 #section7Project2{
     width: 35%;
-
     position: absolute;
-    top: 45vh;
+    top: 37vh;
     right: -12vw;
     margin: auto;
-
     opacity: 80%;
 }
 
@@ -1545,16 +1541,15 @@ section:nth-child(7)>h2{
     width: 3%;
 
     position: absolute;
-    top: 65vh;
+    top: 57vh;
     left: 26vw;
     margin: auto;
 }
 
 #section7RightArrow{
     width: 3%;
-
     position: absolute;
-    top: 65vh;
+    top: 57vh;
     right: 26vw;
     margin: auto;
 }
