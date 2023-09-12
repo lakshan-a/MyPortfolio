@@ -1498,68 +1498,17 @@ section:nth-child(7)>h1{
     margin: auto;
 }
 
-/*section:nth-child(7)>h2{*/
-/*    width: 19vw;*/
-/*    font-family: 'Catamaran';*/
-/*    font-size: 3.5vw;*/
-/*    font-weight: 700;*/
-/*    color: #0A0A0A;*/
-
-/*    position: absolute;*/
-/*    top: 20vh;*/
-/*    right: 15vw;*/
-/*    margin: auto;*/
-/*}*/
-
-/*section:nth-child(7)>h3{*/
-/*    width: 19vw;*/
-/*    font-family: 'Catamaran';*/
-/*    font-size: 3.5vw;*/
-/*    font-weight: 700;*/
-/*    color: #0A0A0A;*/
-
-/*    position: absolute;*/
-/*    top: 20vh;*/
-/*    right: 5vw;*/
-/*    margin: auto;*/
-/*}*/
-
-/*section:nth-child(7)>h4{*/
-/*    width: 8vw;*/
-/*    font-family: Inter, SansSerif;*/
-/*    font-size: 0.8vw;*/
-/*    font-weight: 600;*/
-/*    color: #0A0A0A;*/
-
-/*    position: absolute;*/
-/*    top: 27vh;*/
-/*    right: 28vw;*/
-/*    margin: auto;*/
-/*}*/
-
-/*section:nth-child(7)>h6{*/
-/*    width: 8vw;*/
-/*    font-family: Inter, SansSerif;*/
-/*    font-size: 0.8vw;*/
-/*    font-weight: 600;*/
-/*    color: #0A0A0A;*/
-
-/*    position: absolute;*/
-/*    top: 27vh;*/
-/*    right: 16vw;*/
-/*    margin: auto;*/
-/*}*/
-
-/*section:nth-child(7)>div{*/
-/*    width: 0.07vw;*/
-/*    height: 6vh;*/
-/*    background-color: #0A0A0A;*/
-
-/*    position: absolute;*/
-/*    top: 22vh;*/
-/*    right: 26.5vw;*/
-/*    margin: auto;*/
-/*}*/
+section:nth-child(7)>h2{
+    width: 56vw;
+    font-family: 'Signika';
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 10vh;
+    left: 24vw;
+    margin: auto;
+}
 
 #section7Project1{
     width: 40%;
@@ -1585,9 +1534,8 @@ section:nth-child(7)>h1{
 
 #section7Project3{
     width: 50%;
-
     position: absolute;
-    top: 40vh;
+    top: 30vh;
     right: 0;
     left: 0;
     margin: auto;
