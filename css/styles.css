@@ -1271,6 +1271,25 @@ section:nth-child(6)>div:nth-child(1)>h3{
     right: 8vw;
 }
 
+section:nth-child(6)>div:nth-child(8)>img:nth-child(1){
+    position: absolute;
+    height: 28vh;
+    width: 10.5vh;
+    top: 61vh;
+    left: 22vh;
+}
+
+section:nth-child(6)>div:nth-child(8)>img:nth-child(2){
+    position: absolute;
+    height: 34vh;
+    width: 16vh;
+    top: 128vh;
+    right: 1vw;
+}
+
+
+
+
 
 
 
