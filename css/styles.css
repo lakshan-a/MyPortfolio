@@ -1296,11 +1296,11 @@ section:nth-child(6){
 }
 
 section:nth-child(6)>h5{
-    width: 7vw;
-    font-family: Inter, SansSerif;
-    font-size: 1vw;
+    width: 13vw;
+    font-family: Inter,"Arial Black";
+    font-size: 2vw;
     font-weight: 600;
-    color: #05BFDB;
+    color: #D9D9D9;
 
     position: absolute;
     top: 10vh;
@@ -1310,7 +1310,7 @@ section:nth-child(6)>h5{
 }
 
 section:nth-child(6)>h1{
-    width: 14vw;
+    width: 42vw;
     font-family: 'Catamaran';
     font-size: 3vw;
     font-weight: 700;
