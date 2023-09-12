@@ -1056,6 +1056,17 @@ section:nth-child(6)>div:nth-child(1)>h3{
     margin: auto;
 }
 
+.content-inner {
+    width:300px;
+    height:350px ;
+    color: #000000;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
 
 
 
