@@ -1237,6 +1237,13 @@ section:nth-child(6)>div:nth-child(1)>h3{
     left: 14vw;
 }
 
+.col-md-2{
+    position: absolute;
+    top: 30vh;
+    right: 50vh;
+    left: 83vh;
+}
+
 
 
 
