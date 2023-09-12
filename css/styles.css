@@ -1628,9 +1628,8 @@ section:nth-child(8)>h1{
 
 #section8Img2{
     width: 23.5%;
-
     position: absolute;
-    top: 90vh;
+    top: 103vh;
     left: 13.8vw;
     margin: auto;
 }
