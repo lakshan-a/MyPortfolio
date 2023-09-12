@@ -1661,11 +1661,10 @@ section:nth-child(8)>h1{
 }
 
 #section8Img6{
-    width: 20.5%;
-
+    width: 23%;
     position: absolute;
-    top: 116vh;
-    left: 37.8vw;
+    top: 142vh;
+    left: 39vw;
     margin: auto;
 }
 
