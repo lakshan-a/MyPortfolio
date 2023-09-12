@@ -1156,6 +1156,18 @@ section:nth-child(6)>div:nth-child(1)>h3{
     width:80px;
     height:80px;
 }
+.dec-icon:before , .dec-icon:after {
+    content:'';
+    position:absolute;
+    width:60px;
+    height:10px;
+    border-radius:1000px;
+    background: rgb(255, 255, 255);
+}
+.dec-icon:before {
+    left:-15px;
+    top:12px;
+}
 
 
 
