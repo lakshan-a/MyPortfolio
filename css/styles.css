@@ -606,8 +606,8 @@ section:nth-child(4){
 section:nth-child(4)>div:nth-child(1)>img{
     position: absolute;
     top: -200px;
-    width: 1349.4px;
-    height: 1200px;
+    width: 220.8vh;
+    height:195vh;
     z-index: 1;
 }
 
@@ -670,7 +670,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(1){
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>img:nth-child(2){
     position: absolute;
-    bottom: 11.9vh;
+    bottom: 11.99vh;
     left: 38vh;
     width: 8vh;
 }
@@ -735,7 +735,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>img{
     position: absolute;
     width: 8vh;
     left: 170vh;
-    bottom: 29.4vh;
+    bottom: 29.5vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>h5{
@@ -849,7 +849,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>hr{
     height: 6px;
     width: 125vh;
     left: 45vh;
-    bottom: 120.7vh;
+    bottom: 120.65vh;
     background-color: #00B4D8;
 }
 
@@ -857,7 +857,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div>img{
     position: absolute;
     width: 8vh;
     left: 169.5vh;
-    bottom: 108.9vh;
+    bottom: 108.8vh;
 }
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>h5{
@@ -911,7 +911,7 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(6)>hr{
     height: 6px;
     width: 125vh;
     left: 45vh;
-    top: 221.5vh;
+    top: 221.7vh;
     background-color: #00B4D8;
 }
 
