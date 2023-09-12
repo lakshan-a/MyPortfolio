@@ -1012,7 +1012,7 @@ section:nth-child(5)>img:hover{
 section:nth-child(6){
     position: relative;
     width: 65vw;
-    height: 100vw;
+    height: 80vw;
     padding-left: 14vw;
     padding-right: 14vw;
 }
