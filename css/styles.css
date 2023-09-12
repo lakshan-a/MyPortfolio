@@ -1078,7 +1078,23 @@ section:nth-child(6)>div:nth-child(1)>h3{
 .content-inner:hover .content-back {
     transform: rotateY(0deg);
 }
-
+.content-inner .content-front,
+.content-inner .content-back {
+    color: black;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-front {
+    background: linear-gradient(40deg, rgba(38, 219, 234, 0.3), rgba(255, 255, 255, 0.58));
+    position:relative;
+    cursor:pointer;
+}
 
 
 
