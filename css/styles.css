@@ -1011,23 +1011,30 @@ section:nth-child(5)>img:hover{
 
 section:nth-child(6){
     position: relative;
-    /*height: 500vh;*/
     width: 65vw;
     padding-left: 14vw;
     padding-right: 14vw;
 }
 
 section:nth-child(6)>div:nth-child(1)>h1{
-    width: 37vw;
-    font-family:Inter, SansSerif;
-    font-size: 1.5vw;
-    font-weight: 300;
+    width: 17vw;
+    font-family: Inter, SansSerif;
+    font-size: 2vw;
+    font-weight: 600;
     color: #808080;
-
     position: absolute;
-    top: 10vh;
+    top: 0vh;
+    left: 30vh;
+    right: 0px;
     margin: auto;
 }
+
+
+
+
+
+
+
 
 
 
