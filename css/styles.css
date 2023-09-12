@@ -1465,7 +1465,180 @@ section:nth-child(6)>div>h3{
 /*--------------------------------------Project section-------------------------------------------------*/
 
 
+section:nth-child(7){
+    position: relative;
+    height: 120vh;
+    width: 70.75vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    overflow: hidden;
+}
 
+section:nth-child(7)>h5{
+    width: 29vw;
+    font-family: Inter, "Arial Black";
+    font-size: 2vw;
+    font-weight: 600;
+    color: #808080;
+    position: absolute;
+    top: 0vh;
+    left: 35vw;
+    margin: auto;
+}
+
+section:nth-child(7)>h1{
+    width: 34vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 3vh;
+    left: 33vw;
+    margin: auto;
+}
+
+/*section:nth-child(7)>h2{*/
+/*    width: 19vw;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 3.5vw;*/
+/*    font-weight: 700;*/
+/*    color: #0A0A0A;*/
+
+/*    position: absolute;*/
+/*    top: 20vh;*/
+/*    right: 15vw;*/
+/*    margin: auto;*/
+/*}*/
+
+/*section:nth-child(7)>h3{*/
+/*    width: 19vw;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 3.5vw;*/
+/*    font-weight: 700;*/
+/*    color: #0A0A0A;*/
+
+/*    position: absolute;*/
+/*    top: 20vh;*/
+/*    right: 5vw;*/
+/*    margin: auto;*/
+/*}*/
+
+/*section:nth-child(7)>h4{*/
+/*    width: 8vw;*/
+/*    font-family: Inter, SansSerif;*/
+/*    font-size: 0.8vw;*/
+/*    font-weight: 600;*/
+/*    color: #0A0A0A;*/
+
+/*    position: absolute;*/
+/*    top: 27vh;*/
+/*    right: 28vw;*/
+/*    margin: auto;*/
+/*}*/
+
+/*section:nth-child(7)>h6{*/
+/*    width: 8vw;*/
+/*    font-family: Inter, SansSerif;*/
+/*    font-size: 0.8vw;*/
+/*    font-weight: 600;*/
+/*    color: #0A0A0A;*/
+
+/*    position: absolute;*/
+/*    top: 27vh;*/
+/*    right: 16vw;*/
+/*    margin: auto;*/
+/*}*/
+
+/*section:nth-child(7)>div{*/
+/*    width: 0.07vw;*/
+/*    height: 6vh;*/
+/*    background-color: #0A0A0A;*/
+
+/*    position: absolute;*/
+/*    top: 22vh;*/
+/*    right: 26.5vw;*/
+/*    margin: auto;*/
+/*}*/
+
+#section7Project1{
+    width: 40%;
+
+    position: absolute;
+    top: 45vh;
+    left: -17vw;
+    margin: auto;
+
+    opacity: 90%;
+}
+
+#section7Project2{
+    width: 35%;
+
+    position: absolute;
+    top: 45vh;
+    right: -12vw;
+    margin: auto;
+
+    opacity: 80%;
+}
+
+#section7Project3{
+    width: 50%;
+
+    position: absolute;
+    top: 40vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#section7LeftArrow{
+    width: 3%;
+
+    position: absolute;
+    top: 65vh;
+    left: 26vw;
+    margin: auto;
+}
+
+#section7RightArrow{
+    width: 3%;
+
+    position: absolute;
+    top: 65vh;
+    right: 26vw;
+    margin: auto;
+}
+
+section:nth-child(7)>h7{
+    width: 13vw;
+    font-family: Inter, SansSerif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #0A0A0A;
+
+    position: absolute;
+    bottom: 7vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    background-color: #05BFDB;
+    border-radius: 8px;
+    padding: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+}
+
+section:nth-child(7)>h7:hover{
+    background-color: #088395;
+    box-shadow: #088395 0px 4px 12px;
+}
+
+section:nth-child(7)>h7>a {
+    color: black;
+    text-decoration: none;
+}
 
 
 
