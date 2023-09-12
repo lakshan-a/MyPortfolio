@@ -574,7 +574,7 @@ section:nth-child(3)>div>h1{
 
 section:nth-child(3)>div>h3{
     width: 37vw;
-    font-family:Inter, SansSerif;
+    font-family:Inter, "Arial Black";
     font-size: 1.5vw;
     font-weight: 300;
     color: #808080;
@@ -1018,7 +1018,7 @@ section:nth-child(6){
 
 section:nth-child(6)>div:nth-child(1)>h1{
     width: 17vw;
-    font-family: Inter, SansSerif;
+    font-family: Inter, "Arial Black";
     font-size: 2vw;
     font-weight: 600;
     color: #808080;
@@ -1030,7 +1030,18 @@ section:nth-child(6)>div:nth-child(1)>h1{
 }
 
 
-
+section:nth-child(6)>div:nth-child(1)>h2{
+    width: 42vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 32vh;
+    margin: auto;
+}
 
 
 
