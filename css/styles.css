@@ -1095,6 +1095,18 @@ section:nth-child(6)>div:nth-child(1)>h3{
     position:relative;
     cursor:pointer;
 }
+.content-front  .cf-inner:before {
+    top:27px;
+    left:10px;
+    border-left:1px dotted;
+    border-top:1px dotted;
+}
+.content-front .cf-inner:after {
+    bottom:27px;
+    right:10px;
+    border-right:1px  dotted;
+    border-bottom:1px dotted;
+}
 
 
 
