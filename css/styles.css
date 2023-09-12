@@ -1264,6 +1264,12 @@ section:nth-child(6)>div:nth-child(1)>h3{
     left: 86.3vh;
 }
 
+.col-md-6{
+    position: absolute;
+    top: 93vh;
+    right: 8vw;
+}
+
 
 
 
