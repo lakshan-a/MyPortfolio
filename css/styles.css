@@ -1072,6 +1072,15 @@ section:nth-child(6)>div:nth-child(1)>h3{
     transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.content-inner:hover .content-front {
+    transform: rotateY(-180deg);
+}
+.content-inner:hover .content-back {
+    transform: rotateY(0deg);
+}
+
+
+
 
 
 
