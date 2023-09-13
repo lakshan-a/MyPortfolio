@@ -1774,6 +1774,13 @@ section:nth-child(8)>h1{
     width: 85%;
 }
 
+.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>img{
+    position: absolute;
+    top: 2vh;
+    right: 53vh;
+    width: 37%;
+}
+
 
 
 
