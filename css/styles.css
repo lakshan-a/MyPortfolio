@@ -1627,30 +1627,29 @@ body footer section>div:nth-child(2)>div>img:nth-child(1){
     right: 68vh;
 }
 
-body footer section>div:nth-child(2)>div>img{
-    position: absolute;
-    right: 68vh;
-}
 
 body footer section>div:nth-child(2)>div>img:nth-child(2){
     position: absolute;
     top: 1037vh;
-
+    right: 68vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(3){
     position: absolute;
     top: 1044vh;
+    right: 68vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(4){
     position: absolute;
     top: 1051vh;
+    right: 68vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(5){
     position: absolute;
     top: 1058vh;
+    right: 68vh;
 }
 
 
