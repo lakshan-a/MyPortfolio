@@ -1055,6 +1055,19 @@ section:nth-child(6)>h1{
     margin: auto;
 }
 
+section:nth-child(6)>p{
+    width: 62vw;
+    font-family: Inter, cursive;
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 16vh;
+    margin: auto;
+}
+
 
 
 section:nth-child(6)>div{
