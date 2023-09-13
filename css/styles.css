@@ -1733,3 +1733,17 @@ section:nth-child(8)>h1{
     font-weight: 400;
     line-height: normal;
 }
+
+.contact-section>section>address>h4{
+    margin-bottom: 0;
+}
+
+.contact-section>section>aside{
+    width: 40vw;
+    height: 80vh;
+}
+
+.contact-section>section>address>div{
+    display: flex;
+    margin-top: 2.5vh;
+}
