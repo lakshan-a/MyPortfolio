@@ -1749,7 +1749,7 @@ section:nth-child(8)>h1{
 
 .contact-section>section>address>div>div:last-child{
     position: relative;
-    left: 5vw;
+    left: 0vw;
 }
 
 .contact-section>section>address>div>div:last-child>h4{
