@@ -1713,3 +1713,7 @@ section:nth-child(8)>h1{
     position: relative;
     top: 10vh;
 }
+.contact-section>section>address{
+    width: 40vw;
+    height: 80vh;
+}
