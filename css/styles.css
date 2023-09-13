@@ -1695,3 +1695,21 @@ section:nth-child(8)>h1{
     line-height: normal;
     margin-bottom: 0;
 }
+
+/*.contact-section>h4{*/
+/*    color: #162A5F;*/
+/*    font-family: Libre Baskerville, serif;*/
+/*    font-size: 24px;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    text-align: center;*/
+/*}*/
+
+
+.contact-section>section{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10vh;
+}
