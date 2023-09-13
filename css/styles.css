@@ -1759,6 +1759,23 @@ body footer section>div:nth-child(3)>h4{
 }
 
 
+#facebooklogo{
+    width: 3%;
+    position: absolute;
+    left: 72.7vw;
+    top: 1040vh;
+    margin: auto;
+}
+
+#linkedInlogo{
+    width: 3%;
+    position: absolute;
+    left: 73vw;
+    top: 1062vh;
+    margin: auto;
+}
+
+
 
 
 
