@@ -1781,10 +1781,12 @@ section:nth-child(8)>h1{
     width: 37%;
 }
 
-
-
-
-
+.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>img{
+    position: absolute;
+    top: 1vh;
+    right: 28vh;
+    width: 85%;
+}
 
 .contact-section aside>form>fieldset{
 border: none;
