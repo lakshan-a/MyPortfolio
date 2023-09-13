@@ -1677,92 +1677,160 @@ section:nth-child(8)>h1{
 }
 
 
-/*--------------------------------------Blog section-------------------------------------------------*/
+/*--------------------------------------contact section-------------------------------------------------*/
 
-section:nth-child(9){
-    position: relative;
-    height: 90vh;
-    width: 70vw;
-    padding-left: 14vw;
-    padding-right: 14vw;
+.contact-section{
+    width: 100%;
+    height: 120vh;
+    box-sizing: border-box;
 }
 
-section:nth-child(9)>h5{
-    width: 13vw;
-    font-family: Inter, "Arial Black";
-    font-size: 2vw;
-    font-weight: 600;
-    color: #808080;
-    position: absolute;
-    top: 23vh;
-    left: 45vw;
-}
-
-section:nth-child(9)>h1{
-    width: 36vw;
-    font-family: 'Catamaran';
-    font-size: 3vw;
+.contact-section>h1{
+    color: #000;
+    text-align: center;
+    font-family: Libre Baskerville, serif;
+    font-size: 40px;
+    font-style: normal;
     font-weight: 700;
-    color: #0A0A0A;
-    position: absolute;
-    top: 33vh;
-    right: 0;
-    left: 7vw;
-    margin: auto;
+    line-height: normal;
+    margin-bottom: 0;
 }
 
-section:nth-child(9)>div{
-    height: 30vh;
-    width: 18vw;
-
-    position: absolute;
-    top: 45vh;
-    margin: auto;
+.contact-section>h4{
+    color: #162A5F;
+    font-family: Libre Baskerville, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }
 
-#section10div1{
-    left: 15vw;
+.contact-section>hr{
+    width: 20vw;
+    height: 0.3vh;
+    background: #FD6E0A;
 }
 
-#section10div2{
-    left: 40vw;
+.contact-section>section{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10vh;
 }
 
-#section10div3{
-    right: 15vw;
+.contact-section>section>address{
+    width: 40vw;
+    height: 80vh;
 }
 
-
-section:nth-child(9)>div>img{
-    width: 54%;
-    position: absolute;
-    top: 5vh;
-    right: 0;
-    left: 0;
-    margin: auto;
+.contact-section>section>address h4{
+    color: #162A5F;
+    font-family: Inter;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-
-section:nth-child(9)>div>h3{
-    width: 12vw;
-    font-family: Inter, SansSerif;
-    font-size: 1.5vw;
-    font-weight: 600;
-    color: #808080;
-    margin: 0;
-    position: absolute;
-    top: 25vh;
-    right: 0;
-    left: 0;
-    margin: auto;
+.contact-section>section>address a{
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.contact-section>section>address p{
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
 
+.contact-section>section>address>h4{
+    margin-bottom: 0;
+}
 
+.contact-section>section>aside{
+    width: 40vw;
+    height: 80vh;
+}
 
+.contact-section>section>address>div{
+    display: flex;
+    margin-top: 2.5vh;
+}
 
+.contact-section>section>address>div:first-child{
+    margin-top: 0;
+}
 
+.contact-section>section>address>div>div:first-child{
+    width: 5vw;
+    height: 5vw;
+    position: relative;
+}
 
+.contact-section>section>address>div>div:last-child{
+    position: relative;
+    left: 5vw;
+}
 
+.contact-section>section>address>div>div:last-child>h4{
+    margin-bottom: 0;
+}
 
+.contact-section>section>address>div>div:first-child{
+    font-size: 4em;
+    color: #FD6E0A;
+}
 
+.contact-section aside>form>fieldset{
+    border: none;
+}
+
+.contact-section aside>form>fieldset>input{
+    width: 38vw;
+    height: 8vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(255, 178, 51, 0.37);
+    border: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.contact-section aside>form>fieldset>textarea{
+    width: 38vw;
+    height: 15vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(255, 178, 51, 0.37);
+    border: 0;
+}
+
+.contact-section aside>form>fieldset>label{
+    color: #494949;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 62px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.contact-section aside>form>fieldset>button{
+    width: 185px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #21609B;
+    color: white;
+}
