@@ -1654,13 +1654,37 @@ body footer section>div:nth-child(2)>div>img:nth-child(5){
 
 body footer section>div:nth-child(2)>nav>ul>li:nth-child(1){
     position: absolute;
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
     top: 1031vh;
     left: 109vh;
 }
 
 body footer section>div:nth-child(2)>nav>ul>li:nth-child(2){
     position: absolute;
-    top: 1031vh;
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    top: 1038vh;
+    left: 109vh;
+}
+
+body footer section>div:nth-child(2)>nav>ul>li:nth-child(3){
+    position: absolute;
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    top: 1045vh;
+    left: 109vh;
+}
+
+body footer section>div:nth-child(2)>nav>ul>li:nth-child(4){
+    position: absolute;
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    top: 1052vh;
     left: 109vh;
 }
 
