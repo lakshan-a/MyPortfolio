@@ -1652,6 +1652,18 @@ body footer section>div:nth-child(2)>div>img:nth-child(5){
     right: 68vh;
 }
 
+body footer section>div:nth-child(2)>nav>ul>li:nth-child(1){
+    position: absolute;
+    top: 1031vh;
+    left: 109vh;
+}
+
+body footer section>div:nth-child(2)>nav>ul>li:nth-child(2){
+    position: absolute;
+    top: 1031vh;
+    left: 109vh;
+}
+
 
 
 
