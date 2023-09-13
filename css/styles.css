@@ -1557,3 +1557,46 @@ left: 110vh;
     color: white;
 }
 
+/*--------------------------------------footer-------------------------------------------------*/
+
+body footer{
+    width: 100%;
+    height: 110vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body footer section>div:nth-child(1)>h1{
+    position: absolute;
+    color: #ffffff;
+    font-family:'Catamaran';
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body footer section>div:nth-child(1)>p{
+    color: #FFF;
+    width: 30vh;
+    font-family: Inter, cursive;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    position: absolute;
+    top: 1037vh;
+}
+
+body footer section>div:nth-child(1)>img{
+    position: absolute;
+    top: 1044vh;
+    right: 135vh;
+}
+
+
+
+
