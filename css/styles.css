@@ -1627,6 +1627,12 @@ body footer section>div:nth-child(2)>div>img:nth-child(1){
     right: 68vh;
 }
 
+body footer section>div:nth-child(2)>div>img:nth-child(2){
+    position: absolute;
+    top: 1037vh;
+    right: 68vh;
+}
+
 
 
 
