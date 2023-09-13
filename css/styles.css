@@ -1561,7 +1561,7 @@ left: 110vh;
 
 body footer{
     width: 100%;
-    height: 110vh;
+    height: 50vh;
     padding-left: 5vw;
     padding-right: 5vw;
     box-sizing: border-box;
@@ -1578,7 +1578,7 @@ body footer section>div:nth-child(1)>h1{
     position: absolute;
     margin: auto;
     left: 9vh;
-    top: 1023vh;
+    top: 1022vh;
 }
 
 body footer section>div:nth-child(1)>p{
@@ -1591,14 +1591,43 @@ body footer section>div:nth-child(1)>p{
     line-height: normal;
     margin: auto;
     position: absolute;
-    top: 1037vh;
+    top: 1031vh;
 }
 
 body footer section>div:nth-child(1)>img{
     position: absolute;
-    top: 1044vh;
+    top: 1047vh;
     right: 135vh;
 }
+
+body footer section>div:nth-child(1)>hr{
+    position: absolute;
+    width: 0.001vh;
+    height: 45vh;
+    top: 1024vh;
+    left: 50vh;
+}
+
+body footer section>div:nth-child(2)>h1{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin: auto;
+    left: 95vh;
+    top: 1022vh;
+}
+
+body footer section>div:nth-child(2)>div>img:nth-child(1){
+    position: absolute;
+    top: 1030vh;
+    right: 68vh;
+}
+
+
 
 
 
