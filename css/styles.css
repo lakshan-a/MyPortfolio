@@ -1725,3 +1725,11 @@ section:nth-child(8)>h1{
     font-weight: 700;
     line-height: normal;
 }
+.contact-section>section>address a{
+    color: #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
