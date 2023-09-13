@@ -1777,3 +1777,14 @@ section:nth-child(8)>h1{
     position: absolute;
     left: 110vh;
 }
+
+.contact-section aside>form>fieldset>input{
+    width: 38vw;
+    height: 8vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(202, 240, 248, 0.5);
+    border: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
