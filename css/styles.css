@@ -1578,7 +1578,7 @@ body footer section>div:nth-child(1)>h1{
     position: absolute;
     margin: auto;
     left: 9vh;
-    top: 1022vh;
+    top: 1030vh;
 }
 
 body footer section>div:nth-child(1)>p{
@@ -1591,21 +1591,22 @@ body footer section>div:nth-child(1)>p{
     line-height: normal;
     margin: auto;
     position: absolute;
-    top: 1031vh;
+    top: 1037vh;
+    left: 9vh;
 }
 
 body footer section>div:nth-child(1)>img{
     position: absolute;
-    top: 1047vh;
-    right: 135vh;
+    top: 1053vh;
+    left: 12vh;
 }
 
 body footer section>div:nth-child(1)>hr{
     position: absolute;
     width: 0.001vh;
     height: 45vh;
-    top: 1024vh;
-    left: 50vh;
+    top: 1025vh;
+    left: 73.3vh;
 }
 
 body footer section>div:nth-child(2)>h1{
@@ -1618,38 +1619,38 @@ body footer section>div:nth-child(2)>h1{
     position: absolute;
     margin: auto;
     left: 95vh;
-    top: 1022vh;
+    top: 1030vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(1){
     position: absolute;
-    top: 1030vh;
-    right: 68vh;
+    top: 1037vh;
+    left: 95vh;
 }
 
 
 body footer section>div:nth-child(2)>div>img:nth-child(2){
     position: absolute;
-    top: 1037vh;
-    right: 68vh;
+    top: 1044vh;
+    left: 95vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(3){
     position: absolute;
-    top: 1044vh;
-    right: 68vh;
+    top: 1051vh;
+    left: 95vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(4){
     position: absolute;
-    top: 1051vh;
-    right: 68vh;
+    top: 1058vh;
+    left: 95vh;
 }
 
 body footer section>div:nth-child(2)>div>img:nth-child(5){
     position: absolute;
-    top: 1058vh;
-    right: 68vh;
+    top: 1065vh;
+    left: 95vh;
 }
 
 body footer section>div:nth-child(2)>nav>ul>li:nth-child(1){
@@ -1695,6 +1696,14 @@ body footer section>div:nth-child(2)>nav>ul>li:nth-child(5){
     font-size: 20px;
     top: 1059vh;
     left: 109vh;
+}
+
+body footer section>div:nth-child(2)>hr{
+    position: absolute;
+    width: 0.001vh;
+    height: 45vh;
+    top: 1025vh;
+    left: 147vh;
 }
 
 
