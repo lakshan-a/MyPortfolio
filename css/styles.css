@@ -1719,6 +1719,47 @@ body footer section>div:nth-child(3)>h1{
     top: 1030vh;
 }
 
+body footer section>div:nth-child(3)>h2{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin: auto;
+    left: 172vh;
+    top: 1041vh;
+}
+
+body footer section>div:nth-child(3)>h3{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin: auto;
+    left: 173vh;
+    top: 1052vh;
+}
+
+body footer section>div:nth-child(3)>h4{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin: auto;
+    left: 172vh;
+    top: 1063vh;
+}
+
+
+
 
 
 
