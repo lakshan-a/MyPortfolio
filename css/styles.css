@@ -1035,7 +1035,7 @@ section:nth-child(6)>h5{
     color: #D9D9D9;
 
     position: absolute;
-    top: 10vh;
+    top: 0vh;
     left: 0;
     right: 0;
     margin: auto;
@@ -1049,7 +1049,7 @@ section:nth-child(6)>h1{
     color: #0A0A0A;
 
     position: absolute;
-    top: 13vh;
+    top: 2vh;
     right: 0;
     left: 0;
     margin: auto;
@@ -1232,7 +1232,7 @@ section:nth-child(7)>h1{
 
 section:nth-child(7)>h2{
     width: 56vw;
-    font-family: 'Signika';
+    font-family: Inter, cursive;
     font-size: 1.5vw;
     font-weight: 700;
     color: #0A0A0A;
