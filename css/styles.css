@@ -1681,7 +1681,7 @@ section:nth-child(8)>h1{
 
 .contact-section{
     width: 100%;
-    height: 120vh;
+    height: 110vh;
     box-sizing: border-box;
 }
 
@@ -1693,19 +1693,8 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 0;
+    margin-bottom: -7vh;
 }
-
-/*.contact-section>h4{*/
-/*    color: #162A5F;*/
-/*    font-family: Libre Baskerville, serif;*/
-/*    font-size: 24px;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*    text-align: center;*/
-/*}*/
-
 
 .contact-section>section{
     display: flex;
@@ -1795,42 +1784,44 @@ left: 110vh;
 }
 
 .contact-section aside>form>fieldset>input{
-width: 38vw;
-height: 8vh;
-flex-shrink: 0;
-border-radius: 20px 20px 10px 20px;
-background: rgba(202, 240, 248, 0.5);
-border: 0;
-margin-top: 2vh;
-margin-bottom: 2vh;
+    width: 38vw;
+    height: 8vh;
+    flex-shrink: 0;
+    border-radius: 0px 10px 0px 10px;
+    background: rgba(202, 240, 248, 0.5);
+    border: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .contact-section aside>form>fieldset>textarea{
-width: 38vw;
-height: 15vh;
-flex-shrink: 0;
-border-radius: 20px 20px 10px 20px;
-background: rgba(202, 240, 248, 0.5);
-border: 0;
+    width: 38vw;
+    height: 15vh;
+    flex-shrink: 0;
+    border-radius: 0px 10px 0px 10px;
+    background: rgba(202, 240, 248, 0.5);
+    border: 0;
 }
 
 .contact-section aside>form>fieldset>label{
-color: #494949;
-font-family: Inter, sans-serif;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 62px;
-height: 22px;
-flex-shrink: 0;
+    color: #494949;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 62px;
+    height: 22px;
+    flex-shrink: 0;
 }
 
 .contact-section aside>form>fieldset>button{
-width: 185px;
-height: 47px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #21609B;
-color: white;
+    width: 185px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background-color: #05BFDB;
+    box-shadow: #05BFDB 0px 4px 12px;
+    color: white;
 }
+
