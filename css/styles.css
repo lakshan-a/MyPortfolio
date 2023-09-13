@@ -1747,3 +1747,33 @@ section:nth-child(8)>h1{
     display: flex;
     margin-top: 2.5vh;
 }
+
+.contact-section>section>address>div:first-child{
+    margin-top: 0;
+}
+
+.contact-section>section>address>div>div:first-child{
+    width: 5vw;
+    height: 5vw;
+    position: relative;
+}
+
+.contact-section>section>address>div>div:last-child{
+    position: relative;
+    left: 5vw;
+}
+
+.contact-section>section>address>div>div:last-child>h4{
+    margin-bottom: 0;
+}
+
+.contact-section>section>address>div>div:first-child{
+    font-size: 4em;
+    color: #FD6E0A;
+}
+
+.contact-section aside>form>fieldset{
+    border: none;
+    position: absolute;
+    left: 110vh;
+}
