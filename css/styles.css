@@ -1706,11 +1706,11 @@ section:nth-child(8)>h1{
     text-align: center;
 }
 
-.contact-section>hr{
-    width: 20vw;
-    height: 0.3vh;
-    background: #FD6E0A;
-}
+/*.contact-section>hr{*/
+/*    width: 20vw;*/
+/*    height: 0.3vh;*/
+/*    background: #FD6E0A;*/
+/*}*/
 
 .contact-section>section{
     display: flex;
@@ -1742,15 +1742,6 @@ section:nth-child(8)>h1{
     line-height: normal;
 }
 
-.contact-section>section>address p{
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 0;
-}
 
 .contact-section>section>address>h4{
     margin-bottom: 0;
@@ -1792,6 +1783,8 @@ section:nth-child(8)>h1{
 
 .contact-section aside>form>fieldset{
     border: none;
+    position: absolute;
+    left: 105vh;
 }
 
 .contact-section aside>form>fieldset>input{
