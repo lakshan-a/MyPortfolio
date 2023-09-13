@@ -1717,3 +1717,11 @@ section:nth-child(8)>h1{
     width: 40vw;
     height: 80vh;
 }
+.contact-section>section>address h4{
+    color: #000000;
+    font-family:'Catamaran';
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
