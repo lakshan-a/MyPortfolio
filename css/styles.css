@@ -1569,13 +1569,16 @@ body footer{
 }
 
 body footer section>div:nth-child(1)>h1{
-    position: absolute;
     color: #ffffff;
-    font-family:'Catamaran';
+    font-family: 'Catamaran';
     font-size: 1.5em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    margin: auto;
+    left: 9vh;
+    top: 1023vh;
 }
 
 body footer section>div:nth-child(1)>p{
