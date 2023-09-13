@@ -1767,6 +1767,14 @@ body footer section>div:nth-child(3)>h4{
     margin: auto;
 }
 
+#instergramlogo{
+    width: 3%;
+    position: absolute;
+    left: 73vw;
+    top: 1051vh;
+    margin: auto;
+}
+
 #linkedInlogo{
     width: 3%;
     position: absolute;
