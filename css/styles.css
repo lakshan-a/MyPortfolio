@@ -1788,3 +1788,24 @@ section:nth-child(8)>h1{
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+
+.contact-section aside>form>fieldset>textarea{
+    width: 38vw;
+    height: 15vh;
+    flex-shrink: 0;
+    border-radius: 20px 20px 10px 20px;
+    background: rgba(202, 240, 248, 0.5);
+    border: 0;
+}
+
+.contact-section aside>form>fieldset>label{
+    color: #494949;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 62px;
+    height: 22px;
+    flex-shrink: 0;
+}
