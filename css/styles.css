@@ -132,8 +132,8 @@ body main section:first-child>div:nth-child(3)>aside>div:first-child>div{
 .home>div:nth-child(3)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
-    top: 29vh;
-    right: 66vh;
+    top: 24vh;
+    right: 49vh;
 }
 
 body main section:first-child>div:nth-child(3)>aside>div:first-child>p:last-child{
@@ -169,7 +169,7 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     box-shadow: #05BFDB 0px 4px 12px;
 
     position: absolute;
-    top: 52vh;
+    top: 43vh;
     left: 0vw;
     margin: auto;
 }
@@ -179,7 +179,7 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 21vw;
-    top: 72.5vh;
+    top: 58.5vh;
     margin: auto;
 }
 
@@ -187,7 +187,7 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 23vw;
-    top: 72.5vh;
+    top: 58.5vh;
     margin: auto;
 }
 
@@ -195,7 +195,7 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 25vw;
-    top: 72.5vh;
+    top: 58.5vh;
     margin: auto;
 }
 
@@ -203,7 +203,7 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
     width: 2%;
     position: absolute;
     left: 27vw;
-    top: 72.5vh;
+    top: 58.5vh;
     margin: auto;
 }
 
