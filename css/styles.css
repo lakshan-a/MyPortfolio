@@ -614,9 +614,9 @@ section:nth-child(4){
 
 section:nth-child(4)>div:nth-child(1)>img{
     position: absolute;
-    top: -200px;
+    bottom: -14vh;
     width: 220.8vh;
-    height:195vh;
+    height: 195vh;
     z-index: 1;
 }
 
@@ -645,12 +645,6 @@ section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>h2{
     margin: auto;
     z-index: 1;
 }
-
-/*section:nth-child(4)>div:nth-child(2)>div{*/
-/*    position: relative;*/
-/*    top: -186vh;*/
-/*    left: 7vh;*/
-/*}*/
 
 section:nth-child(4)>div:nth-child(2)>div:nth-child(2){
     position: absolute;
