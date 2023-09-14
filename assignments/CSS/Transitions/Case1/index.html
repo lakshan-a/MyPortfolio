@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        section{
+            position: relative;
+        }
+
+        section>div{
+            transition: 2s;
+            height: 50px;
+            width: 400px;
+            background-color: lightseagreen;
+            margin: 10px;
+            text-align: center;
+            justify-content: center;
+            position: absolute;
+            padding-top: 7px;
+            box-shadow: #000000 0px 4px 12px;
+        }
+
+        section>div>h7{
+            color: white;
+        }
+
+        section>div>img{
+            width: 10%;
+            position: absolute;
+            right: 10px;
+            padding-top: 2px;
+        }
+
+        section>div:nth-child(1){
+            top: 5px;
+            left: -350px;
+        }
+
+        section>div:nth-child(2){
+            top: 130px;
+            left: -350px;
+        }
+
+        section>div:nth-child(3){
+            top: 250px;
+            left: -350px;
+        }
+
+        section>div:nth-child(4){
+            top: 380px;
+            left: -350px;
+        }
+
+        section>div:nth-child(5){
+            top: 510px;
+            left: -350px;
+        }
+
+        section>div:hover{
+            left: -100px;
+            transition: 2s;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<section>
+    <div><h7>Menu One</h7><img src="assests/MenuOne.png"></div>
+    <div><h7>Menu Two</h7><img src="assests/MenuTwo.png"></div>
+    <div><h7>Menu Three</h7><img src="assests/MenuThree.png"></div>
+    <div><h7>Menu Four</h7><img src="assests/MenuFour.png"></div>
+    <div><h7>Menu Five</h7><img src="assests/MenuFive.png"></div>
+</section>
+
+</body>
+</html>
