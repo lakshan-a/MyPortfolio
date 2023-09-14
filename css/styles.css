@@ -209,9 +209,9 @@ body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
 
 body main section:first-child>div:nth-child(4)>img{
     position: absolute;
-    top: 500px;
-    right: 595px;
-    border-bottom-right-radius:12%;
+    top: 75vh;
+    right: 40vw;
+    border-bottom-right-radius: 12%;
     width: 4vw;
 }
 
