@@ -124,7 +124,7 @@ body main section:first-child>div:nth-child(3)>aside>div:first-child>div{
     box-shadow: #05BFDB 0px 4px 12px;
 
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     left: 0.3vw;
     margin: auto;
 }
