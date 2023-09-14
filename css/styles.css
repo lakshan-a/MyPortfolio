@@ -69,7 +69,7 @@ header>nav>ul>li:nth-child(7):hover{
 
 body main section:first-child>div:nth-child(1)>img{
     position: relative;
-    width: 220.8vh;
+    width: 98.75vw;
     height: 120vh;
 
 }
@@ -615,7 +615,7 @@ section:nth-child(4){
 section:nth-child(4)>div:nth-child(1)>img{
     position: absolute;
     bottom: -14vh;
-    width: 220.8vh;
+    width: 98.75vw;
     height: 195vh;
     z-index: 1;
 }
