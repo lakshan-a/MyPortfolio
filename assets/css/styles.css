@@ -645,6 +645,24 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>img{
     bottom: 53.5vh;
 }
 
+section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h1{
+    width: 61vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: absolute;
+    bottom: 58vh;
+    left: 31vw;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: absolute;
+    bottom: 54vh;
+    left: 38vw;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
