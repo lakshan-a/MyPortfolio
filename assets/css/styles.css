@@ -510,6 +510,15 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
+/*--------------------------------------education section-------------------------------------------------*/
+
+section:nth-child(4){
+    position: relative;
+    height: 95vh;
+    width: 70vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
 
 /*--------------------------------------contact section-------------------------------------------------*/
 
