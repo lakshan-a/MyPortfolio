@@ -593,6 +593,24 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h2{
     left: 42vw;
 }
 
+section:nth-child(4)>div:nth-child(3)>div:nth-child(3){
+    position: absolute;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    top: 75.7vh;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h5{
+    width: 16vh;
+    position: absolute;
+    font-family: system-ui;
+    font-size: 3vh;
+    left: 51.5vw;
+    bottom: 16.9vh;
+}
+
+
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
