@@ -189,6 +189,39 @@ body main section:first-child>div:nth-child(4)>aside>div:last-child>h6{
     margin: auto;
 }
 
+#linkedIn{
+    width: 2%;
+    position: absolute;
+    left: 21vw;
+    top: 63.5vh;
+    margin: auto;
+}
+
+#instergram{
+    width: 2%;
+    position: absolute;
+    left: 23vw;
+    top: 63.5vh;
+    margin: auto;
+}
+
+#facebook{
+    width: 2%;
+    position: absolute;
+    left: 25vw;
+    top: 63.5vh;
+    margin: auto;
+}
+
+#discord{
+    width: 2%;
+    position: absolute;
+    left: 27vw;
+    top: 63.5vh;
+    margin: auto;
+}
+
+
 
 /*--------------------------------------features section-------------------------------------------------*/
 
