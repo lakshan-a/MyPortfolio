@@ -785,6 +785,21 @@ section:nth-child(5)>img:hover{
     left: 0vw;
 }
 
+#cssLogo{
+    right: 0vw;
+    left: 30vw;
+}
+
+#htmlLogo{
+    right: 30vw;
+    left: 0vw;
+}
+
+#figmaLogo{
+    right: 0vw;
+    left: 45vw;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
