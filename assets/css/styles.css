@@ -883,6 +883,16 @@ section:nth-child(6)>div:nth-child(2)>p{
     opacity: 80%;
 }
 
+#section6Project3{
+    width: 30%;
+    position: absolute;
+    top: 30vh;
+    right: 0vw;
+    left: 25vw;
+    margin: auto;
+}
+
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
