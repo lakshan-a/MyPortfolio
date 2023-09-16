@@ -409,7 +409,20 @@ section:nth-child(3)>div>h4{
     margin: auto;
 }
 
+section:nth-child(3)>div>h3{
+    width: 20vw;
+    font-family: Inter, SansSerif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    color: #808080;
 
+    position: absolute;
+    top: 21vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
