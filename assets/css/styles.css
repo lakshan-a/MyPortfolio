@@ -520,6 +520,24 @@ section:nth-child(4){
     padding-right: 14vw;
 }
 
+section:nth-child(4)>div:nth-child(2)>svg{
+    position: relative;
+    top: 0;
+    width: 95%;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1{
+    width: 68vh;
+    position: absolute;
+    font-family: 'Signika';
+    font-weight: 600;
+    font-size: 2vw;
+    color: #FAC921;
+    top: 10vh;
+    left: 44vw;
+    margin: auto;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
