@@ -1029,43 +1029,37 @@ section:nth-child(7)>h1{
 }
 
 
-
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
     width: 100%;
-    height: 110vh;
+    height: 160vh;
     box-sizing: border-box;
 }
 
-.contact-section>h1{
-    color: #000;
-    text-align: center;
-    font-family: 'Catamaran';
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: -7vh;
+section:nth-child(8)>h1{
+    width: 10.5vw;
+    font-family: 'Signika';
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FAC921;
+    position: relative;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
+
 
 .contact-section>section{
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 10vh;
+    top: 15vh;
 }
 .contact-section>section>address{
     width: 40vw;
     height: 80vh;
-}
-.contact-section>section>address h4{
-    color: #000000;
-    font-family:'Catamaran';
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 .contact-section>section>address a{
     color: #494949;
@@ -1081,79 +1075,176 @@ section:nth-child(7)>h1{
 }
 
 .contact-section>section>aside{
-    width: 40vw;
+    width: 90vw;
     height: 80vh;
 }
 
-.contact-section>section>address>div{
-    display: flex;
-    margin-top: 2.5vh;
-}
-
-.contact-section>section>address>div:first-child{
-    margin-top: 0;
-}
-
-.contact-section>section>address>div>div:first-child{
-    width: 5vw;
-    height: 5vw;
-    position: relative;
-}
-
-.contact-section>section>address>div>div:last-child{
-    position: relative;
-    left: 0vw;
-}
-
-.contact-section>section>address>div>div:last-child>h4{
-    margin-bottom: 0;
-}
-
-.contact-section>section>address>div:nth-child(1)>div:nth-child(2)>img{
+.contact-section>section>address>div:nth-child(1)>hr{
     position: absolute;
-    top: 2vh;
-    right: 28vh;
-    width: 85%;
-}
-
-.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>img{
-    position: absolute;
-    top: 2vh;
-    right: 53vh;
-    width: 37%;
-}
-
-.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>img{
-    position: absolute;
+    width: 0.5vw;
+    height: 24vh;
     top: 1vh;
-    right: 28vh;
-    width: 85%;
+    left: 4vw;
+    background-color: #FAC921;
+}
+
+.contact-section>section>address>div:nth-child(1)>h1{
+    width: 21vw;
+    font-family: 'Signika';
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #FAC921;
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+    margin: auto;
+}
+
+.contact-section>section>address>div:nth-child(1)>p{
+    width: 25vw;
+    font-family: Inter, "Arial Black";
+    font-size: 1vw;
+    font-weight: 600;
+    color: #666;
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    margin: auto;
+}
+
+.contact-section>section>address>div:nth-child(2)>div:nth-child(1)>i{
+    position: relative;
+    font-size: 32px;
+    top: 8vh;
+    left: 17vw;
+}
+
+.contact-section>section>address>div:nth-child(3)>div:nth-child(1)>i{
+    position: relative;
+    font-size: 32px;
+    bottom: 12.5vh;
+    left: 36vw;
+}
+
+.contact-section>section>address>div:nth-child(4)>div:nth-child(1)>i{
+    position: relative;
+    font-size: 32px;
+    bottom: 32vh;
+    left: 56vw;
+}
+
+.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>h4{
+    position: relative;
+    font-family:'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vh;
+    left: 20vw;
+    color: #666;
+}
+
+.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>h4{
+    position: relative;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vh;
+    left: 40vw;
+    color: #666;
+    bottom: 20.5vh;
+}
+
+.contact-section>section>address>div:nth-child(4)>div:nth-child(2)>h4{
+    position: relative;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vh;
+    left: 59vw;
+    color: #666;
+    bottom: 40vh;
+}
+
+.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>a{
+    position: relative;
+    left: 20vw;
+    font-size: 2.5vh;
+}
+
+.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>a{
+    position: relative;
+    left: 40vw;
+    font-size: 2.5vh;
+    bottom: 19.8vh;
+}
+
+.contact-section>section>address>div:nth-child(4)>div:nth-child(2)>a{
+    position: relative;
+    left: 59vw;
+    font-size: 2.5vh;
+    bottom: 39.5vh;
+}
+
+.contact-section aside>div>hr{
+    position: absolute;
+    width: 0.5vw;
+    height: 24vh;
+    top: 35vh;
+    left: 4vw;
+    background-color: #FAC921;
+}
+
+.contact-section aside>div>h1{
+    width: 21vw;
+    font-family: 'Signika';
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #FAC921;
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+    margin: auto;
+}
+
+.contact-section aside>div>p{
+    width: 25vw;
+    font-family: Inter, "Arial Black";
+    font-size: 1vw;
+    font-weight: 600;
+    color: #666;
+    position: absolute;
+    top: 48vh;
+    left: 5vw;
+    margin: auto;
 }
 
 .contact-section aside>form>fieldset{
-border: none;
-position: absolute;
-left: 110vh;
+    border: none;
+    position: absolute;
+    left: 95vh;
+    top: 37vh;
 }
 
+
 .contact-section aside>form>fieldset>input{
-    width: 38vw;
-    height: 8vh;
+    width: 45vw;
+    height: 6vh;
     flex-shrink: 0;
     border-radius: 0px 10px 0px 10px;
-    background: rgba(202, 240, 248, 0.5);
+    background: rgb(250, 201, 33);
     border: 0;
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
 
 .contact-section aside>form>fieldset>textarea{
-    width: 38vw;
-    height: 15vh;
+    width: 45vw;
+    height: 10vh;
     flex-shrink: 0;
     border-radius: 0px 10px 0px 10px;
-    background: rgba(202, 240, 248, 0.5);
+    background: rgb(250, 201, 33);
     border: 0;
+
 }
 
 .contact-section aside>form>fieldset>label{
@@ -1166,6 +1257,7 @@ left: 110vh;
     width: 62px;
     height: 22px;
     flex-shrink: 0;
+
 }
 
 .contact-section aside>form>fieldset>button{
@@ -1173,10 +1265,16 @@ left: 110vh;
     height: 47px;
     flex-shrink: 0;
     border-radius: 25px;
-    background-color: #05BFDB;
-    box-shadow: #05BFDB 0px 4px 12px;
+    background-color: #fac921;
     color: white;
 }
+
+.contact-section>div{
+    position: relative;
+    bottom: 12vh;
+}
+
+
 
 /*--------------------------------------footer-------------------------------------------------*/
 
