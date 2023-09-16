@@ -926,6 +926,14 @@ section:nth-child(6)>div:nth-child(4)>i:nth-child(1){
     right: 11vw;
 }
 
+section:nth-child(6)>div:nth-child(5)>i:nth-child(1){
+    font-size: 20px;
+    position: relative;
+    top: 18.49vw;
+    color: white;
+    left: 81vw;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
