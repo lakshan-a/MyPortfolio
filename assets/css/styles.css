@@ -151,6 +151,24 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>div{
     margin: auto;
 }
 
+.home>div:nth-child(4)>aside>div:first-child>img{
+    width: 8%;
+    position: absolute;
+    top: 26vh;
+    right: 30vw;
+}
+
+body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child{
+    color: #ffffff;
+    margin-top: 7vh;
+    margin-left: 4vh;
+    font-family: Libre Baskerville;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 /*--------------------------------------features section-------------------------------------------------*/
 
