@@ -312,6 +312,21 @@ section:nth-child(2)>div>h3{
     margin: auto;
 }
 
+section:nth-child(2)>div>img:first-child{
+    width: 17vw;
+    position: absolute;
+    top: 43vh;
+    margin: auto;
+    right: 19vw;
+}
+
+section:nth-child(2)>div>img:nth-child(2){
+    width: 26vw;
+    position: absolute;
+    top: 43vh;
+    margin: auto;
+    left: 16vw;
+}
 
 
 
