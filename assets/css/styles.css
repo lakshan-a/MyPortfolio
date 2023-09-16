@@ -609,6 +609,24 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h5{
     bottom: 16.9vh;
 }
 
+section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>img{
+    position: absolute;
+    left: 45vw;
+    bottom: 7vh;
+    height: 10vh;
+    width: 10vh;
+    bottom: 19vh;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h1{
+    width: 50vh;
+    font-size: 3vh;
+    font-family: system-ui;
+    position: absolute;
+    bottom: 23vh;
+    left: 7vw;
+}
+
 
 
 /*--------------------------------------contact section-------------------------------------------------*/
