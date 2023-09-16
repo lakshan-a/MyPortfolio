@@ -352,6 +352,32 @@ section:nth-child(3)>h5{
     margin: auto;
 }
 
+section:nth-child(3)>h1{
+    width: 42vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 6.5vw;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section:nth-child(3)>p{
+    width: 62vw;
+    font-family: 'Signika';
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 
 
 
