@@ -934,6 +934,30 @@ section:nth-child(6)>div:nth-child(5)>i:nth-child(1){
     left: 81vw;
 }
 
+/*--------------------------------------Blog section-------------------------------------------------*/
+
+section:nth-child(7){
+    position: relative;
+    height: 190vh;
+    width: 70vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+section:nth-child(7)>h5{
+    width: 2.5vw;
+    font-family: 'Signika';
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FAC921;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
