@@ -221,6 +221,23 @@ body main section:first-child>div:nth-child(4)>aside>div:last-child>h6{
     margin: auto;
 }
 
+body main section:first-child>div:nth-child(5)>img{
+    position: absolute;
+    top: 32vw;
+    right: 36vw;
+    border-bottom-right-radius: 0%;
+    width: 3vw;
+}
+
+body main section:first-child>div:nth-child(6)>img{
+    position: absolute;
+    top: 4vw;
+    right: 15vw;
+    border-bottom-right-radius: 12%;
+    width: 4vw;
+}
+
+
 
 
 /*--------------------------------------features section-------------------------------------------------*/
