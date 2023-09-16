@@ -438,7 +438,20 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
+#box2{
+    top: 35vh;
+    right: 0;
+    left: 0;
+}
 
+#box2>img{
+    width: 24%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 2.8vh;
+    margin: auto;
+}
 
 
 
