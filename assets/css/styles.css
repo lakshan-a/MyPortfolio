@@ -957,6 +957,78 @@ section:nth-child(7)>h5{
     margin: auto;
 }
 
+section:nth-child(7)>h1{
+    width: 22vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+    position: absolute;
+    top: 13vh;
+    right: 0;
+    left: 3vw;
+    margin: auto;
+}
+
+#section7Img1{
+    width: 23%;
+
+    position: absolute;
+    top: 30vh;
+    left: 14vw;
+    margin: auto;
+}
+
+#section7Img2{
+    width: 23%;
+    position: absolute;
+    top: 103vh;
+    left: 13.8vw;
+    margin: auto;
+}
+
+#section7Img3{
+    width: 23%;
+    position: absolute;
+    top: 29.8vh;
+    left: 39vw;
+    margin: auto;
+}
+
+#section7Img4{
+    width: 23%;
+    position: absolute;
+    top: 103vh;
+    left: 39vw;
+    margin: auto;
+}
+
+#section7Img5{
+    width: 20.5%;
+    position: absolute;
+    top: 29.8vh;
+    right: 14vw;
+    margin: auto;
+}
+
+#section7Img6{
+    width: 23%;
+    position: absolute;
+    top: 145vh;
+    left: 39vw;
+    margin: auto;
+}
+
+#section7Img7{
+    width: 27%;
+
+    position: absolute;
+    top: 77vh;
+    right: 14vw;
+    margin: auto;
+}
+
+
 
 /*--------------------------------------contact section-------------------------------------------------*/
 
