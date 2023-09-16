@@ -109,6 +109,26 @@ body main section:first-child>div:nth-child(4)>aside{
     left: 13.5vw;
 }
 
+body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child{
+    color: #ffffff;
+    font-family: 'Signika';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
+    color: #ffffff;
+    font-family: 'Catamaran';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -3vh;
+
+}
+
 
 /*--------------------------------------features section-------------------------------------------------*/
 
