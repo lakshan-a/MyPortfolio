@@ -169,6 +169,26 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-chil
     line-height: normal;
 }
 
+body main section:first-child>div:nth-child(4)>aside>div:last-child>h6{
+    font-family: Inter, SansSerif;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.7vw;
+    background-color: #fac921;
+    border-radius: 8px;
+    box-shadow: #fac921 0px 4px 12px;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+    margin: auto;
+
+    position: absolute;
+    top: 43vh;
+    left: 0.5vw;
+    margin: auto;
+}
+
 
 /*--------------------------------------features section-------------------------------------------------*/
 
