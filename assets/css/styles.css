@@ -481,7 +481,20 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
+#box5{
+    top: 74vh;
+    right: 0;
+    left: 0;
+}
 
+#box5>img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 4vh;
+    margin: auto;
+}
 
 
 /*--------------------------------------contact section-------------------------------------------------*/
