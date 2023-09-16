@@ -838,6 +838,33 @@ section:nth-child(6)>div:nth-child(2)>h1{
     margin: auto;
 }
 
+section:nth-child(6)>div:nth-child(2)>h2{
+    width: 89vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    top: 35vh;
+    left: 8vw;
+    margin: auto;
+    z-index: 1;
+}
+
+
+section:nth-child(6)>div:nth-child(2)>p{
+    width: 35vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    top: 44vh;
+    left: 8vw;
+    margin: auto;
+    z-index: 1;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
