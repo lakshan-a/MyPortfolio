@@ -71,177 +71,18 @@ header>div>img{
 
 /*----------------------------------------home section---------------------------------------------------*/
 
-body main section:first-child>div:nth-child(1)>img{
+body main{
+    margin-top: 8vh;
     position: relative;
-    width: 98.75vw;
-    height: 120vh;
-
 }
 
-body main section:first-child>div:nth-child(2)>img{
-    position: absolute;
-    top: 25px;
-    right: 60px;
-    border-bottom-right-radius:12%;
-    width: 45vw;
-}
-
-body main section:first-child>div:nth-child(3)>aside{
-    position: absolute;
-    top: 125px;
-    left: 13.5vw;
-}
-
-body main section:first-child>div:nth-child(3)>aside>div:first-child p:first-child{
-    color: #000000;
-    font-family: JejuGothic;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-body main section:first-child>div:nth-child(3)>aside>div:first-child>h1{
-    color: #000000;
-    font-family: 'Catamaran';
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    top: 20vh;
-
-}
-body main section:first-child>div:nth-child(3)>aside>div:first-child>h1>span{
-    color: #00b4d8;
-    font-family: 'Catamaran';
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-}
-
-body main section:first-child>div:nth-child(3)>aside>div:first-child>div{
-    width: 13vw;
-    height: 1.5vh;
-    background-color: #05BFDB;
-    border-radius: 2vh;
-    box-shadow: #05BFDB 0px 4px 12px;
-
-    position: absolute;
-    top: 20vh;
-    left: 0.3vw;
-    margin: auto;
-}
-
-.home>div:nth-child(3)>aside>div:first-child>img{
-    width: 8%;
-    position: absolute;
-    top: 24vh;
-    right: 49vh;
-}
-
-body main section:first-child>div:nth-child(3)>aside>div:first-child>p:last-child{
-    color: #171212;
-    margin-top: 7vh;
-    margin-left: 4vh;
-    font-family: Libre Baskerville;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-body main section:first-child>div:nth-child(3)>aside>strong{
-    color: #05BFDB;
-    font-family: Libre Bodoni, cursive;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+section:nth-child(1){
+    width: 100%;
+    height: 63vw;
     position: relative;
-
-}
-
-body main section:first-child>div:nth-child(3)>aside>div:last-child>h6{
-    font-family: Inter, SansSerif;
-    font-weight: 600;
-    color: white;
-    font-size: 0.8vw;
-    padding: 0.7vw;
-    background-color: #05BFDB;
-    border-radius: 8px;
-    box-shadow: #05BFDB 0px 4px 12px;
-
-    position: absolute;
-    top: 43vh;
-    left: 0vw;
-    margin: auto;
 }
 
 
-#linkedIn{
-    width: 2%;
-    position: absolute;
-    left: 21vw;
-    top: 58.5vh;
-    margin: auto;
-}
-
-#instergram{
-    width: 2%;
-    position: absolute;
-    left: 23vw;
-    top: 58.5vh;
-    margin: auto;
-}
-
-#facebook{
-    width: 2%;
-    position: absolute;
-    left: 25vw;
-    top: 58.5vh;
-    margin: auto;
-}
-
-#discord{
-    width: 2%;
-    position: absolute;
-    left: 27vw;
-    top: 58.5vh;
-    margin: auto;
-}
-
-body main section:first-child>div:nth-child(4)>img{
-    position: absolute;
-    top: 75vh;
-    right: 40vw;
-    border-bottom-right-radius: 12%;
-    width: 4vw;
-}
-
-body main section:first-child>div:nth-child(5)>img{
-    position: absolute;
-    top: 100px;
-    right: 170px;
-    border-bottom-right-radius:12%;
-    width: 4vw;
-}
-
-body main section:first-child>div:nth-child(6)>img{
-    position: absolute;
-    top: 168px;
-    right: 570px;
-    border-bottom-right-radius:12%;
-    width: 4vw;
-}
-
-body main section:first-child>div:nth-child(7)>img{
-    position: absolute;
-    top: 515px;
-    right: 144px;
-    border-bottom-right-radius:0%;
-    width: 2vw;
-}
 
 /*--------------------------------------features section-------------------------------------------------*/
 
