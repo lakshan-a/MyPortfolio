@@ -453,7 +453,19 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
+#box3{
+    top: 35vh;
+    right: 12vw;
+}
 
+#box3>img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 4vh;
+    margin: auto;
+}
 
 
 /*--------------------------------------contact section-------------------------------------------------*/
