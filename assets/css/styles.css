@@ -379,6 +379,35 @@ section:nth-child(3)>p{
     margin: auto;
 }
 
+section:nth-child(3)>div{
+    width: 23.5vw;
+    height: 35vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 4px 12px;
+    border-radius: 1vh;
+
+    position: absolute;
+    margin: auto;
+}
+
+section:nth-child(3)>div:hover{
+    box-shadow: #FAC921 0px 4px 12px;
+}
+
+
+
+section:nth-child(3)>div>h4{
+    font-family: 'Catamaran';
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 15vh;
+    margin: auto;
+}
 
 
 /*--------------------------------------contact section-------------------------------------------------*/
