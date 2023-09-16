@@ -236,7 +236,21 @@ body main section:first-child>div:nth-child(6)>img{
     border-bottom-right-radius: 12%;
     width: 4vw;
 }
+body main section:first-child>div:nth-child(7)>img{
+    position: absolute;
+    top: 11vw;
+    right: 37vw;
+    border-bottom-right-radius: 12%;
+    width: 4vw;
+}
 
+body main section:first-child>div:nth-child(8)>img{
+    position: absolute;
+    top: 32vw;
+    right: 14vw;
+    border-bottom-right-radius: 0%;
+    width: 2vw;
+}
 
 
 
