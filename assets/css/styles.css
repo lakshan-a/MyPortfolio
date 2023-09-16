@@ -538,6 +538,26 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1{
     margin: auto;
 }
 
+section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h2{
+    width: 63vh;
+    position: absolute;
+    font-family: 'Catamaran';
+    font-weight: 600;
+    font-size: 3vw;
+    color: #000000;
+    top: 14vh;
+    left: 90vh;
+    margin: auto;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(2){
+    position: absolute;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    top: 45vh;
+}
+
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
