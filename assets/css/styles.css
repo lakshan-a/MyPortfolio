@@ -269,6 +269,24 @@ section:nth-child(2){
     margin: auto;
 }
 
+section:nth-child(2)>div{
+    height: 55vh;
+    width: 35vw;
+
+    position: absolute;
+    top: 12vw;
+    right: 21vw;
+    margin: auto;
+}
+
+section:nth-child(2)>div>h5{
+    width: 12vw;
+    font-family: 'Signika';
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FAC921;
+    margin: 0;
+}
 
 
 
