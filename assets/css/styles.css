@@ -733,6 +733,30 @@ section:nth-child(5){
     padding-right: 14vw;
 }
 
+section:nth-child(5)>h5{
+    width: 68vh;
+    position: relative;
+    font-family: 'Signika';
+    font-weight: 600;
+    font-size: 2vw;
+    color: #FAC921;
+    top: 10vh;
+    left: 21vh;
+    margin: auto;
+}
+
+section:nth-child(5)>h1{
+    width: 63vh;
+    position: relative;
+    font-family: 'Catamaran';
+    font-weight: 600;
+    font-size: 3vw;
+    color: #000000;
+    top: 9vh;
+    left: 4vw;
+    margin: auto;
+
+}
 
 /*--------------------------------------contact section-------------------------------------------------*/
 
