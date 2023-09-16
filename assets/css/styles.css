@@ -769,6 +769,22 @@ section:nth-child(5)>img:hover{
     width: 6%;
 }
 
+#javaLogo{
+    right: 0;
+    left: 0;
+}
+
+#sqlLogo{
+    right: 0vw;
+    left: 15vw;
+}
+
+#jsLogo{
+    border-radius: 15%;
+    right: 15vw;
+    left: 0vw;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
