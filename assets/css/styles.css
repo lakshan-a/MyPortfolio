@@ -865,6 +865,24 @@ section:nth-child(6)>div:nth-child(2)>p{
     z-index: 1;
 }
 
+#section6Project1{
+    width: 20%;
+    position: absolute;
+    top: 34vh;
+    left: 25vw;
+    margin: auto;
+    opacity: 90%;
+}
+
+#section6Project2{
+    width: 20%;
+    position: absolute;
+    top: 34vh;
+    right: 77vw;
+    margin: auto;
+    opacity: 80%;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
