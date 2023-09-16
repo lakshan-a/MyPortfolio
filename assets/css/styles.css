@@ -758,6 +758,17 @@ section:nth-child(5)>h1{
 
 }
 
+section:nth-child(5)>img{
+    width: 5%;
+    position: absolute;
+    top: 25vh;
+    margin: auto;
+}
+
+section:nth-child(5)>img:hover{
+    width: 6%;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
