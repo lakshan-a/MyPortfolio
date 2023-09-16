@@ -288,6 +288,30 @@ section:nth-child(2)>div>h5{
     margin: 0;
 }
 
+section:nth-child(2)>div>h1{
+    width: 25vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    top: 4vh;
+    margin: auto;
+}
+
+section:nth-child(2)>div>h3{
+    width: 34vw;
+    font-family: 'Work Sans';
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #808080;
+
+    position: absolute;
+    top: 21vh;
+    margin: auto;
+}
+
 
 
 
