@@ -815,6 +815,29 @@ section:nth-child(5)>img:hover{
     left: 0vw;
 }
 
+/*!*--------------------------------------Project section-------------------------------------------------*!*/
+section:nth-child(6){
+    position: relative;
+    height: 100vh;
+    width: 71.35vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    overflow: hidden;
+    background-color: #2d2d32;
+}
+
+section:nth-child(6)>div:nth-child(2)>h1{
+    width: 35vw;
+    font-family: 'Signika';
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FAC921;
+    position: absolute;
+    top: 11vh;
+    left: 45vw;
+    margin: auto;
+}
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
