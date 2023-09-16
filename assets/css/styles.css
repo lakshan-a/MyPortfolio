@@ -129,6 +129,28 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
 
 }
 
+body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
+    color: #fac921;
+    font-family: 'Catamaran';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+body main section:first-child>div:nth-child(4)>aside>div:first-child>div{
+    width: 13vw;
+    height: 1.5vh;
+    background-color: #fac921;
+    border-radius: 2vh;
+    box-shadow: #ffffff 0px 1px 6px;
+
+    position: absolute;
+    top: 20vh;
+    left: 0.3vw;
+    margin: auto;
+}
+
 
 /*--------------------------------------features section-------------------------------------------------*/
 
