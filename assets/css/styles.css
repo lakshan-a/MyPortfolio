@@ -511,7 +511,6 @@ section:nth-child(3)>div>h3{
 }
 
 /*--------------------------------------education section-------------------------------------------------*/
-
 section:nth-child(4){
     position: relative;
     height: 95vh;
@@ -593,6 +592,7 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h2{
     left: 42vw;
 }
 
+
 section:nth-child(4)>div:nth-child(3)>div:nth-child(3){
     position: absolute;
     padding-left: 14vw;
@@ -625,6 +625,22 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h1{
     position: absolute;
     bottom: 23vh;
     left: 7vw;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h2{
+    width: 50vh;
+    font-size: 2vh;
+    font-family: system-ui,cursive;
+    position: absolute;
+    bottom: 19vh;
+    left: 13vw;
+}
+
+section:nth-child(4)>div:nth-child(3)>div:nth-child(4){
+    position: absolute;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    top: 129.1vh;
 }
 
 section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h5{
@@ -706,9 +722,6 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h2{
     bottom: 89vh;
     left: 8vw;
 }
-
-
-
 
 /*--------------------------------------contact section-------------------------------------------------*/
 
