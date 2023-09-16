@@ -723,6 +723,17 @@ section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h2{
     left: 8vw;
 }
 
+/*!*--------------------------------------Languages section-------------------------------------------------*!*/
+
+section:nth-child(5){
+    position: relative;
+    height: 50vh;
+    width: 70vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+
 /*--------------------------------------contact section-------------------------------------------------*/
 
 .contact-section{
