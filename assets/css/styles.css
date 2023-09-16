@@ -81,6 +81,20 @@ section:nth-child(1){
     height: 63vw;
     position: relative;
 }
+body main section:first-child>div:nth-child(1)>img{
+    width: 100%;
+    height: 63vw;
+
+}
+
+body main section:first-child>div:nth-child(2)>img{
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    border-bottom-right-radius: 12%;
+    width: 100%;
+    height: 63vw;
+}
 
 
 
