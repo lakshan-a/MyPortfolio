@@ -21,4 +21,79 @@
         left: 30.7vw;
     }
 
+    body footer div>div:nth-child(2)>div>img:nth-child(1) {
+        top: 18vh;
+        left: 35vw;
+        width: 5%;
+    }
+    body footer div>div:nth-child(2)>div>img:nth-child(2) {
+        top: 25vh;
+        left: 35vw;
+        width: 5%;
+    }
+
+    body footer div>div:nth-child(2)>div>img:nth-child(3) {
+        top: 32vh;
+        left: 35vw;
+        width: 5%;
+    }
+
+    body footer div>div:nth-child(2)>div>img:nth-child(4) {
+        top: 39vh;
+        left: 35vw;
+        width: 5%;
+    }
+
+    body footer div>div:nth-child(2)>div>img:nth-child(5) {
+        top: 46vh;
+        left: 35vw;
+        width: 5%;
+    }
+
+    body footer div>div:nth-child(2)>nav>ul>li:nth-child(1) {
+        font-size: 15px;
+        top: 18.5vh;
+        left: 46vw;
+    }
+
+    body footer div>div:nth-child(2)>nav>ul>li:nth-child(2) {
+        font-size: 15px;
+        top: 25.5vh;
+        left: 46vw;
+    }
+
+    body footer div>div:nth-child(2)>nav>ul>li:nth-child(3) {
+        font-size: 15px;
+        top: 32.5vh;
+        left: 46vw;
+    }
+
+    body footer div>div:nth-child(2)>nav>ul>li:nth-child(4) {
+        font-size: 15px;
+        top: 39.5vh;
+        left: 46vw;
+    }
+
+    body footer div>div:nth-child(2)>nav>ul>li:nth-child(5) {
+        font-size: 15px;
+        top: 46.5vh;
+        left: 46vw;
+    }
+
+    body footer div>div:nth-child(2)>h1 {
+        font-size: 1em;
+        left: 35vw;
+        width: 9vw;
+        top: 7vh;
+    }
+
+    body footer div>div:nth-child(2)>hr {
+        right: 34.5vw;
+    }
+
+    body footer div>div:nth-child(3)>h1 {
+        font-size: 1em;
+        left: 74vw;
+    }
+
 }
