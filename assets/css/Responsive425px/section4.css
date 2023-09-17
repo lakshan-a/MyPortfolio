@@ -1,5 +1,9 @@
 @media all and (max-width: 425px) {
 
+    section:nth-child(4) {
+        height: 55vh;
+    }
+
     section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1 {
         width: 8vh;
         font-size: 2.5vw;
@@ -81,6 +85,55 @@
         font-size: 2vh;
         left: -6vw;
         bottom: 88.9vh;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>img {
+        left: 6vw;
+        height: 9vh;
+        width: 9vh;
+        bottom: 89.5vh;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h1 {
+        width: 37vh;
+        font-size: 2.5vh;
+        bottom: 90vh;
+        left: 31vw;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h2 {
+        width: 36vh;
+        font-size: 2vh;
+        bottom: 87vh;
+        left: 31vw;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h5 {
+        width: 11vh;
+        font-size: 2vh;
+        left: 63.5vw;
+        bottom: 131.9vh;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>img {
+        left: 51vw;
+        height: 9vh;
+        width: 9vh;
+        bottom: 132vh;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h1 {
+        width: 35vh;
+        font-size: 2.5vh;
+        bottom: 135vh;
+        left: -6vw;
+    }
+
+    section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h2 {
+        width: 37vh;
+        font-size: 2vh;
+        bottom: 132vh;
+        left: -7vw;
     }
 
 
