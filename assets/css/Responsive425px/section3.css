@@ -2,7 +2,8 @@
 
     section:nth-child(3) {
         height: 335vh;
-        left: 8vw;
+        right: 12vw;
+
     }
 
     section:nth-child(3) > h5 {
@@ -94,6 +95,43 @@
 
     #box6>img {
         width: 25%;
+    }
+
+    #box1>h4{
+        position: relative;
+        left: 0vw;
+        width: 24vw;
+    }
+
+    #box2>h4{
+        position: relative;
+        left: 3vw;
+        top: 24vh;
+        width: 48vw;
+    }
+
+    #box3>h4{
+        position: relative;
+        left: 2vw;
+        width: 38vw;
+    }
+
+    #box4>h4{
+        position: relative;
+        left: 2vw;
+        width: 33vw;
+    }
+
+    #box5>h4{
+        position: relative;
+        left: 2vw;
+        width: 36vw;
+    }
+
+    #box6>h4{
+        position: relative;
+        left: 0vw;
+        width: 24vw;
     }
 
 }

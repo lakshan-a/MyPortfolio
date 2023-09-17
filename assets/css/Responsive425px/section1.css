@@ -12,7 +12,7 @@
         left: 0vw;
         top: -8vh;
         height: 100vh;
-        width: 123.18vw;
+        width: 99.18vw;
     }
 
     body main section:first-child>div:nth-child(3)>img {
@@ -45,7 +45,7 @@
 
     body main section:first-child>div:nth-child(4)>aside {
         top: 124px;
-        left: 28.5vw;
+        left: 17.5vw;
     }
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
         font-size: 38px;

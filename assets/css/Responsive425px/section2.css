@@ -2,11 +2,11 @@
 
     section:nth-child(2) {
         position: relative;
-        height: 100vh;
+        height: 105vh;
         width: 71vw;
         padding-left: 14vw;
         padding-right: 14vw;
-        left: 8vw;
+        right: 9vw;
     }
 
     #section4MyImage2 {
