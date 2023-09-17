@@ -4,106 +4,124 @@
     }
 
     section:nth-child(1) {
-        height: 53vw;
+        height: 100vh;
     }
 
     body main section:first-child>div:nth-child(2)>img {
         position: absolute;
         top: -8vh;
+        height: 100vh;
     }
 
     body main section:first-child>div:nth-child(3)>img {
         position: absolute;
-        top: 0vw;
-        left: 65vw;
+        width: 45%;
+        top: 40vw;
+        left: 29vw;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
-        bottom: 26vh;
+        bottom: 31vh;
         position: relative;
-        font-size: 15px;
+        font-size: 23px;
         right: 5vw;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
-        bottom: 27vh;
+        bottom: 33vh;
         position: relative;
-        font-size: 23px;
+        font-size: 38px;
         right: 5vw;
     }
 
     .home>div:nth-child(4)>aside>div:first-child>img {
-        width: 7%;
+        width: 9%;
         position: absolute;
-        top: -13vh;
-        right: 55vw;
+        top: -10vh;
+        right: 76vw;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
-        font-size: 23px;
+        font-size: 38px;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>div {
-        width: 17vw;
-        height: 0.9vh;
+        width: 35vw;
+        height: 1vh;
         box-shadow: #ffffff 0px 1px 3px;
         position: absolute;
-        top: -14vh;
-        left: -4.7vw;
+        top: -12vh;
+        left: -3.7vw;
         margin: auto;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
-        bottom: 31vh;
+        bottom: 35vh;
         position: relative;
-        width: 38vh;
-        right: 7vw;
-        font-size: 10px;
+        width: 60vh;
+        right: 6vw;
+        font-size: 14px;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:last-child>h6 {
         border-radius: 8px;
         box-shadow: #fac921 0px 0px 0px;
         position: absolute;
-        top: 0vh;
+        top: 7vh;
         left: -3.5vw;
+        width: 9vw;
+        height: 2vh;
+        font-size: 8px;
         margin: auto;
     }
 
     #linkedIn {
         top: 24vh;
+        width: 4%;
+        top: 30.5vh;
+        left: 23vw;
     }
 
     #instergram {
-        top: 24.1vh;
+        top: 30.7vh;
+        width: 4%;
+        left: 27vw;
     }
 
     #facebook {
-        top: 24.1vh;
+        top: 30.5vh;
+        width: 4%;
+        left: 31vw;
     }
 
     #discord {
-        top: 24.1vh;
+        top: 30.7vh;
+        width: 4%;
+        left: 35vw;
     }
 
     body main section:first-child>div:nth-child(5)>img {
-        top: 28vw;
-        right: 31vw;
+        top: 80vw;
+        width: 6%;
+        right: 61vw;
     }
 
     body main section:first-child>div:nth-child(6)>img {
-        top: 0vw;
-        right: 10vw;
+        top: 43vw;
+        width: 6%;
+        right: 30vw;
     }
 
     body main section:first-child>div:nth-child(7)>img {
-        top: 6vw;
-        right: 31vw;
+        top: 47vw;
+        width: 6%;
+        right: 62vw;
     }
 
     body main section:first-child>div:nth-child(8)>img {
-        top: 25vw;
-        right: 8vw;
+        top: 77vw;
+        width: 5%;
+        right: 28vw;
     }
 
 
