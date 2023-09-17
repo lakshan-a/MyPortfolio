@@ -404,7 +404,7 @@ section:nth-child(3)>div>h4{
 
     position: absolute;
     right: 0;
-    left: 0;
+    left: 7vw;
     top: 15vh;
     margin: auto;
 }
@@ -521,9 +521,10 @@ section:nth-child(4){
 
 section:nth-child(4)>div:nth-child(2)>img{
     position: relative;
-    top: 11vh;
-    width: 99%;
-    right: 2vw;
+    top: 22vh;
+    height: 78vh;
+    width: 90%;
+    right: 0vw;
 }
 
 section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1{
@@ -1117,21 +1118,21 @@ section:nth-child(8)>h1{
     position: relative;
     font-size: 32px;
     top: 8vh;
-    left: 17vw;
+    left: 35vw;
 }
 
 .contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i{
     position: relative;
     font-size: 32px;
     bottom: 12.5vh;
-    left: 36vw;
+    left: 53vw;
 }
 
 .contact-section>div>address>div:nth-child(4)>div:nth-child(1)>i{
     position: relative;
     font-size: 32px;
     bottom: 32vh;
-    left: 56vw;
+    left: 80vw;
 }
 
 .contact-section>div>address>div:nth-child(2)>div:nth-child(2)>h4{
@@ -1140,7 +1141,7 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 700;
     font-size: 3vh;
-    left: 20vw;
+    left: 39vw;
     color: #666;
 }
 
@@ -1150,7 +1151,7 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 700;
     font-size: 3vh;
-    left: 40vw;
+    left: 57vw;
     color: #666;
     bottom: 20.5vh;
 }
@@ -1161,27 +1162,28 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 500;
     font-size: 3vh;
-    left: 59vw;
+    left: 85vw;
+    width: 7vw;
     color: #666;
     bottom: 40vh;
 }
 
 .contact-section>div>address>div:nth-child(2)>div:nth-child(2)>a{
     position: relative;
-    left: 20vw;
+    left: 38vw;
     font-size: 2.5vh;
 }
 
 .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a{
     position: relative;
-    left: 40vw;
+    left: 57vw;
     font-size: 2.5vh;
     bottom: 19.8vh;
 }
 
 .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a{
     position: relative;
-    left: 59vw;
+    left: 77vw;
     font-size: 2.5vh;
     bottom: 39.5vh;
 }
@@ -1274,7 +1276,7 @@ section:nth-child(8)>h1{
     position: relative;
     top: 27vh;
     right: 10vw;
-    width: 105.8vw;
+    width: 107.1%;
 }
 
 
