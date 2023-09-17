@@ -1,0 +1,135 @@
+@media all and (max-width: 320px) {
+
+    header{
+        display: none;
+    }
+
+    section:nth-child(1) {
+        height: 91vh;
+    }
+
+    body main section:first-child>div:nth-child(2)>img {
+        left: 0vw;
+        top: -8vh;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+
+    body main section:first-child>div:nth-child(3)>img {
+        width: 45%;
+        top: 61vw;
+        left: 27vw;
+
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
+        bottom: 31vh;
+        position: relative;
+        font-size: 23px;
+        right: 9vw;
+        width: 30vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
+        bottom: 33vh;
+        position: relative;
+        font-size: 32px;
+        right: 9vw;
+    }
+
+    .home>div:nth-child(4)>aside>div:first-child>img {
+        width: 9%;
+        top: -11vh;
+        right: 91vw;
+
+    }
+
+    body main section:first-child>div:nth-child(4)>aside {
+        top: 124px;
+        left: 17.5vw;
+    }
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
+        font-size: 32px;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>div {
+        width: 35vw;
+        height: 1vh;
+        box-shadow: #ffffff 0px 1px 3px;
+        position: absolute;
+        top: -12vh;
+        left: -3.7vw;
+        margin: auto;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
+        bottom: 35vh;
+        position: relative;
+        width: 50vh;
+        right: 13vw;
+        font-size: 12px;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:last-child>h6 {
+        border-radius: 8px;
+        box-shadow: #fac921 0px 0px 0px;
+        position: absolute;
+        top: 5vh;
+        left: -7.5vw;
+        width: 12vw;
+        height: 2vh;
+        font-size: 8px;
+        margin: auto;
+    }
+
+    #linkedIn {
+        width: 6%;
+        top: 28vh;
+        left: 28vw;
+    }
+
+    #instergram {
+        top: 28.3vh;
+        width: 6%;
+        left: 35vw;
+    }
+
+    #facebook {
+        top: 28.5vh;
+        width: 6%;
+        left: 42vw;
+    }
+
+    #discord {
+        top: 28.7vh;
+        width: 6%;
+        left: 48vw;
+    }
+
+    body main section:first-child>div:nth-child(5)>img {
+        top: 101vw;
+        width: 6%;
+        right: 67vw;
+    }
+
+    body main section:first-child>div:nth-child(6)>img {
+        top: 60vw;
+        width: 6%;
+        right: 35vw;
+    }
+
+    body main section:first-child>div:nth-child(7)>img {
+        top: 67vw;
+        width: 6%;
+        right: 65vw;
+    }
+
+    body main section:first-child>div:nth-child(8)>img {
+        top: 98vw;
+        width: 5%;
+        right: 29vw;
+    }
+
+
+}

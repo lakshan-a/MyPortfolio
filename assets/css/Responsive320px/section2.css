@@ -1,0 +1,7 @@
+@media all and (max-width: 320px) {
+
+
+    section:nth-child(2) > div {
+        top: 86vw;
+    }
+}
