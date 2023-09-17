@@ -2,6 +2,7 @@
 
     section:nth-child(3) {
         height: 335vh;
+        left: 8vw;
     }
 
     section:nth-child(3) > h5 {

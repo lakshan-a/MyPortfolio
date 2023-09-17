@@ -1,26 +1,32 @@
 @media all and (max-width: 425px) {
 
     section:nth-child(4) {
-        height: 55vh;
+        height: 70vh;
+    }
+
+    section:nth-child(4)>div:nth-child(3) {
+        position: relative;
+        bottom: 143vh;
+        left: 7vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1 {
         width: 8vh;
         font-size: 4.5vw;
         top: 1vh;
-        left: 53vw;
+        left: 37vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h2 {
         width: 22vh;
         font-size: 5vw;
         top: 4vh;
-        left: 50vw;
+        left: 34vw;
     }
 
     section:nth-child(4)>div:nth-child(2)>svg {
         top: -34vh;
-        right: 15vw;
+        right: 9vw;
         width: 177%;
     }
 
@@ -49,35 +55,35 @@
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h2 {
         width: 27vh;
         font-size: 2vh;
-        bottom: 25vh;
-        left: 36vw;
+        bottom: 22vh;
+        left: 56vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h5 {
         width: 11vh;
         font-size: 2vh;
-        left: 64.5vw;
-        bottom: 45.5vh;
+        left: 84.5vw;
+        bottom: 40.5vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>img {
-        left: 55vw;
+        left: 74vw;
         height: 7vh;
         width: 7vh;
-        bottom: 46vh;
+        bottom: 41vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h1 {
         width: 50vh;
         font-size: 2.5vh;
-        bottom: 49vh;
+        bottom: 44vh;
         left: -6vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h2 {
         width: 50vh;
         font-size: 2vh;
-        bottom: 46vh;
+        bottom: 40vh;
         left: 3vw;
     }
 
@@ -85,56 +91,56 @@
         width: 16vh;
         font-size: 2vh;
         left: -6vw;
-        bottom: 88.9vh;
+        bottom: 80.9vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>img {
         left: 6vw;
         height: 9vh;
         width: 9vh;
-        bottom: 89.5vh;
+        bottom: 81.5vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h1 {
-        width: 37vh;
+        width: 51vh;
         font-size: 2.5vh;
-        bottom: 90vh;
-        left: 31vw;
+        bottom: 85vh;
+        left: 35vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h2 {
         width: 36vh;
         font-size: 2vh;
-        bottom: 87vh;
-        left: 31vw;
+        bottom: 82vh;
+        left: 45vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h5 {
         width: 11vh;
         font-size: 2vh;
-        left: 63.5vw;
-        bottom: 131.9vh;
+        left: 85.5vw;
+        bottom: 121.9vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>img {
-        left: 51vw;
+        left: 73vw;
         height: 9vh;
         width: 9vh;
-        bottom: 132vh;
+        bottom: 122vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h1 {
         width: 35vh;
         font-size: 2.5vh;
-        bottom: 135vh;
-        left: -6vw;
+        bottom: 126vh;
+        left: -5vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h2 {
         width: 37vh;
         font-size: 2vh;
-        bottom: 132vh;
-        left: -7vw;
+        bottom: 122vh;
+        left: -5vw;
     }
 
 

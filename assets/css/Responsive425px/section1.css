@@ -9,10 +9,10 @@
 
     body main section:first-child>div:nth-child(2)>img {
         position: absolute;
-        right: -23.7vw;
+        left: 0vw;
         top: -8vh;
         height: 100vh;
-        width: 124vw;
+        width: 123.18vw;
     }
 
     body main section:first-child>div:nth-child(3)>img {
