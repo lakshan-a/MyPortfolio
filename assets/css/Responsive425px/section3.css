@@ -1,89 +1,98 @@
 @media all and (max-width: 425px) {
 
     section:nth-child(3) {
-        height: 138vh;
+        height: 335vh;
     }
 
     section:nth-child(3) > h5 {
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+        width: 25vw;
+        left: 22vw;
     }
     section:nth-child(3)>h1 {
-        width: 56vw;
-        font-size: 4vw;
-        top: 7.5vw;
+        width: 70vw;
+        font-size: 5vw;
+        top: 8.5vw;
+        left: 25vw;
     }
 
     section:nth-child(3)>p {
         width: 80vw;
-        font-size: 2.3vw;
-        top: 12vw;
+        font-size: 3vw;
+        text-align: center;
+        top: 14vw;
+        left: 22vw;
     }
 
     section:nth-child(3)>div {
-        width: 36.5vw;
+        width: 80vw;
+        height: 45vh;
     }
 
     #box1 {
-        top: 21vh;
-        left: 12vw;
+        top: 27vh;
+        left: 22vw;
     }
 
     #box2 {
-        top: 21vh;
+        top: 76vh;
         right: 0;
-        left: 41vw;
+        left: 22vw;
     }
 
     #box3 {
-        top: 59vh;
-        right: 49vw;
+        top: 125vh;
+        right: -4vw;
     }
 
     #box4 {
-        top: 59vh;
-        left: 51vw;
+        top: 175vh;
+        left: 22vw;
     }
 
     #box5 {
-        top: 96vh;
-        right: 37vw;
+        top: 225vh;
+        right: -26vw;
     }
 
     #box6 {
-        top: 96vh;
-        right: 10vw;
+        top: 275vh;
+        right: -4vw;
     }
 
     section:nth-child(3)>div>h4 {
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+        top: 21vh;
     }
 
     section:nth-child(3)>div>h3 {
-        font-size: 1.9vw;
+        width: 40vw;
+        font-size: 3.2vw;
+        top: 30vh;
     }
 
     #box1>img {
-        width: 30%;
+        width: 25%;
     }
 
     #box2>img {
-        width: 37%;
+        width: 32%;
     }
 
     #box3>img {
-        width: 30%;
+        width: 25%;
     }
 
     #box4>img {
-        width: 30%;
+        width: 25%;
     }
 
     #box5>img {
-        width: 30%;
+        width: 25%;
     }
 
     #box6>img {
-        width: 30%;
+        width: 25%;
     }
 
 }

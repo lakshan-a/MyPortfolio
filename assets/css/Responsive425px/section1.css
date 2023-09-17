@@ -4,20 +4,22 @@
     }
 
     section:nth-child(1) {
-        height: 100vh;
+        height: 91vh;
     }
 
     body main section:first-child>div:nth-child(2)>img {
         position: absolute;
+        right: -23.7vw;
         top: -8vh;
         height: 100vh;
+        width: 124vw;
     }
 
     body main section:first-child>div:nth-child(3)>img {
         position: absolute;
         width: 45%;
-        top: 40vw;
-        left: 29vw;
+        top: 42vw;
+        left: 37vw;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
@@ -41,6 +43,10 @@
         right: 76vw;
     }
 
+    body main section:first-child>div:nth-child(4)>aside {
+        top: 124px;
+        left: 28.5vw;
+    }
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
         font-size: 38px;
     }
@@ -79,49 +85,49 @@
         top: 24vh;
         width: 4%;
         top: 30.5vh;
-        left: 23vw;
+        left: 36vw;
     }
 
     #instergram {
         top: 30.7vh;
         width: 4%;
-        left: 27vw;
+        left: 41vw;
     }
 
     #facebook {
         top: 30.5vh;
         width: 4%;
-        left: 31vw;
+        left: 45vw;
     }
 
     #discord {
         top: 30.7vh;
         width: 4%;
-        left: 35vw;
+        left: 49vw;
     }
 
     body main section:first-child>div:nth-child(5)>img {
-        top: 80vw;
+        top: 79vw;
         width: 6%;
-        right: 61vw;
+        right: 59vw;
     }
 
     body main section:first-child>div:nth-child(6)>img {
-        top: 43vw;
+        top: 42vw;
         width: 6%;
-        right: 30vw;
+        right: 24vw;
     }
 
     body main section:first-child>div:nth-child(7)>img {
         top: 47vw;
         width: 6%;
-        right: 62vw;
+        right: 58vw;
     }
 
     body main section:first-child>div:nth-child(8)>img {
-        top: 77vw;
+        top: 79vw;
         width: 5%;
-        right: 28vw;
+        right: 21vw;
     }
 
 

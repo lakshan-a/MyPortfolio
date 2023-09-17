@@ -6,43 +6,44 @@
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1 {
         width: 8vh;
-        font-size: 2.5vw;
-        top: 2vh;
+        font-size: 4.5vw;
+        top: 1vh;
+        left: 53vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h2 {
-        width: 18vh;
-        font-size: 4vw;
+        width: 22vh;
+        font-size: 5vw;
         top: 4vh;
-        left: 39vw;
+        left: 50vw;
     }
 
     section:nth-child(4)>div:nth-child(2)>svg {
-        top: -40vh;
+        top: -34vh;
         right: 15vw;
-        width: 143%;
+        width: 177%;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h5 {
         width: 16vh;
         font-size: 2vh;
         left: -6vw;
-        bottom: 24.5vh;
+        bottom: 21.5vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>img {
         left: 7vw;
         height: 9vh;
         width: 9vh;
-        bottom: 24vh;
+        bottom: 22vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h1 {
         width: 40vh;
         font-size: 2.5vh;
         position: absolute;
-        bottom: 28vh;
-        left: 28vw;
+        bottom: 26vh;
+        left: 48vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h2 {

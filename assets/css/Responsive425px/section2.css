@@ -1,35 +1,55 @@
 @media all and (max-width: 425px) {
 
     section:nth-child(2) {
-        height: 33vh;
+        position: relative;
+        height: 100vh;
+        width: 71vw;
+        padding-left: 14vw;
+        padding-right: 14vw;
     }
 
     #section4MyImage2 {
-        width: 27.5%;
-        top: 3vh;
+        width: 45.5%;
+        left: 38vw;
+        top: 5vh;
+    }
+
+    section:nth-child(2)>div {
+        height: 26vh;
+        width: 35vw;
+        top: 81vw;
+        right: 26vw;
     }
 
     section:nth-child(2)>div>h5 {
-        width: 13vw;
-        bottom: 5vh;
+        width: 23vw;
+        bottom: 9vh;
         position: relative;
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+        left: 13vw;
     }
 
     section:nth-child(2)>div>h1 {
-        top: -3vh;
+        top: -6vh;
+        text-align: center;
+        width: 44vw;
+        font-size: 5vw;
     }
 
     section:nth-child(2)>div>h3 {
-        width: 43vw;
-        font-size: 2vw;
-        top: 3vh;
+        width: 63vw;
+        text-align: center;
+        font-size: 3vw;
+        top: 4vh;
+        left: -9vw;
     }
     section:nth-child(2)>div>img:first-child {
-        top: 17vh;
+        top: 25vh;
+        width: 67%;
     }
     section:nth-child(2)>div>img:nth-child(2) {
-        top: 17vh;
+        top: 25vh;
+        width: 106%;
     }
 
 
