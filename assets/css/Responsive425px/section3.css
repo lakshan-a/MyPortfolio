@@ -1,5 +1,9 @@
 @media all and (max-width: 425px) {
 
+    section:nth-child(3) {
+        height: 138vh;
+    }
+
     section:nth-child(3) > h5 {
         font-size: 2.5vw;
     }
@@ -18,4 +22,68 @@
     section:nth-child(3)>div {
         width: 36.5vw;
     }
+
+    #box1 {
+        top: 21vh;
+        left: 12vw;
+    }
+
+    #box2 {
+        top: 21vh;
+        right: 0;
+        left: 41vw;
+    }
+
+    #box3 {
+        top: 59vh;
+        right: 49vw;
+    }
+
+    #box4 {
+        top: 59vh;
+        left: 51vw;
+    }
+
+    #box5 {
+        top: 96vh;
+        right: 37vw;
+    }
+
+    #box6 {
+        top: 96vh;
+        right: 10vw;
+    }
+
+    section:nth-child(3)>div>h4 {
+        font-size: 2.5vw;
+    }
+
+    section:nth-child(3)>div>h3 {
+        font-size: 1.9vw;
+    }
+
+    #box1>img {
+        width: 30%;
+    }
+
+    #box2>img {
+        width: 37%;
+    }
+
+    #box3>img {
+        width: 30%;
+    }
+
+    #box4>img {
+        width: 30%;
+    }
+
+    #box5>img {
+        width: 30%;
+    }
+
+    #box6>img {
+        width: 30%;
+    }
+
 }
