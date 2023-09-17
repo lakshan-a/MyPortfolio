@@ -1,0 +1,61 @@
+@media all and (max-width: 425px) {
+
+
+    section:nth-child(6) > div:nth-child(2) > h1 {
+        width: 15vw;
+        font-size: 4.5vw;
+        top: 10vh;
+        left: 41vw;
+    }
+
+    section:nth-child(6)>div:nth-child(2)>h2 {
+        width: 70vw;
+        font-size: 5vw;
+        top: 14vh;
+        left: 14vw;
+        text-align: center;
+    }
+
+    section:nth-child(6)>div:nth-child(2)>p {
+        width: 68vw;
+        font-size: 3vw;
+        top: 25vh;
+        left: 15vw;
+        text-align: center;
+    }
+
+    #section6Project3 {
+        width: 68%;
+        top: 51vh;
+        right: 0vw;
+        left: 2vw;
+    }
+
+    #section6Project1 {
+        display: none;
+    }
+
+    #section6Project2 {
+        display: none;
+    }
+
+    section:nth-child(6)>div:nth-child(2)>h4 {
+        width: 22vw;
+        font-size: 2vw;
+        bottom: 53vh;
+        left: 38vw;
+        box-shadow: #FAC921 0px 4px 9px;
+    }
+
+    section:nth-child(6)>div:nth-child(4)>i:nth-child(1) {
+        top: 78vw;
+        right: 6vw;
+    }
+    section:nth-child(6)>div:nth-child(5)>i:nth-child(1) {
+        top: 73.49vw;
+        left: 76vw;
+    }
+
+
+
+}
