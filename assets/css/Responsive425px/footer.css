@@ -96,4 +96,43 @@
         left: 74vw;
     }
 
+    body footer div>div:nth-child(3)>h2 {
+        font-size: 0.7em;
+        width: 19vh;
+        top: 20vh;
+        margin: auto;
+        left: 72vw;
+    }
+
+    body footer div>div:nth-child(3)>h3 {
+        font-size: 0.8em;
+        width: 15vh;
+        left: 74vw;
+        top: 31vh;
+    }
+
+    body footer div>div:nth-child(3)>h4 {
+        font-size: 0.7em;
+        width: 19vh;
+        left: 72vw;
+        top: 44vh;
+    }
+
+    #linkedInlogo {
+        width: 6%;
+        left: 79.7vw;
+        top: 38vh;
+    }
+
+    #instergramlogo {
+        width: 6%;
+        left: 79.7vw;
+    }
+
+    #facebooklogo {
+        width: 6%;
+        left: 79.7vw;
+        top: 15vh;
+    }
+
 }

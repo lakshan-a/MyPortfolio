@@ -26,9 +26,10 @@
 
     section:nth-child(4)>div:nth-child(2)>img {
         position: relative;
-        top: 5vh;
-        width: 132%;
-        right: 11vw;
+        top: 9vh;
+        height: 42vh;
+        width: 86vw;
+        right: 10vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h5 {
@@ -64,12 +65,12 @@
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h5 {
         width: 11vh;
         font-size: 1.8vh;
-        left: 63.5vw;
+        left: 58.5vw;
         bottom: 46.5vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>img {
-        left: 54vw;
+        left: 47vw;
         height: 7vh;
         width: 7vh;
         bottom: 47vh;
@@ -109,25 +110,25 @@
         width: 41vh;
         font-size: 2vh;
         bottom: 95vh;
-        left: 25vw;
+        left: 20vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h2 {
         width: 33vh;
         font-size: 1.8vh;
         bottom: 91vh;
-        left: 30vw;
+        left: 25vw;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h5 {
         width: 10vh;
         font-size: 1.8vh;
-        left: 63.5vw;
+        left: 58.5vw;
         bottom: 134.9vh;
     }
 
     section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>img {
-        left: 50vw;
+        left: 46vw;
         height: 9vh;
         width: 9vh;
         bottom: 134vh;
