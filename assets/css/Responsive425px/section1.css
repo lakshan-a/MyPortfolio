@@ -1,0 +1,54 @@
+@media all and (max-width: 425px) {
+    header{
+        display: none;
+    }
+
+    body main section:first-child>div:nth-child(2)>img {
+        position: absolute;
+        top: -8vh;
+    }
+
+    body main section:first-child>div:nth-child(3)>img {
+        position: absolute;
+        top: 0vw;
+        left: 65vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
+        bottom: 26vh;
+        position: relative;
+        font-size: 15px;
+        right: 5vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
+        bottom: 27vh;
+        position: relative;
+        font-size: 23px;
+        right: 5vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
+        font-size: 23px;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>div {
+        width: 17vw;
+        height: 0.9vh;
+        box-shadow: #ffffff 0px 1px 3px;
+        position: absolute;
+        top: -14vh;
+        left: -4.7vw;
+        margin: auto;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
+        bottom: 31vh;
+        position: relative;
+        width: 38vh;
+        right: 7vw;
+        font-size: 10px;
+    }
+
+
+}
