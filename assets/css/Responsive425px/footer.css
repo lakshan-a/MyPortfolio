@@ -1,0 +1,24 @@
+@media all and (max-width: 425px) {
+
+    body footer div>div:nth-child(1)>h1 {
+        font-size: 1em;
+        left: 4vh;
+        top: 11vh;
+    }
+
+    body footer div>div:nth-child(1)>p {
+        width: 18vh;
+        font-size: 10px;
+        top: 20vh;
+        left: 4vh;
+    }
+    body footer div>div:nth-child(1)>img {
+        top: 41vh;
+        width: 17%;
+        left: 6vh;
+    }
+    body footer div>div:nth-child(1)>hr {
+        left: 30.7vw;
+    }
+
+}

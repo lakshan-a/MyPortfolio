@@ -1052,17 +1052,17 @@ section:nth-child(8)>h1{
 }
 
 
-.contact-section>section{
+.contact-section>div{
     display: flex;
     justify-content: space-around;
     position: relative;
     top: 15vh;
 }
-.contact-section>section>address{
+.contact-section>div>address{
     width: 40vw;
     height: 80vh;
 }
-.contact-section>section>address a{
+.contact-section>div>address a{
     color: #494949;
     font-family: Inter;
     font-size: 20px;
@@ -1071,16 +1071,16 @@ section:nth-child(8)>h1{
     line-height: normal;
 }
 
-.contact-section>section>address>h4{
+.contact-section>div>address>h4{
     margin-bottom: 0;
 }
 
-.contact-section>section>aside{
+.contact-section>div>aside{
     width: 90vw;
     height: 80vh;
 }
 
-.contact-section>section>address>div:nth-child(1)>hr{
+.contact-section>div>address>div:nth-child(1)>hr{
     position: absolute;
     width: 0.5vw;
     height: 24vh;
@@ -1089,7 +1089,7 @@ section:nth-child(8)>h1{
     background-color: #FAC921;
 }
 
-.contact-section>section>address>div:nth-child(1)>h1{
+.contact-section>div>address>div:nth-child(1)>h1{
     width: 21vw;
     font-family: 'Signika';
     font-size: 2.5vw;
@@ -1101,7 +1101,7 @@ section:nth-child(8)>h1{
     margin: auto;
 }
 
-.contact-section>section>address>div:nth-child(1)>p{
+.contact-section>div>address>div:nth-child(1)>p{
     width: 25vw;
     font-family: Inter, "Arial Black";
     font-size: 1vw;
@@ -1113,28 +1113,28 @@ section:nth-child(8)>h1{
     margin: auto;
 }
 
-.contact-section>section>address>div:nth-child(2)>div:nth-child(1)>i{
+.contact-section>div>address>div:nth-child(2)>div:nth-child(1)>i{
     position: relative;
     font-size: 32px;
     top: 8vh;
     left: 17vw;
 }
 
-.contact-section>section>address>div:nth-child(3)>div:nth-child(1)>i{
+.contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i{
     position: relative;
     font-size: 32px;
     bottom: 12.5vh;
     left: 36vw;
 }
 
-.contact-section>section>address>div:nth-child(4)>div:nth-child(1)>i{
+.contact-section>div>address>div:nth-child(4)>div:nth-child(1)>i{
     position: relative;
     font-size: 32px;
     bottom: 32vh;
     left: 56vw;
 }
 
-.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>h4{
+.contact-section>div>address>div:nth-child(2)>div:nth-child(2)>h4{
     position: relative;
     font-family:'Catamaran';
     font-style: normal;
@@ -1144,7 +1144,7 @@ section:nth-child(8)>h1{
     color: #666;
 }
 
-.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>h4{
+.contact-section>div>address>div:nth-child(3)>div:nth-child(2)>h4{
     position: relative;
     font-family: 'Catamaran';
     font-style: normal;
@@ -1155,7 +1155,7 @@ section:nth-child(8)>h1{
     bottom: 20.5vh;
 }
 
-.contact-section>section>address>div:nth-child(4)>div:nth-child(2)>h4{
+.contact-section>div>address>div:nth-child(4)>div:nth-child(2)>h4{
     position: relative;
     font-family: 'Catamaran';
     font-style: normal;
@@ -1166,20 +1166,20 @@ section:nth-child(8)>h1{
     bottom: 40vh;
 }
 
-.contact-section>section>address>div:nth-child(2)>div:nth-child(2)>a{
+.contact-section>div>address>div:nth-child(2)>div:nth-child(2)>a{
     position: relative;
     left: 20vw;
     font-size: 2.5vh;
 }
 
-.contact-section>section>address>div:nth-child(3)>div:nth-child(2)>a{
+.contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a{
     position: relative;
     left: 40vw;
     font-size: 2.5vh;
     bottom: 19.8vh;
 }
 
-.contact-section>section>address>div:nth-child(4)>div:nth-child(2)>a{
+.contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a{
     position: relative;
     left: 59vw;
     font-size: 2.5vh;
@@ -1270,9 +1270,11 @@ section:nth-child(8)>h1{
     color: white;
 }
 
-.contact-section>div{
+.contact-section>ul {
     position: relative;
-    bottom: 12vh;
+    top: 27vh;
+    right: 10vw;
+    width: 105.8vw;
 }
 
 
