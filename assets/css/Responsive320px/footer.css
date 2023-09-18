@@ -2,20 +2,20 @@
 
     body footer div>div:nth-child(1)>h1 {
         font-size: 1em;
-        left: 4vh;
-        top: 11vh;
+        left: 3vh;
+        top: 7vh;
     }
 
     body footer div>div:nth-child(1)>p {
-        width: 18vh;
+        width: 17vh;
         font-size: 10px;
-        top: 20vh;
-        left: 4vh;
+        top: 15vh;
+        left: 2vh;
     }
     body footer div>div:nth-child(1)>img {
         top: 41vh;
         width: 17%;
-        left: 6vh;
+        left: 4vh;
     }
     body footer div>div:nth-child(1)>hr {
         left: 30.7vw;
@@ -53,36 +53,36 @@
     body footer div>div:nth-child(2)>nav>ul>li:nth-child(1) {
         font-size: 15px;
         top: 18.5vh;
-        left: 46vw;
+        left: 45vw;
     }
 
     body footer div>div:nth-child(2)>nav>ul>li:nth-child(2) {
         font-size: 15px;
         top: 25.5vh;
-        left: 46vw;
+        left: 45vw;
     }
 
     body footer div>div:nth-child(2)>nav>ul>li:nth-child(3) {
         font-size: 15px;
         top: 32.5vh;
-        left: 46vw;
+        left: 45vw;
     }
 
     body footer div>div:nth-child(2)>nav>ul>li:nth-child(4) {
         font-size: 15px;
         top: 39.5vh;
-        left: 46vw;
+        left: 45vw;
     }
 
     body footer div>div:nth-child(2)>nav>ul>li:nth-child(5) {
         font-size: 15px;
         top: 46.5vh;
-        left: 46vw;
+        left: 45vw;
     }
 
     body footer div>div:nth-child(2)>h1 {
         font-size: 1em;
-        left: 35vw;
+        left: 34vw;
         width: 9vw;
         top: 7vh;
     }
@@ -93,45 +93,46 @@
 
     body footer div>div:nth-child(3)>h1 {
         font-size: 1em;
-        left: 74vw;
+        left: 69vw;
     }
 
     body footer div>div:nth-child(3)>h2 {
         font-size: 0.7em;
-        width: 19vh;
-        top: 20vh;
+        width: 10vh;
+        top: 21vh;
         margin: auto;
-        left: 72vw;
+        left: 75vw;
     }
 
     body footer div>div:nth-child(3)>h3 {
         font-size: 0.8em;
-        width: 15vh;
-        left: 74vw;
-        top: 31vh;
+        width: 6vh;
+        left: 70vw;
+        top: 33vh;
     }
 
     body footer div>div:nth-child(3)>h4 {
         font-size: 0.7em;
-        width: 19vh;
-        left: 72vw;
-        top: 44vh;
+        width: 11vh;
+        left: 76vw;
+        top: 45vh;
     }
 
     #linkedInlogo {
-        width: 6%;
-        left: 79.7vw;
-        top: 38vh;
+        width: 8%;
+        left: 77.7vw;
+        top: 39vh;
     }
 
     #instergramlogo {
-        width: 6%;
-        left: 79.7vw;
+        width: 8%;
+        left: 77.7vw;
+        top: 28vh;
     }
 
     #facebooklogo {
-        width: 6%;
-        left: 79.7vw;
+        width: 8%;
+        left: 77.7vw;
         top: 15vh;
     }
 
