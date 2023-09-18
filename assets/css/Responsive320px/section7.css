@@ -1,7 +1,7 @@
 @media all and (max-width: 320px) {
 
     section:nth-child(7) {
-        height: 83vh;
+        height: 65vh;
     }
 
     section:nth-child(7)>h5 {
