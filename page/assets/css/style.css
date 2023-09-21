@@ -26,14 +26,6 @@ h1 span{
     line-height: normal;
 }
 
-body header div img{
-    position: relative;
-}
-
-body header{
-    background: #2d2d32;
-    box-shadow: 0px 4px 4px 0px rgb(243, 209, 161);
-}
 
 main section:hover{
     box-shadow: 0 4px 30px 2px #fac921;
