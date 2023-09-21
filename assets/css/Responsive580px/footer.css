@@ -1,4 +1,4 @@
-@media all and (max-width: 425px) {
+@media all and (max-width: 580px) {
 
     body footer div>div:nth-child(1)>h1 {
         font-size: 1em;

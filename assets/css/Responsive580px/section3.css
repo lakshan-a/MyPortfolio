@@ -1,8 +1,9 @@
-@media all and (max-width: 320px) {
+@media all and (max-width: 580px) {
 
     section:nth-child(3) {
-        height: 325vh;
+        height: 345vh;
         right: 12vw;
+        top: 17vh;
 
     }
 
