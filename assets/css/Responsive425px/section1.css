@@ -61,7 +61,7 @@
     body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
         bottom: 35vh;
         /*position: relative;*/
-        width: 60vh;
+        width: 54vh;
         right: 6vw;
         font-size: 14px;
     }
