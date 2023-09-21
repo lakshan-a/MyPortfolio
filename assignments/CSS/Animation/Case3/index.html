@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <style>
+
+        section{
+            width: 400vw;
+            height: 100vh;
+            border: 2px solid red;
+            display: flex;
+        }
+        section>div{
+            border: 2px solid orange;
+            position: relative;
+            animation-name: anima;
+            animation-duration: 10s;
+
+
+        }
+
+        section>div:nth-child(1){
+            width: calc(100vw);
+            background-image: url("image/20465875.jpg");
+            background-size: cover;
+        }
+        section>div:nth-child(2){
+            width: calc(99vw);
+            background-image: url("image/550210052.jpg");
+            background-size: cover;
+        }
+        section>div:nth-child(3){
+            width: calc(99vw);
+            background-image: url("image/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg");
+            background-size: cover;
+        }
+        section>div:nth-child(4){
+            width: calc(99vw);
+            background-image: url("image/milad-fakurian-DjjaZybYx4I-unsplash.jpg");
+            background-size: cover;
+        }
+
+        @keyframes anima {
+            0%{
+                left: 0;
+
+            }
+            20%{
+                left: -100vw;
+
+            }
+            40%{
+                left: -200vw;
+            }
+            60%{
+                left: -300vw;
+            }
+
+
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+</body>
+</html>
