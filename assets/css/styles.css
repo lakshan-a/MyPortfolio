@@ -894,31 +894,17 @@ section:nth-child(6)>div:nth-child(2)>p{
     margin: auto;
 }
 
-section:nth-child(6)>div:nth-child(2)>h4{
-    width: 11vw;
-    font-family: Inter, SansSerif;
-    font-size: 1vw;
-    font-weight: 600;
-    color: #0A0A0A;
-    position: absolute;
-    bottom: 33vh;
-    left: 8vw;
-    margin: auto;
-    background-color: #FAC921;
-    border-radius: 8px;
-    padding: 1vh;
-    box-shadow: #FAC921 0px 4px 12px;
+section:nth-child(6)>div:nth-child(2)>a{
+    position: relative;
+    top: 60vh;
+    color: #FAC921;
+    font-family: 'Signika';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-section:nth-child(6)>div:nth-child(2)>h4:hover{
-    background-color: #FAC921;
-    box-shadow: #FAC921 0px 4px 12px;
-}
-
-section:nth-child(6)>div:nth-child(2)>h4>a {
-    color: black;
-    text-decoration: none;
-}
 
 section:nth-child(6)>div:nth-child(4)>i:nth-child(1){
     font-size: 20px;
