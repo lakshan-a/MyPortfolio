@@ -1224,7 +1224,7 @@ section:nth-child(8)>h1{
 .contact-section aside>form>fieldset{
     border: none;
     position: absolute;
-    left: 95vh;
+    left: 60vh;
     top: 37vh;
 }
 
