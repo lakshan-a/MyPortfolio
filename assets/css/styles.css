@@ -510,7 +510,10 @@ section:nth-child(3)>div>h3{
     margin: auto;
 }
 
-/*--------------------------------------education section-------------------------------------------------*/
+/*--------------------------------------skills section-------------------------------------------------*/
+
+
+
 section:nth-child(4){
     position: relative;
     height: 95vh;
@@ -519,210 +522,127 @@ section:nth-child(4){
     padding-right: 14vw;
 }
 
-section:nth-child(4)>div:nth-child(2)>img{
-    position: relative;
-    top: 22vh;
-    height: 78vh;
-    width: 90%;
-    right: 0vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h1{
-    width: 68vh;
-    position: absolute;
+section:nth-child(4)>h5{
+    width: 12vw;
     font-family: 'Signika';
-    font-weight: 600;
     font-size: 2vw;
-    color: #FAC921;
-    top: 10vh;
-    left: 44vw;
-    margin: auto;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(1)>h2{
-    width: 63vh;
-    position: absolute;
-    font-family: 'Catamaran';
     font-weight: 600;
-    font-size: 3vw;
-    color: #000000;
-    top: 14vh;
-    left: 90vh;
+    color: #FAC921;
+
+    position: absolute;
+    top: 10vh;
+    left: 6vw;
+    right: 0;
     margin: auto;
 }
 
-section:nth-child(4)>div:nth-child(3)>div:nth-child(2){
+section:nth-child(4)>h1{
+    width: 17vw;
+    font-family: 'Catamaran';
+    font-size: 3vw;
+    font-weight: 700;
+    color: #0A0A0A;
+
     position: absolute;
-    padding-left: 14vw;
-    padding-right: 14vw;
+    top: 13vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+section:nth-child(4)>div{
+    width: 20vw;
+    height: 15vh;
+    /*background-color: #05BFDB;*/
+    background-color: white;
+    box-shadow: #D0D0D0 0px 4px 12px;
+    border-radius: 1vh;
+}
+
+section:nth-child(4)>div:hover{
+    box-shadow: #FAC921 0px 4px 12px;
+}
+
+#pathImg{
+    width: 25%;
+
+    position: absolute;
+    top: 35vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+section:nth-child(4)>div>h2{
+    font-family: 'Catamaran';
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 700;
+    color: #0A0A0A;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 2.5vh;
+    margin: auto;
+}
+
+section:nth-child(4)>div>h3{
+    font-family: Inter, SansSerif;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: #404040;
+
+    position: absolute;
+    top: 8.5vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section:nth-child(4)>div>h4{
+    font-family: Inter, SansSerif;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: #808080;
+
+    position: absolute;
+    top: 11vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+
+#section5Box1{
+    position: absolute;
+    top: 30vh;
+    left: 14vw;
+    margin: auto;
+}
+
+#section5Box2{
+    position: absolute;
     top: 45vh;
+    right: 14vw;
+    margin: auto;
 }
 
-section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h5{
+#section5Box3{
     position: absolute;
-    width: 16vh;
-    font-family: system-ui;
-    font-size: 3vh;
-    left: 7vw;
-    bottom: 4vh;
+    top: 59vh;
+    left: 14vw;
+    margin: auto;
 }
 
-section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>img{
+#section5Box4{
     position: absolute;
-    left: 15vw;
-    bottom: 7vh;
-    height: 12vh;
-    width: 12vh;
-    bottom: 5vh;;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h1{
-    width: 50vh;
-    font-size: 3vh;
-    font-family: system-ui;
-    position: absolute;
-    bottom: 10vh;
-    left: 37vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(2)>h2{
-    width: 50vh;
-    font-size: 2vh;
-    font-family: system-ui,cursive;
-    position: absolute;
-    bottom: 6vh;
-    left: 42vw;
-}
-
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(3){
-    position: absolute;
-    padding-left: 14vw;
-    padding-right: 14vw;
-    top: 75.7vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h5{
-    width: 16vh;
-    position: absolute;
-    font-family: system-ui;
-    font-size: 3vh;
-    left: 51.5vw;
-    bottom: 16.9vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>img{
-    position: absolute;
-    left: 45vw;
-    bottom: 7vh;
-    height: 10vh;
-    width: 10vh;
-    bottom: 19vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h1{
-    width: 50vh;
-    font-size: 3vh;
-    font-family: system-ui;
-    position: absolute;
-    bottom: 23vh;
-    left: 7vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(3)>h2{
-    width: 50vh;
-    font-size: 2vh;
-    font-family: system-ui,cursive;
-    position: absolute;
-    bottom: 19vh;
-    left: 13vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(4){
-    position: absolute;
-    padding-left: 14vw;
-    padding-right: 14vw;
-    top: 129.1vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h5{
-    position: absolute;
-    width: 16vh;
-    font-family: system-ui;
-    font-size: 3vh;
-    left: 7vw;
-    bottom: 52.9vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>img{
-    position: absolute;
-    left: 15vw;
-    bottom: 7vh;
-    height: 12vh;
-    width: 12vh;
-    bottom: 53.5vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h1{
-    width: 61vh;
-    font-size: 3vh;
-    font-family: system-ui;
-    position: absolute;
-    bottom: 58vh;
-    left: 31vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(4)>h2{
-    width: 50vh;
-    font-size: 2vh;
-    font-family: system-ui,cursive;
-    position: absolute;
-    bottom: 54vh;
-    left: 38vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(5){
-    position: absolute;
-    padding-left: 14vw;
-    padding-right: 14vw;
-    top: 182vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h5{
-    width: 17vh;
-    position: absolute;
-    font-family: system-ui;
-    font-size: 3vh;
-    left: 51.5vw;
-    bottom: 87.9vh;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>img{
-    position: absolute;
-    left: 44vw;
-    bottom: 7vh;
-    height: 12vh;
-    width: 12vh;
-    bottom: 88vh;
-
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h1{
-    width: 61vh;
-    font-size: 3vh;
-    font-family: system-ui;
-    position: absolute;
-    bottom: 93vh;
-    left: 7vw;
-}
-
-section:nth-child(4)>div:nth-child(3)>div:nth-child(5)>h2{
-    width: 50vh;
-    font-size: 2vh;
-    font-family: system-ui,cursive;
-    position: absolute;
-    bottom: 89vh;
-    left: 8vw;
+    top: 75vh;
+    right: 14vw;
+    margin: auto;
 }
 
 /*!*--------------------------------------Languages section-------------------------------------------------*!*/
