@@ -1,57 +1,105 @@
 @media all and (max-width: 580px) {
 
-
     section:nth-child(2) {
-        position: relative;
-        height: 85vh;
-        width: 71vw;
-        padding-left: 14vw;
-        padding-right: 14vw;
-        right: 9vw;
+        height: 595vw;
     }
 
-    #section4MyImage2 {
-        width: 45.5%;
-        left: 38vw;
-        top: 5vh;
-    }
-
-    section:nth-child(2)>div {
-        height: 26vh;
-        width: 35vw;
-        top: 85vw;
-        right: 26vw;
-    }
-
-    section:nth-child(2)>div>h5 {
-        width: 23vw;
-        bottom: 9vh;
-        position: relative;
+    section:nth-child(2)>h5 {
+        width: 25vw;
         font-size: 4.5vw;
+        top: 3vw;
         left: 13vw;
     }
 
-    section:nth-child(2)>div>h1 {
-        top: -6vh;
-        text-align: center;
-        width: 44vw;
+
+    section:nth-child(2)>h1 {
+        width: 70vw;
         font-size: 5vw;
+        top: 7vw;
+        left: 17vw;
     }
 
-    section:nth-child(2)>div>h3 {
-        width: 63vw;
+    section:nth-child(2)>p {
+        width: 72vw;
         text-align: center;
         font-size: 3vw;
-        top: 4vh;
-        left: -9vw;
-    }
-    section:nth-child(2)>div>img:first-child {
-        top: 25vh;
-        width: 67%;
-    }
-    section:nth-child(2)>div>img:nth-child(2) {
-        top: 25vh;
-        width: 106%;
+        top: 12vw;
+        left: 18vw;
     }
 
-}
+    .content-inner {
+        width: 70vw;
+        height: 85vw;
+    }
+
+    .content-inner .cf-inner {
+        width: 80%;
+        padding: 26vw 14vw;
+    }
+
+    .content-front .cf-inner:before {
+        top: 3vw;
+        left: 2vw;
+    }
+
+    .serv-num {
+        bottom: 1vw;
+    }
+
+    .content-front .cf-inner:after {
+        bottom: 2vw;
+        right: 2vw;
+    }
+
+    .dec-icon {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .content-inner .cf-inner .inner p {
+        font-size: 4.3vw;
+    }
+
+    .content-back:after {
+        left: 56%;
+    }
+
+    .col-md-1 {
+        position: absolute;
+        top: 30vw;
+        left: 15vw;
+    }
+
+    .col-md-2 {
+        position: absolute;
+        top: 125vw;
+        left: 15vw;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        top: 220vw;
+        right: 13vw;
+    }
+
+    .col-md-4 {
+        position: absolute;
+        top: 315vw;
+        left: 15vw;
+    }
+
+    .col-md-5 {
+        position: absolute;
+        top: 410vw;
+        left: 15vw;
+    }
+
+    .col-md-6 {
+        tposition: absolute;
+        top: 506vw;
+        right: 13vw;
+    }
+
+
+
+    }
