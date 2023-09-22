@@ -61,6 +61,12 @@
         height: 85vh;
     }
 
+    section:nth-child(6)>div:nth-child(2)>a {
+        top: 40vh;
+        left: 19vw;
+        font-size: 22px;
+    }
+
 
 
 }
