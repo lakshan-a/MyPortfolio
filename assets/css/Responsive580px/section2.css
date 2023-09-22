@@ -31,12 +31,12 @@
 
     .content-inner .cf-inner {
         width: 80%;
-        padding: 26vw 14vw;
+        padding: 21vw 18vw;
     }
 
     .content-front .cf-inner:before {
         top: -2vw;
-        left: 2vw;
+        left: 3vw;
     }
 
     .serv-num {
@@ -46,8 +46,13 @@
 
     .content-front .cf-inner:after {
         bottom: -2vw;
-        right: 2vw;
+        right: 3vw;
     }
+
+    .content-inner .cf-inner .inner h2 {
+        width: 30vw;
+    }
+
 
     .dec-icon {
         width: 35vw;
