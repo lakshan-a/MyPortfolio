@@ -155,7 +155,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     margin-top: 7vh;
     margin-left: 4vh;
     font-family:'Poppins', roboto;
-    font-size: 17px;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -164,8 +164,8 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 13rem;
-    height: 5rem;
+    width: 13vw;
+    height: 5vw;
     top: 2vh;
     left: 0.5vw;
 }
@@ -177,8 +177,8 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 14vw;
-    height: 78%;
+    width: 10vw;
+    height: 79%;
     background: #fac921;
     border: 0.2rem solid #fac921;
     border-radius: 0.8rem;
@@ -308,6 +308,7 @@ section:nth-child(2)>h1{
 }
 
 section:nth-child(2)>p{
+    text-align: center;
     width: 62vw;
     font-family: 'Signika';
     font-size: 1.3vw;
@@ -498,7 +499,7 @@ section:nth-child(2)>p{
 .col-md-3{
     position: absolute;
     top: 17vw;
-    right: 14vw;
+    right: 15vw;
 }
 
 .col-md-4{
@@ -516,7 +517,7 @@ section:nth-child(2)>p{
 .col-md-6{
     position: absolute;
     top: 45vw;
-    right: 14vw;
+    right: 15vw;
 }
 
 section:nth-child(2)>div:nth-child(8)>img:nth-child(1){
@@ -688,7 +689,7 @@ section:nth-child(4)>h5{
 
     position: absolute;
     top: 10vh;
-    left: 6vw;
+    left: 3vw;
     right: 0;
     margin: auto;
 }

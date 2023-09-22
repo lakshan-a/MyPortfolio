@@ -1,57 +1,65 @@
-/*@media all and (max-width: 580px) {*/
+@media all and (max-width: 580px) {
 
 
-/*    section:nth-child(2) {*/
-/*        position: relative;*/
-/*        height: 85vh;*/
-/*        width: 71vw;*/
-/*        padding-left: 14vw;*/
-/*        padding-right: 14vw;*/
-/*        right: 9vw;*/
-/*    }*/
+    section:nth-child(3) {
+        position: relative;
+        height: 95vh;
+        width: 71vw;
+        padding-left: 14vw;
+        padding-right: 14vw;
+        right: 9vw;
+    }
 
-/*    #section4MyImage2 {*/
-/*        width: 45.5%;*/
-/*        left: 38vw;*/
-/*        top: 5vh;*/
-/*    }*/
+    #section4MyImage2 {
+        width: 45.5%;
+        left: 38vw;
+        top: 5vh;
+    }
 
-/*    section:nth-child(2)>div {*/
-/*        height: 26vh;*/
-/*        width: 35vw;*/
-/*        top: 85vw;*/
-/*        right: 26vw;*/
-/*    }*/
+    section:nth-child(3)>div {
+        height: 26vh;
+        width: 35vw;
+        top: 85vw;
+        right: 26vw;
+    }
 
-/*    section:nth-child(2)>div>h5 {*/
-/*        width: 23vw;*/
-/*        bottom: 9vh;*/
-/*        position: relative;*/
-/*        font-size: 4.5vw;*/
-/*        left: 13vw;*/
-/*    }*/
+    section:nth-child(3)>div>h5 {
+        width: 23vw;
+        bottom: 9vh;
+        position: relative;
+        font-size: 4.5vw;
+        left: 13vw;
+    }
 
-/*    section:nth-child(2)>div>h1 {*/
-/*        top: -6vh;*/
-/*        text-align: center;*/
-/*        width: 44vw;*/
-/*        font-size: 5vw;*/
-/*    }*/
+    section:nth-child(3)>div>h1 {
+        top: -6vh;
+        text-align: center;
+        width: 44vw;
+        font-size: 5vw;
+    }
 
-/*    section:nth-child(2)>div>h3 {*/
-/*        width: 63vw;*/
-/*        text-align: center;*/
-/*        font-size: 3vw;*/
-/*        top: 4vh;*/
-/*        left: -9vw;*/
-/*    }*/
-/*    section:nth-child(2)>div>img:first-child {*/
-/*        top: 25vh;*/
-/*        width: 67%;*/
-/*    }*/
-/*    section:nth-child(2)>div>img:nth-child(2) {*/
-/*        top: 25vh;*/
-/*        width: 106%;*/
-/*    }*/
+    section:nth-child(3)>div>h3 {
+        width: 63vw;
+        text-align: center;
+        font-size: 3.3vw;
+        top: 2vh;
+        left: -9vw;
+    }
+    section:nth-child(3)>div>img:first-child {
+        top: 23vh;
+        width: 80%;
+    }
+    section:nth-child(3)>div>img:nth-child(2) {
+        top: 23vh;
+        width: 121%;
+    }
 
-/*}*/
+    .about-btn-box .btn {
+        top: 31vh;
+        left: 5vw;
+        width: 31vw;
+        height: 25%;
+        font-size: 3.3vw;
+    }
+
+}

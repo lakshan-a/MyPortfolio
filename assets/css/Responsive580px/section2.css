@@ -35,16 +35,17 @@
     }
 
     .content-front .cf-inner:before {
-        top: 3vw;
+        top: -2vw;
         left: 2vw;
     }
 
     .serv-num {
-        bottom: 1vw;
+        bottom: -2vw;
+        left: 2vw;
     }
 
     .content-front .cf-inner:after {
-        bottom: 2vw;
+        bottom: -2vw;
         right: 2vw;
     }
 
@@ -95,6 +96,11 @@
         tposition: absolute;
         top: 506vw;
         right: 13vw;
+    }
+
+    .content-front .cf-inner:before, .content-front .cf-inner:after {
+        width: 10vw;
+        height: 10vw;
     }
 
 
