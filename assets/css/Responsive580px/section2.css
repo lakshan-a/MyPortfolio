@@ -8,7 +8,6 @@
         width: 25vw;
         font-size: 4.5vw;
         top: 3vw;
-        left: 13vw;
     }
 
 
@@ -16,7 +15,6 @@
         width: 70vw;
         font-size: 5vw;
         top: 7vw;
-        left: 17vw;
     }
 
     section:nth-child(2)>p {
@@ -24,7 +22,6 @@
         text-align: center;
         font-size: 3vw;
         top: 12vw;
-        left: 18vw;
     }
 
     .content-inner {
@@ -57,7 +54,7 @@
     }
 
     .content-inner .cf-inner .inner p {
-        font-size: 4.3vw;
+        font-size: 3.6vw;
     }
 
     .content-back:after {
@@ -99,7 +96,6 @@
         top: 506vw;
         right: 13vw;
     }
-
 
 
     }
