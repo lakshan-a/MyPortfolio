@@ -97,10 +97,10 @@ body main section:first-child>div:nth-child(2)>img{
 }
 body main section:first-child>div:nth-child(3)>img{
     position: absolute;
-    top: 5vw;
-    right: 10vw;
+    top: 7vw;
+    right: 7vw;
     border-bottom-right-radius: 12%;
-    width: 30%;
+    width: 32%;
 }
 
 body main section:first-child>div:nth-child(4)>aside{
@@ -128,7 +128,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: -10vh;
+    margin-top: -8vh;
 
 }
 
@@ -146,7 +146,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
 .home>div:nth-child(4)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
-    top: 22vh;
+    top: 19vh;
     right: 46vw;
 }
 
@@ -164,7 +164,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 34.5rem;
+    width: 13rem;
     height: 5rem;
     top: 2vh;
     left: 0.5vw;
@@ -177,12 +177,12 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10vw;
-    height: 60%;
+    width: 14vw;
+    height: 78%;
     background: #fac921;
     border: 0.2rem solid #fac921;
     border-radius: 0.8rem;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: 600;
     letter-spacing: .1rem;
     color: #2d2d32;
@@ -222,9 +222,9 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
 
 .home-sci {
     position: absolute;
-    bottom: 12vh;
+    bottom: 23vh;
     left: 0.5vw;
-    width: 170px;
+    width: 207px;
     display: flex;
     justify-content: space-between;
 }
@@ -234,12 +234,12 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     background: transparent;
-    border: .2rem solid #fac921;
+    border: 0.2rem solid #fac921;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     z-index: 1;
     overflow: hidden;

@@ -60,6 +60,8 @@
     .btn-box {
         width: 6rem;
         height: 3rem;
+        top: 0vh;
+
     }
 
     .btn-box .btn {
