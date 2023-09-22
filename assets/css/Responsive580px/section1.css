@@ -36,8 +36,8 @@
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
         position: relative;
-        bottom: -3vh;
-        font-size: 30px;
+        bottom: -6vw;
+        font-size: 9vw;
         right: 0vw;
     }
 
@@ -47,7 +47,7 @@
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
         width: 50vh;
-        font-size: 12px;
+        font-size: 4vw;
     }
 
     .home>div:nth-child(4)>aside>div:first-child>img {
@@ -58,8 +58,8 @@
     }
 
     .btn-box {
-        width: 6rem;
-        height: 3rem;
+        width: 25vw;
+        height: 16vw;
         top: 0vh;
 
     }
@@ -71,15 +71,15 @@
     }
 
     .home-sci {
-        bottom: 28vh;
+        bottom: 45vw;
         left: 0.5vw;
-        width: 137px;
+        width: 40vw;
     }
 
     .home-sci a {
-        width: 25px;
-        height: 25px;
-        font-size: 15px;
+        width: 10vw;
+        height: 10vw;
+        font-size: 5vw;
     }
 
 

@@ -97,7 +97,7 @@ body main section:first-child>div:nth-child(2)>img{
 }
 body main section:first-child>div:nth-child(3)>img{
     position: absolute;
-    top: 7vw;
+    top: 5vw;
     right: 7vw;
     border-bottom-right-radius: 12%;
     width: 32%;
@@ -146,7 +146,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
 .home>div:nth-child(4)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
-    top: 19vh;
+    top: 25vh;
     right: 46vw;
 }
 
@@ -222,7 +222,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
 
 .home-sci {
     position: absolute;
-    bottom: 23vh;
+    bottom: 15vh;
     left: 0.5vw;
     width: 207px;
     display: flex;
