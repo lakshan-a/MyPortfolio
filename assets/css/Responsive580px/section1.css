@@ -5,130 +5,79 @@
     }
 
     section:nth-child(1) {
-        height: 91vh;
+        height: 106vh;
     }
 
     body main section:first-child>div:nth-child(2)>img {
         left: 0vw;
         top: -8vh;
-        height: 100vh;
+        height: 115vh;
         width: 100%;
         position: relative;
     }
 
     body main section:first-child>div:nth-child(3)>img {
-        width: 45%;
-        top: 61vw;
-        left: 27vw;
+        width: 55%;
+        top: 80vw;
+        left: 21vw;
 
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
-        bottom: 4vh;
-        position: relative;
-        font-size: 23px;
-        right: -2vw;
-        width: 30vw;
+
+    body main section:first-child>div:nth-child(4)>aside {
+        top: -5vh;
+        left: 5.5vw;
+        width: 90vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h2 {
+        font-size: 9vw;
     }
 
     body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
-        bottom: 5vh;
         position: relative;
-        font-size: 32px;
-        right: -2vw;
+        bottom: -3vh;
+        font-size: 30px;
+        right: 0vw;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
+        font-size: 30px;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
+        width: 50vh;
+        font-size: 12px;
     }
 
     .home>div:nth-child(4)>aside>div:first-child>img {
         width: 9%;
-        top: 17vh;
-        right: 79vw;
-
-    }
-
-    body main section:first-child>div:nth-child(4)>aside {
-        top: -3vh;
-        left: 4.5vw;
-    }
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
-        font-size: 32px;
-    }
-
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>div {
-        width: 35vw;
-        height: 1vh;
-        box-shadow: #ffffff 0px 1px 3px;
-        position: absolute;
         top: 15vh;
-        left: 3.3vw;
-        margin: auto;
+        right: 83vw;
+
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
-        bottom: 7vh;
-        position: relative;
-        width: 47vh;
-        right: 1vw;
-        font-size: 12px;
+    .btn-box {
+        width: 6rem;
+        height: 3rem;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:last-child>h6 {
-        border-radius: 8px;
-        box-shadow: #fac921 0px 0px 0px;
-        position: absolute;
-        top: 32vh;
-        left: 2.5vw;
-        width: 12vw;
-        height: 2vh;
-        font-size: 8px;
-        margin: auto;
+    .btn-box .btn {
+        width: 24vw;
+        height: 61%;
+        font-size: 3.3vw;
     }
 
-    #linkedIn {
-        width: 6%;
-        top: 28vh;
-        left: 28vw;
+    .home-sci {
+        bottom: 28vh;
+        left: 0.5vw;
+        width: 137px;
     }
 
-    #instergram {
-        top: 28.3vh;
-        width: 6%;
-        left: 35vw;
-    }
-
-    #facebook {
-        top: 28.5vh;
-        width: 6%;
-        left: 42vw;
-    }
-
-    #discord {
-        top: 28.7vh;
-        width: 6%;
-        left: 48vw;
-    }
-
-    body main section:first-child>div:nth-child(5)>img {
-        top: 101vw;
-        width: 6%;
-        right: 67vw;
-    }
-
-    body main section:first-child>div:nth-child(6)>img {
-        top: 60vw;
-        width: 6%;
-        right: 35vw;
-    }
-
-    body main section:first-child>div:nth-child(7)>img {
-        top: 67vw;
-        width: 6%;
-        right: 65vw;
-    }
-
-    body main section:first-child>div:nth-child(8)>img {
-        top: 98vw;
-        width: 5%;
-        right: 29vw;
+    .home-sci a {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
     }
 
 

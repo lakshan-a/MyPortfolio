@@ -105,152 +105,169 @@ body main section:first-child>div:nth-child(3)>img{
 
 body main section:first-child>div:nth-child(4)>aside{
     position: absolute;
-    top: 125px;
-    left: 13.5vw;
+    top: 12vh;
+    left: 9vw;
+    width: 49vw;
+    height: 80vh;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child{
+body main section:first-child>div:nth-child(4)>aside>div:first-child>h2{
     color: #ffffff;
-    font-family: 'Signika';
-    font-size: 24px;
+    font-family: 'Poppins', roboto;
+    font-size: 3.5vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
+    margin-top: 0vh;
 }
 
 body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
     color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 50px;
+    font-family: 'Poppins', roboto;
+    font-size: 5vw;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     line-height: normal;
-    margin-top: -3vh;
+    margin-top: -10vh;
 
 }
 
 body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
     color: #fac921;
-    font-family: 'Catamaran';
-    font-size: 50px;
+    font-family: 'Poppins', roboto;
+    font-size: 5vw;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     line-height: normal;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>div{
-    width: 13vw;
-    height: 1.5vh;
-    background-color: #fac921;
-    border-radius: 2vh;
-    box-shadow: #ffffff 0px 1px 6px;
 
-    position: absolute;
-    top: 20vh;
-    left: 0.3vw;
-    margin: auto;
-}
 
 .home>div:nth-child(4)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
-    top: 26vh;
-    right: 30vw;
+    top: 22vh;
+    right: 46vw;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child{
+body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
     color: #ffffff;
     margin-top: 7vh;
     margin-left: 4vh;
-    font-family: Libre Baskerville;
+    font-family:'Poppins', roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
-body main section:first-child>div:nth-child(4)>aside>div:last-child>h6{
-    font-family: Inter, SansSerif;
-    font-weight: 600;
-    color: white;
-    font-size: 0.8vw;
-    padding: 0.7vw;
-    background-color: #fac921;
-    border-radius: 8px;
-    box-shadow: #fac921 0px 4px 12px;
-    position: absolute;
-    top: 20vw;
-    left: 1vw;
-    margin: auto;
-
-    position: absolute;
-    top: 43vh;
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 5rem;
+    top: 2vh;
     left: 0.5vw;
-    margin: auto;
 }
 
-#linkedIn{
-    width: 2%;
-    position: absolute;
-    left: 21vw;
-    top: 63.5vh;
-    margin: auto;
+.btn-box .btn {
+    text-decoration: none;
+    position: relative;
+    font-family: 'Poppins', roboto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 60%;
+    background: #fac921;
+    border: 0.2rem solid #fac921;
+    border-radius: 0.8rem;
+    font-size: 1.3vw;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #2d2d32;
+    z-index: 1;
+    overflow: hidden;
+    transition: .7s;
 }
 
-#instergram{
-    width: 2%;
-    position: absolute;
-    left: 23vw;
-    top: 63.5vh;
-    margin: auto;
+.btn-box .btn:hover {
+    color: #fac921;
 }
 
-#facebook{
-    width: 2%;
-    position: absolute;
-    left: 25vw;
-    top: 63.5vh;
-    margin: auto;
+
+.btn-box .btn:nth-child(2):hover {
+    color: #2d2d32;
 }
 
-#discord{
-    width: 2%;
-    position: absolute;
-    left: 27vw;
-    top: 63.5vh;
-    margin: auto;
+.btn-box .btn:nth-child(2)::before {
+    background: #fac921;
 }
 
-body main section:first-child>div:nth-child(5)>img{
+.btn-box .btn::before {
+    content: '';
     position: absolute;
-    top: 32vw;
-    right: 36vw;
-    border-bottom-right-radius: 0%;
-    width: 3vw;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#2d2d32;
+    z-index: -1;
+    transition: .7s;
 }
 
-body main section:first-child>div:nth-child(6)>img{
-    position: absolute;
-    top: 4vw;
-    right: 15vw;
-    border-bottom-right-radius: 12%;
-    width: 4vw;
-}
-body main section:first-child>div:nth-child(7)>img{
-    position: absolute;
-    top: 11vw;
-    right: 37vw;
-    border-bottom-right-radius: 12%;
-    width: 4vw;
+.btn-box .btn:hover::before {
+    width: 100%;
 }
 
-body main section:first-child>div:nth-child(8)>img{
+.home-sci {
     position: absolute;
-    top: 32vw;
-    right: 14vw;
-    border-bottom-right-radius: 0%;
-    width: 2vw;
+    bottom: 12vh;
+    left: 0.5vw;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid #fac921;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.home-sci a:hover {
+    color: black;
+    transform: scale(1.15) translateY(-10px);
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #fac921;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
 
 /*--------------------------------------About me section-------------------------------------------------*/
 section:nth-child(2){
