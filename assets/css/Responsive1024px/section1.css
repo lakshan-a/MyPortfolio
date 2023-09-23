@@ -1,0 +1,136 @@
+@media all and (max-width: 1024px) and (min-width:768px){
+/*@media all and (max-width: 1024px) {*/
+
+    header nav>div>menu {
+        left: 8vw;
+    }
+
+    .home>div:nth-child(4)>aside>div:first-child>img {
+        top: 14vh;
+    }
+
+    body main section:first-child>div:nth-child(4)>aside>div:first-child>p {
+        margin-top: 5vh;
+    }
+
+    .home-sci {
+        width: 115px;
+    }
+
+    .content-inner .cf-inner {
+        padding: 55px 32px;
+    }
+
+    section:nth-child(3)>div>h3 {
+        top: 17vh;
+    }
+
+    section:nth-child(3)>div>img:first-child {
+        top: 30vh;
+    }
+
+    section:nth-child(3)>div>img:nth-child(2) {
+        top: 30vh;
+    }
+
+    .about-btn-box .btn {
+        top: 43vh;
+    }
+
+    section:nth-child(3) {
+        height: 70vh;
+    }
+
+    section:nth-child(4) {
+        height: 88vh;
+    }
+
+
+    #pathImg {
+        width: 27%;
+        top: 31vh;
+    }
+
+    #section5Box1 {
+        top: 26vh;
+    }
+    #section5Box2 {
+        top: 39vh;
+    }
+    #section5Box3 {
+        top: 52vh;
+    }
+    #section5Box4 {
+        top: 65vh;
+    }
+
+    section:nth-child(5)>h5 {
+        width: 54vh;
+    }
+
+    section:nth-child(5)>h1 {
+        width: 35vh;
+    }
+
+    section:nth-child(7) {
+        height: 130vh;
+    }
+
+    #section7Img2 {
+        top: 78vh;
+    }
+    #section7Img4 {
+        top: 78vh;
+    }
+    #section7Img6 {
+        top: 105vh;
+    }
+
+    .contact-section {
+        height: 152vh;
+    }
+
+
+    .contact-section>div>address>div:nth-child(4)>div:nth-child(1)>i {
+        bottom: 31vh;
+        left: 77vw;
+    }
+
+    .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>h4 {
+        left: 82vw;
+        width: 9vw;
+        bottom: 38vh;
+    }
+
+    .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a {
+        left: 73vw;
+        bottom: 38.5vh;
+    }
+
+    .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a {
+        left: 57vw;
+        bottom: 19.3vh;
+    }
+    .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>h4 {
+        bottom: 19vh;
+    }
+
+    .contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i {
+        bottom: 11.5vh;
+    }
+
+    .contact-section>div>aside {
+        margin-top: 24vw;
+    }
+    .contact-section>ul {
+        width: 106.1%;
+    }
+
+
+
+
+
+
+
+
+    }

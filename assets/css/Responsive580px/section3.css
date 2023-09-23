@@ -3,7 +3,7 @@
 
     section:nth-child(3) {
         position: relative;
-        height: 95vh;
+        height: 100vh;
         width: 71vw;
         padding-left: 14vw;
         padding-right: 14vw;
@@ -47,15 +47,17 @@
     }
     section:nth-child(3)>div>img:first-child {
         top: 23vh;
-        width: 80%;
+        width: 116%;
+        left: -3vw;
     }
     section:nth-child(3)>div>img:nth-child(2) {
-        top: 23vh;
-        width: 121%;
+        top: 31vh;
+        left: -3vw;
+        width: 171%;
     }
 
     .about-btn-box .btn {
-        top: 31vh;
+        top: 41vh;
         left: 5vw;
         width: 31vw;
         height: 25%;
