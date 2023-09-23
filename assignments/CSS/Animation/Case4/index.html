@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Case 5</title>
+  <link rel="stylesheet" href="../../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+  <style>
+
+    body{
+      overflow: hidden;
+    }
+
+    main{
+      background:url("assests/sky.jpg");
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      position: relative;
+    }
+
+    main>#road{
+      height: 25vh;
+      width: 400vw;
+      background:url("assests/road.jpg");
+
+      position: absolute;
+      bottom: 0;
+      margin: auto;
+    }
+
+    main>#city{
+      height: 25vh;
+      width: 400vw;
+      background:url("assests/city.png");
+
+      position: absolute;
+      bottom: 25vh;
+      margin: auto;
+    }
+
+    main>#car{
+      width: 500px;
+      height: 170px;
+
+      position: absolute;
+      bottom: 20vh;
+      right: 0;
+      left: 0;
+      margin: auto;
+
+      z-index: 3;
+
+      background: url("assests/car.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #leftWheel, #rightWheel{
+      width: 90px;
+      height: 90px;
+
+      background: url("assests/wheel.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      position: absolute;
+      margin: auto;
+
+      animation-name: wheels;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    #leftWheel{
+      right:321px;
+      left: 0;
+      bottom: 0;
+      top: 146px;
+    }
+
+    #rightWheel{
+      right:0;
+      left: 290px;
+      bottom: 0;
+      top: 146px;
+    }
+
+    #city, #road{
+      animation-name: cityRoadMove;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes wheels {
+      from{
+        transform: rotate(0deg);
+      }
+      to{
+        transform: rotate(-360deg);
+      }
+    }
+
+    @keyframes cityRoadMove {
+      from{
+        left: 0%;
+      }
+      to{
+        left: -75%;
+      }
+    }
+
+
+
+
+  </style>
+
+
+
+</head>
+
+<body>
+
+  <main>
+
+    <div id="road"></div>
+
+    <section id="car">
+
+      <div id="carBody"></div>
+
+      <div id="leftWheel"></div>
+
+      <div id="rightWheel"></div>
+
+    </section>
+
+    <div id="city"></div>
+
+  </main>
+
+</body>
+
+</html>
