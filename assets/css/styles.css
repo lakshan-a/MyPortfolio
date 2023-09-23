@@ -269,8 +269,8 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>p{
 }
 
 body main section:first-child>div:nth-child(3){
-    width: 10px;
-    height: 10px;
+    width: 3vw;
+    height: 3vw;
     border-radius: 100%;
     border: solid 3px #fac921;
     position: absolute;
@@ -287,13 +287,13 @@ body main section:first-child>div:nth-child(3){
 
 @keyframes testOne {
     0%{
-        width: 10px;
-        height: 10px;
+        width:3vw;
+        height: 3vw;
         border: solid 4px #fac921;
     }
     100%{
-        width: 800px;
-        height: 800px;
+        width: 40vw;
+        height: 40vw;
         border: solid 4px transparent;
     }
 }
