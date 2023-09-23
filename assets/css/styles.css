@@ -289,12 +289,12 @@ body main section:first-child>div:nth-child(3){
     0%{
         width: 10px;
         height: 10px;
-        border: solid 3px #fac921;
+        border: solid 4px #fac921;
     }
     100%{
-        width: 600px;
-        height: 600px;
-        border: solid 3px transparent;
+        width: 800px;
+        height: 800px;
+        border: solid 4px transparent;
     }
 }
 
