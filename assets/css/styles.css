@@ -95,7 +95,7 @@ body main section:first-child>div:nth-child(2)>img{
     width: 100%;
     height: 63vw;
 }
-body main section:first-child>div:nth-child(3)>img{
+body main section:first-child>div:nth-child(4)>img{
     position: absolute;
     top: 5vw;
     right: 7vw;
@@ -103,7 +103,7 @@ body main section:first-child>div:nth-child(3)>img{
     width: 32%;
 }
 
-body main section:first-child>div:nth-child(4)>aside{
+body main section:first-child>div:nth-child(5)>aside{
     position: absolute;
     top: 12vh;
     left: 9vw;
@@ -111,7 +111,7 @@ body main section:first-child>div:nth-child(4)>aside{
     height: 80vh;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>h2{
+body main section:first-child>div:nth-child(5)>aside>div:first-child>h2{
     color: #ffffff;
     font-family: 'Poppins', roboto;
     font-size: 3.5vw;
@@ -121,7 +121,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h2{
     margin-top: 0vh;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
+body main section:first-child>div:nth-child(5)>aside>div:first-child>h1{
     color: #ffffff;
     font-family: 'Poppins', roboto;
     font-size: 5vw;
@@ -132,7 +132,7 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1{
 
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
+body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span{
     color: #fac921;
     font-family: 'Poppins', roboto;
     font-size: 5vw;
@@ -143,14 +143,14 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span{
 
 
 
-.home>div:nth-child(4)>aside>div:first-child>img{
+.home>div:nth-child(5)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
     top: 25vh;
     right: 46vw;
 }
 
-body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
+body main section:first-child>div:nth-child(5)>aside>div:first-child>p{
     color: #ffffff;
     margin-top: 7vh;
     margin-left: 4vh;
@@ -266,6 +266,36 @@ body main section:first-child>div:nth-child(4)>aside>div:first-child>p{
 
 .home-sci a:hover::before {
     width: 100%;
+}
+
+body main section:first-child>div:nth-child(3){
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: solid 3px #fac921;
+    position: absolute;
+    right: 3vw;
+    left: 55vw;
+    top: -19vw;
+    bottom: 0;
+    margin: auto;
+    animation: testOne;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes testOne {
+    0%{
+        width: 10px;
+        height: 10px;
+        border: solid 3px #fac921;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        border: solid 3px transparent;
+    }
 }
 
 

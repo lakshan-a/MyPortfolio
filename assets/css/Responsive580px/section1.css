@@ -4,6 +4,10 @@
         display: none;
     }
 
+    body main section:first-child>div:nth-child(3){
+        display: none;
+    }
+
     section:nth-child(1) {
         height: 106vh;
     }
@@ -16,7 +20,7 @@
         position: relative;
     }
 
-    body main section:first-child>div:nth-child(3)>img {
+    body main section:first-child>div:nth-child(4)>img {
         width: 55%;
         top: 80vw;
         left: 21vw;
@@ -24,28 +28,28 @@
     }
 
 
-    body main section:first-child>div:nth-child(4)>aside {
+    body main section:first-child>div:nth-child(5)>aside {
         top: -5vh;
         left: 5.5vw;
         width: 90vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h2 {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h2 {
         font-size: 9vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h1 {
         position: relative;
         bottom: -6vw;
         font-size: 9vw;
         right: 0vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span {
         font-size: 30px;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>p:last-child {
         width: 48vh;
         font-size: 4vw;
     }

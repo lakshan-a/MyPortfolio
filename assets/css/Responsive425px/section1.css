@@ -1,54 +1,43 @@
 @media all and (max-width: 425px) and (min-width:320px){
-    /*header{*/
-    /*    display: none;*/
-    /*}*/
 
-    /*section:nth-child(1) {*/
-    /*    height: 91vh;*/
-    /*}*/
+    body main section:first-child>div:nth-child(3){
+        display: none;
+    }
 
-    /*body main section:first-child>div:nth-child(2)>img {*/
-    /*    left: 0vw;*/
-    /*    top: -8vh;*/
-    /*    height: 100vh;*/
-    /*    width: 100%;*/
-    /*    position: relative;*/
-    /*}*/
-
-    body main section:first-child>div:nth-child(3)>img {
+    body main section:first-child>div:nth-child(4)>img {
         /*width: 45%;*/
         top: 42vw;
         left: 37vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child p:first-child {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child p:first-child {
         bottom: 31vh;
         /*font-size: 23px;*/
         right: 5vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1 {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h1 {
         bottom: 33vh;
         font-size: 38px;
         right: 5vw;
     }
 
-    .home>div:nth-child(4)>aside>div:first-child>img {
+    .home>div:nth-child(5)>aside>div:first-child>img {
         /*width: 9%;*/
         /*position: absolute;*/
         top: -10vh;
         right: 76vw;
     }
 
-    body main section:first-child>div:nth-child(4)>aside {
+    body main section:first-child>div:nth-child(5)>aside {
         top: 124px;
         left: 10.5vw;
     }
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>h1>span {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span {
         font-size: 38px;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>div {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>div {
         /*width: 35vw;*/
         /*height: 1vh;*/
         /*box-shadow: #ffffff 0px 1px 3px;*/
@@ -58,7 +47,7 @@
         /*margin: auto;*/
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>p:last-child {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>p:last-child {
         bottom: 35vh;
         /*position: relative;*/
         width: 54vh;
@@ -66,7 +55,7 @@
         font-size: 14px;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:last-child>h6 {
+    body main section:first-child>div:nth-child(5)>aside>div:last-child>h6 {
         /*border-radius: 8px;*/
         /*box-shadow: #fac921 0px 0px 0px;*/
         /*position: absolute;*/

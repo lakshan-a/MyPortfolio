@@ -5,11 +5,15 @@
         left: 8vw;
     }
 
-    .home>div:nth-child(4)>aside>div:first-child>img {
+    body main section:first-child>div:nth-child(3){
+        display: none;
+    }
+
+    .home>div:nth-child(5)>aside>div:first-child>img {
         top: 14vh;
     }
 
-    body main section:first-child>div:nth-child(4)>aside>div:first-child>p {
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>p {
         margin-top: 5vh;
     }
 
