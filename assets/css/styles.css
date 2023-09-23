@@ -29,7 +29,7 @@ header{
     border-bottom: 2px solid #fac921;
     background: #2d2d32;
     width: 99.9vw;
-    height: 8vh;
+    height: 9vh;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -47,7 +47,7 @@ header nav>div>menu>li{
 
 header nav>div>menu>li>a{
     color: #ffffff;
-    font-family: Libre Baskerville;
+    font-family: 'Signika';
     font-size: 1.2em;
     font-style: normal;
     font-weight: 500;
@@ -65,8 +65,8 @@ header>div{
 }
 header>div>img{
     position: relative;
-    width: 63%;
-    left: 10.5vw;
+    width: 49%;
+    left: 6.5vw;
 }
 
 /*----------------------------------------home section---------------------------------------------------*/
@@ -1288,7 +1288,7 @@ section:nth-child(8)>h1{
 .contact-section aside>form>fieldset{
     border: none;
     position: absolute;
-    left: 60vh;
+    left: 73vh;
     top: 37vh;
 }
 
