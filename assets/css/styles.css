@@ -292,8 +292,8 @@ body main section:first-child>div:nth-child(3){
         border: solid 3px #fac921;
     }
     100%{
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 600px;
         border: solid 3px transparent;
     }
 }
