@@ -1219,8 +1219,17 @@ section:nth-child(8)>h1{
     position: relative;
     /*font-size: 32px;*/
     bottom: 17vh;
-    left: 47vw;
+    left: 45vw;
 }
+
+.contact-section>div>address>div:nth-child(4)>div:nth-child(1){
+    position: relative;
+    /*font-size: 32px;*/
+    bottom: 33vh;
+    left: 59vw;
+}
+
+/*------------------------------------------------------------------phone---------------------------------------------------*/
 
 .coccoc-alo-ph-circle {
     width: 8vw;
@@ -1334,7 +1343,7 @@ section:nth-child(8)>h1{
     background-color: #FAC921;
 }
 
-
+/*--------------------------------------------------------location-----------------------------------------*/
 
 .coccoc-alo-lo-circle {
     width: 8vw;
@@ -1447,6 +1456,121 @@ section:nth-child(8)>h1{
 .coccoc-alo-location.coccoc-alo-green:hover .coccoc-alo-lo-img-circle {
     background-color: #FAC921;
 }
+
+/*----------------------------------------------------email-----------------------------------------------*/
+
+.coccoc-alo-em-circle {
+    width: 8vw;
+    height: 8vw;
+    top: 1.5vw;
+    left: 1.5vw;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    opacity: .1;
+    -webkit-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.coccoc-alo-email {
+    background-color: transparent;
+    width: 1vw;
+    height: 1vw;
+    cursor: pointer;
+    z-index: 2 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: visibility .5s;
+    -moz-transition: visibility .5s;
+    -o-transition: visibility .5s;
+    transition: visibility .5s;
+    right: 7vw;
+    top: 1vw;
+}
+
+.coccoc-alo-email.coccoc-alo-green .coccoc-alo-em-circle-fill {
+    background-color: #fac921;
+    opacity: .75 !important;
+}
+
+.coccoc-alo-em-circle-fill {
+    width: 5vw;
+    height: 5vw;
+    top: 3vw;
+    left: 3.03vw;
+    position: absolute;
+    background-color: #fac921;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .1;
+    -webkit-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.coccoc-alo-em-img-circle {
+    width: 3vw;
+    height: 3vw;
+    top: 4vw;
+    left: 4vw;
+    position: absolute;
+    background: rgb(255, 255, 255) url(https://img.icons8.com/external-bearicons-detailed-outline-bearicons/32/external-Email-email-bearicons-detailed-outline-bearicons.png) no-repeat center center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .7;
+    -webkit-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+}
+
+.coccoc-alo-email.coccoc-alo-green .coccoc-alo-em-img-circle {
+    background-color: #ffffff;
+}
+
+.coccoc-alo-email.coccoc-alo-green .coccoc-alo-em-circle {
+    border-color: rgba(45, 45, 50, 0.5);
+    opacity: .5;
+}
+
+.coccoc-alo-email.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-em-circle,
+.coccoc-alo-email.coccoc-alo-green:hover .coccoc-alo-em-circle {
+    border-color: #FAC921;
+    opacity: .5;
+}
+
+.coccoc-alo-email.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-em-circle-fill,
+.coccoc-alo-email.coccoc-alo-green:hover .coccoc-alo-em-circle-fill {
+    background-color: rgba(250, 201, 33, 0.5);
+    opacity: .75 !important;
+}
+
+.coccoc-alo-email.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-em-img-circle,
+.coccoc-alo-email.coccoc-alo-green:hover .coccoc-alo-em-img-circle {
+    background-color: #FAC921;
+}
+
 
 @-moz-keyframes coccoc-alo-circle-anim {
     0% {
@@ -1667,12 +1791,6 @@ section:nth-child(8)>h1{
 
 
 
-.contact-section>div>address>div:nth-child(4)>div:nth-child(1)>i{
-    position: relative;
-    font-size: 32px;
-    bottom: 32vh;
-    left: 80vw;
-}
 
 .contact-section>div>address>div:nth-child(2)>div:nth-child(2)>h4{
     position: relative;
