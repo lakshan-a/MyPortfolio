@@ -389,7 +389,7 @@ section:nth-child(2)>p{
     font-family: 'Signika';
     font-size: 1.3vw;
     font-weight: 700;
-    color: #0A0A0A;
+    color: #808080;
     position: absolute;
     top: 10vw;
     right: 0;
@@ -432,7 +432,7 @@ section:nth-child(2)>p{
     align-items: center;
 }
 .content-front {
-    background: linear-gradient(40deg, rgb(250, 201, 33), rgb(227, 227, 227));
+    background: linear-gradient(40deg, rgb(248, 186, 7), rgb(231, 227, 134));
     position:relative;
     cursor:pointer;
     border-radius: 5px 5px 5px 5px;
@@ -467,7 +467,7 @@ section:nth-child(2)>p{
     height: 100%;
     z-index: 0;
     transform: rotateY(180deg);
-    background: linear-gradient(40deg, rgb(227, 227, 227), rgb(250, 201, 33));
+    background: linear-gradient(40deg, rgb(248, 186, 7), rgb(231, 227, 134));
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -1257,22 +1257,22 @@ section:nth-child(8)>h1{
 .contact-section>div>address>div:nth-child(2)>div:nth-child(1){
     position: relative;
     /* font-size: 32px; */
-    top: -1vh;
-    left: 28vw;
+    top: 5vh;
+    left: 26vw;
 }
 
 .contact-section>div>address>div:nth-child(3)>div:nth-child(1){
     position: relative;
-    /*font-size: 32px;*/
-    bottom: 17vh;
-    left: 45vw;
+    /* font-size: 32px; */
+    bottom: 11vh;
+    left: 43vw;
 }
 
 .contact-section>div>address>div:nth-child(4)>div:nth-child(1){
     position: relative;
-    /*font-size: 32px;*/
-    bottom: 33vh;
-    left: 59vw;
+    /* font-size: 32px; */
+    bottom: 27vh;
+    left: 60vw;
 }
 
 /*------------------------------------------------------------------phone---------------------------------------------------*/
@@ -1840,11 +1840,12 @@ section:nth-child(8)>h1{
 
 .contact-section>div>address>div:nth-child(2)>div:nth-child(2)>h4{
     position: relative;
-    font-family:'Catamaran';
+    font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
     font-size: 3vh;
-    left: 39vw;
+    top: 3vw;
+    left: 35vw;
     color: #666;
 }
 
@@ -1854,9 +1855,9 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 700;
     font-size: 3vh;
-    left: 57vw;
+    left: 51.5vw;
     color: #666;
-    bottom: 20.5vh;
+    bottom: 11vh;
 }
 
 .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>h4{
@@ -1865,30 +1866,31 @@ section:nth-child(8)>h1{
     font-style: normal;
     font-weight: 500;
     font-size: 3vh;
-    left: 85vw;
-    width: 7vw;
+    left: 68vw;
+    width: 8vw;
     color: #666;
-    bottom: 40vh;
+    bottom: 27vh;
 }
 
 .contact-section>div>address>div:nth-child(2)>div:nth-child(2)>a{
     position: relative;
-    left: 38vw;
+    left: 35vw;
+    top: 1vw;
     font-size: 2.5vh;
 }
 
 .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a{
     position: relative;
-    left: 57vw;
+    left: 51.5vw;
     font-size: 2.5vh;
-    bottom: 19.8vh;
+    bottom: 14.8vh;
 }
 
 .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a{
     position: relative;
-    left: 74vw;
+    left: 68vw;
     font-size: 2.5vh;
-    bottom: 39.5vh;
+    bottom: 30.5vh;
 }
 
 .contact-section aside>div>hr{
