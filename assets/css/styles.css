@@ -307,6 +307,37 @@ body main section:first-child>div:nth-child(3){
     background-size: cover;
 }
 
+.Enterprise-image{
+    background: url("../images/expertise/Enterprise Application image.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.ui-image{
+    background: url("../images/expertise/ui-ux design image.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.IOT-image{
+    background: url("../images/expertise/IOT Application image.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.Graphic-image{
+    background: url("../images/expertise/graphic design image.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.Bug-image{
+    background: url("../images/expertise/Bug Fixing image.png");
+    background-position: center;
+    background-size: cover;
+}
 
 section:nth-child(2)>div>div>div:nth-child(1)>div>div:nth-child(1){
     position: absolute;
