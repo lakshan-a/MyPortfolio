@@ -1106,6 +1106,67 @@ section:nth-child(6)>div:nth-child(5)>i:nth-child(1){
     left: 81vw;
 }
 
+.Assignment-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    height: 5vw;
+    top: 60vh;
+    left: 0.5vw;
+}
+
+.Assignment-box .btn {
+    text-decoration: none;
+    position: relative;
+    font-family: 'Poppins', roboto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 60%;
+    background: #fac921;
+    border: 0.2rem solid #fac921;
+    border-radius: 0.8rem;
+    font-size: 1.3vw;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #2d2d32;
+    z-index: 1;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.Assignment-box .btn:hover {
+    color: #fac921;
+}
+
+
+.Assignment-box .btn:nth-child(2):hover {
+    color: #2d2d32;
+}
+
+.Assignment-box .btn:nth-child(2)::before {
+    background: #fac921;
+}
+
+.Assignment-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#2d2d32;
+    z-index: -1;
+    transition: .7s;
+}
+
+.Assignment-box .btn:hover::before {
+    width: 100%;
+}
+
+
 /*--------------------------------------Blog section-------------------------------------------------*/
 
 section:nth-child(7){
