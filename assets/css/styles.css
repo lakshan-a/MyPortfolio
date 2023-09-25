@@ -268,7 +268,7 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>p{
     width: 100%;
 }
 
-body main section:first-child>div:nth-child(3){
+body main section:first-child>div:nth-child(3)>div:nth-child(1){
     width: 3vw;
     height: 3vw;
     border-radius: 100%;
@@ -294,6 +294,36 @@ body main section:first-child>div:nth-child(3){
     100%{
         width: 40vw;
         height: 40vw;
+        border: solid 4px transparent;
+    }
+}
+
+body main section:first-child>div:nth-child(3)>div:nth-child(2){
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    border: solid 3px #ffffff;
+    position: absolute;
+    right: 3vw;
+    left: 55vw;
+    top: -19vw;
+    bottom: 0;
+    margin: auto;
+    animation: testtwo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes testtwo {
+    0%{
+        width:1vw;
+        height: 1vw;
+        border: solid 4px #ffffff;
+    }
+    100%{
+        width: 35vw;
+        height: 35vw;
         border: solid 4px transparent;
     }
 }
