@@ -86,5 +86,10 @@
         font-size: 5vw;
     }
 
+    .home>div:nth-child(5)>aside>div:first-child>img {
+        top: 16vh;
+        right: 83vw;
+    }
+
 
 }
