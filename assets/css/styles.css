@@ -123,6 +123,17 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h2{
     margin-top: 0vh;
 }
 
+/*body main section:first-child>div:nth-child(5)>aside>div:first-child>h1{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Poppins', roboto;*/
+/*    font-size: 5vw;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    margin-top: -8vh;*/
+
+/*}*/
+
 .wrapper{
     position: absolute;
     top: 4vw;
@@ -131,11 +142,11 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h2{
 }
 
 
-svg {
+.svg-font {
     font-family: "Russo One", sans-serif;
     width: 70%; height: 100%;
 }
-svg text {
+.svg-font text {
     animation: stroke 5s infinite alternate;
     stroke-width: 2;
     stroke: #ffffff;
@@ -164,11 +175,11 @@ svg text {
 
 }
 
-.svg{
+.svg-font2{
     font-family: "Russo One", sans-serif;
     width: 70%; height: 100%;
 }
-.svg text{
+.svg-font2 text{
     animation: strok 5s infinite alternate;
     stroke-width: 2;
     stroke: #fac921;
@@ -187,7 +198,6 @@ svg text {
         stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
     }
 }
-
 
 body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span{
     color: #fac921;
