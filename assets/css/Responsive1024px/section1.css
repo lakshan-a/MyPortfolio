@@ -130,6 +130,19 @@
         width: 104vw;
     }
 
+    footer {
+        width: 86.3vw;
+    }
+
+    .social_icons a {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .social_icons {
+        width: 30vw;
+    }
+
 
 
 

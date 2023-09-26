@@ -1,139 +1,18 @@
 @media all and (max-width: 580px) {
 
-    body footer div>div:nth-child(1)>h1 {
+    footer {
+        width: 68vw;
+    }
+
+    .social_icons a {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .social_icons {
+        width: 50vw;
+    }
+    footer .menu li a {
         font-size: 1em;
-        left: 3vh;
-        top: 7vh;
     }
-
-    body footer div>div:nth-child(1)>p {
-        width: 17vh;
-        font-size: 10px;
-        top: 15vh;
-        left: 2vh;
-    }
-    body footer div>div:nth-child(1)>img {
-        top: 41vh;
-        width: 17%;
-        left: 4vh;
-    }
-    body footer div>div:nth-child(1)>hr {
-        left: 30.7vw;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(1) {
-        top: 18vh;
-        left: 35vw;
-        width: 5%;
-    }
-    body footer div>div:nth-child(2)>div>img:nth-child(2) {
-        top: 25vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(3) {
-        top: 32vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(4) {
-        top: 39vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(5) {
-        top: 46vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(1) {
-        font-size: 15px;
-        top: 18.5vh;
-        left: 45vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(2) {
-        font-size: 15px;
-        top: 25.5vh;
-        left: 45vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(3) {
-        font-size: 15px;
-        top: 32.5vh;
-        left: 45vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(4) {
-        font-size: 15px;
-        top: 39.5vh;
-        left: 45vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(5) {
-        font-size: 15px;
-        top: 46.5vh;
-        left: 45vw;
-    }
-
-    body footer div>div:nth-child(2)>h1 {
-        font-size: 1em;
-        left: 34vw;
-        width: 9vw;
-        top: 7vh;
-    }
-
-    body footer div>div:nth-child(2)>hr {
-        right: 34.5vw;
-    }
-
-    body footer div>div:nth-child(3)>h1 {
-        font-size: 1em;
-        left: 69vw;
-    }
-
-    body footer div>div:nth-child(3)>h2 {
-        font-size: 0.7em;
-        width: 10vh;
-        top: 21vh;
-        margin: auto;
-        left: 75vw;
-    }
-
-    body footer div>div:nth-child(3)>h3 {
-        font-size: 0.8em;
-        width: 6vh;
-        left: 70vw;
-        top: 33vh;
-    }
-
-    body footer div>div:nth-child(3)>h4 {
-        font-size: 0.7em;
-        width: 11vh;
-        left: 76vw;
-        top: 45vh;
-    }
-
-    #linkedInlogo {
-        width: 8%;
-        left: 77.7vw;
-        top: 39vh;
-    }
-
-    #instergramlogo {
-        width: 8%;
-        left: 77.7vw;
-        top: 28vh;
-    }
-
-    #facebooklogo {
-        width: 8%;
-        left: 77.7vw;
-        top: 15vh;
-    }
-
 }
