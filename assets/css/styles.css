@@ -125,7 +125,7 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h2{
 
 .wrapper{
     position: absolute;
-    top: 2vw;
+    top: 4vw;
     width: 31vw;
     left: 0vw;
 }
@@ -158,7 +158,7 @@ svg text {
 
 .wrapp{
     position: absolute;
-    top: 2vw;
+    top: 4vw;
     width: 36vw;
     left: 23vw;
 
