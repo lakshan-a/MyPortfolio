@@ -2165,238 +2165,238 @@ section:nth-child(8)>h1{
     color: white;
 }
 
-.contact-section>ul {
-    position: relative;
-    top: 27vh;
-    right: 10vw;
-    width: 107.1%;
-}
+/*.contact-section>ul {*/
+/*    position: relative;*/
+/*    top: 27vh;*/
+/*    right: 10vw;*/
+/*    width: 107.1%;*/
+/*}*/
 
 
 
 /*--------------------------------------footer-------------------------------------------------*/
 
-body footer>div{
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    box-sizing: border-box;
-    background-color: #2D2D32;
-}
+/*body footer>div{*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 60vh;*/
+/*    padding-left: 5vw;*/
+/*    padding-right: 5vw;*/
+/*    box-sizing: border-box;*/
+/*    background-color: #2D2D32;*/
+/*}*/
 
-body footer div>div:nth-child(1)>h1{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 15vh;
-    top: 7vh;
-}
+/*body footer div>div:nth-child(1)>h1{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 15vh;*/
+/*    top: 7vh;*/
+/*}*/
 
-body footer div>div:nth-child(1)>p{
-    color: #FFF;
-    width: 30vh;
-    font-family: Inter, cursive;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: auto;
-    position: absolute;
-    top: 15vh;
-    left: 15vh;
-}
+/*body footer div>div:nth-child(1)>p{*/
+/*    color: #FFF;*/
+/*    width: 30vh;*/
+/*    font-family: Inter, cursive;*/
+/*    font-size: 12px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*    margin: auto;*/
+/*    position: absolute;*/
+/*    top: 15vh;*/
+/*    left: 15vh;*/
+/*}*/
 
-body footer div>div:nth-child(1)>img{
-    position: absolute;
-    top: 30vh;
-    left: 20vh;
-}
+/*body footer div>div:nth-child(1)>img{*/
+/*    position: absolute;*/
+/*    top: 30vh;*/
+/*    left: 20vh;*/
+/*}*/
 
-body footer div>div:nth-child(1)>hr{
-    position: absolute;
-    width: 0.001vh;
-    height: 45vh;
-    top: 6vh;
-    left: 32.7vw;
-}
+/*body footer div>div:nth-child(1)>hr{*/
+/*    position: absolute;*/
+/*    width: 0.001vh;*/
+/*    height: 45vh;*/
+/*    top: 6vh;*/
+/*    left: 32.7vw;*/
+/*}*/
 
-body footer div>div:nth-child(2)>h1{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 43vw;
-    top: 7vh;
-}
+/*body footer div>div:nth-child(2)>h1{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 43vw;*/
+/*    top: 7vh;*/
+/*}*/
 
-body footer div>div:nth-child(2)>div>img:nth-child(1){
-    position: absolute;
-    top: 15vh;
-    left: 43vw;
-}
-
-
-body footer div>div:nth-child(2)>div>img:nth-child(2){
-    position: absolute;
-    top: 23vh;
-    left: 43vw;
-}
-
-body footer div>div:nth-child(2)>div>img:nth-child(3){
-    position: absolute;
-    top: 31vh;
-    left: 43vw;
-}
-
-body footer div>div:nth-child(2)>div>img:nth-child(4){
-    position: absolute;
-    top: 39vh;
-    left: 43vw;
-}
-
-body footer div>div:nth-child(2)>div>img:nth-child(5){
-    position: absolute;
-    top: 47vh;
-    left: 43vw;
-}
-
-body footer div>div:nth-child(2)>nav>ul>li:nth-child(1){
-    position: absolute;
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    top: 15.5vh;
-    left: 49vw;
-}
-
-body footer div>div:nth-child(2)>nav>ul>li:nth-child(2){
-    position: absolute;
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    top: 23.5vh;
-    left: 49vw;
-}
-
-body footer div>div:nth-child(2)>nav>ul>li:nth-child(3){
-    position: absolute;
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    top: 31.5vh;
-    left: 49vw;
-}
-
-body footer div>div:nth-child(2)>nav>ul>li:nth-child(4){
-    position: absolute;
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    top: 39.5vh;
-    left: 49vw;
-}
-
-body footer div>div:nth-child(2)>nav>ul>li:nth-child(5){
-    position: absolute;
-    color: #494949;
-    font-family: Inter;
-    font-size: 20px;
-    top: 47.5vh;
-    left: 49vw;
-}
-
-body footer div>div:nth-child(2)>hr{
-    position: absolute;
-    width: 0.001vh;
-    height: 45vh;
-    top: 6vh;
-    right: 31.5vw;
-}
-
-body footer div>div:nth-child(3)>h1{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 73vw;
-    top: 7vh;
-}
-
-body footer div>div:nth-child(3)>h2{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1em;
-    width: 23vh;
-    font-style: normal;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 78vw;
-    top: 15vh;
-}
-
-body footer div>div:nth-child(3)>h3{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1em;
-    width: 23vh;
-    font-style: normal;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 78vw;
-    top: 25vh;
-}
-
-body footer div>div:nth-child(3)>h4{
-    color: #ffffff;
-    font-family: 'Catamaran';
-    font-size: 1em;
-    width: 23vh;
-    font-style: normal;
-    line-height: normal;
-    position: absolute;
-    margin: auto;
-    left: 78vw;
-    top: 35vh;
-}
+/*body footer div>div:nth-child(2)>div>img:nth-child(1){*/
+/*    position: absolute;*/
+/*    top: 15vh;*/
+/*    left: 43vw;*/
+/*}*/
 
 
-#facebooklogo{
-    width: 3%;
-    position: absolute;
-    left: 73.7vw;
-    top: 15vh;
-    margin: auto;
-}
+/*body footer div>div:nth-child(2)>div>img:nth-child(2){*/
+/*    position: absolute;*/
+/*    top: 23vh;*/
+/*    left: 43vw;*/
+/*}*/
 
-#instergramlogo{
-    width: 3%;
-    position: absolute;
-    left: 73.7vw;
-    top: 25vh;
-    margin: auto;
-}
+/*body footer div>div:nth-child(2)>div>img:nth-child(3){*/
+/*    position: absolute;*/
+/*    top: 31vh;*/
+/*    left: 43vw;*/
+/*}*/
 
-#linkedInlogo{
-    width: 3%;
-    position: absolute;
-    left: 73.7vw;
-    top: 35vh;
-    margin: auto;
-}
+/*body footer div>div:nth-child(2)>div>img:nth-child(4){*/
+/*    position: absolute;*/
+/*    top: 39vh;*/
+/*    left: 43vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>div>img:nth-child(5){*/
+/*    position: absolute;*/
+/*    top: 47vh;*/
+/*    left: 43vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>nav>ul>li:nth-child(1){*/
+/*    position: absolute;*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    top: 15.5vh;*/
+/*    left: 49vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>nav>ul>li:nth-child(2){*/
+/*    position: absolute;*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    top: 23.5vh;*/
+/*    left: 49vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>nav>ul>li:nth-child(3){*/
+/*    position: absolute;*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    top: 31.5vh;*/
+/*    left: 49vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>nav>ul>li:nth-child(4){*/
+/*    position: absolute;*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    top: 39.5vh;*/
+/*    left: 49vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>nav>ul>li:nth-child(5){*/
+/*    position: absolute;*/
+/*    color: #494949;*/
+/*    font-family: Inter;*/
+/*    font-size: 20px;*/
+/*    top: 47.5vh;*/
+/*    left: 49vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(2)>hr{*/
+/*    position: absolute;*/
+/*    width: 0.001vh;*/
+/*    height: 45vh;*/
+/*    top: 6vh;*/
+/*    right: 31.5vw;*/
+/*}*/
+
+/*body footer div>div:nth-child(3)>h1{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1.5em;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 73vw;*/
+/*    top: 7vh;*/
+/*}*/
+
+/*body footer div>div:nth-child(3)>h2{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1em;*/
+/*    width: 23vh;*/
+/*    font-style: normal;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 78vw;*/
+/*    top: 15vh;*/
+/*}*/
+
+/*body footer div>div:nth-child(3)>h3{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1em;*/
+/*    width: 23vh;*/
+/*    font-style: normal;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 78vw;*/
+/*    top: 25vh;*/
+/*}*/
+
+/*body footer div>div:nth-child(3)>h4{*/
+/*    color: #ffffff;*/
+/*    font-family: 'Catamaran';*/
+/*    font-size: 1em;*/
+/*    width: 23vh;*/
+/*    font-style: normal;*/
+/*    line-height: normal;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 78vw;*/
+/*    top: 35vh;*/
+/*}*/
+
+
+/*#facebooklogo{*/
+/*    width: 3%;*/
+/*    position: absolute;*/
+/*    left: 73.7vw;*/
+/*    top: 15vh;*/
+/*    margin: auto;*/
+/*}*/
+
+/*#instergramlogo{*/
+/*    width: 3%;*/
+/*    position: absolute;*/
+/*    left: 73.7vw;*/
+/*    top: 25vh;*/
+/*    margin: auto;*/
+/*}*/
+
+/*#linkedInlogo{*/
+/*    width: 3%;*/
+/*    position: absolute;*/
+/*    left: 73.7vw;*/
+/*    top: 35vh;*/
+/*    margin: auto;*/
+/*}*/
