@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 laks{
     color: #6fd4e8;
     font-size: 50px;
@@ -121,15 +123,37 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h2{
     margin-top: 0vh;
 }
 
-body main section:first-child>div:nth-child(5)>aside>div:first-child>h1{
-    color: #ffffff;
-    font-family: 'Poppins', roboto;
-    font-size: 5vw;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: -8vh;
+.wrapper{
+    position: absolute;
+    top: 2vw;
+    width: 31vw;
+    left: 0vw;
+}
 
+
+svg {
+    font-family: "Russo One", sans-serif;
+    width: 70%; height: 100%;
+}
+svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #ffffff;
+    font-size: 5vw;
+}
+
+
+@keyframes stroke {
+    0%   {
+        fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255);
+        stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255); }
+    80%  {fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+    100% {
+        fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0);
+        stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
 }
 
 body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span{
@@ -152,7 +176,7 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span{
 
 body main section:first-child>div:nth-child(5)>aside>div:first-child>p{
     color: #ffffff;
-    margin-top: 7vh;
+    margin-top: 22vh;
     margin-left: 4vh;
     font-family:'Poppins', roboto;
     font-size: 1.2vw;
@@ -310,7 +334,7 @@ body main section:first-child>div:nth-child(3)>div:nth-child(2){
     bottom: 0;
     margin: auto;
     animation: testtwo;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
