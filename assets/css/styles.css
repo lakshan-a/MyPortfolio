@@ -346,13 +346,13 @@ body main section:first-child>div:nth-child(3)>div:nth-child(1){
     top: -19vw;
     bottom: 0;
     margin: auto;
-    animation: testOne;
+    animation: test1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
 
-@keyframes testOne {
+@keyframes test1 {
     0%{
         width:3vw;
         height: 3vw;
@@ -376,13 +376,13 @@ body main section:first-child>div:nth-child(3)>div:nth-child(2){
     top: -19vw;
     bottom: 0;
     margin: auto;
-    animation: testtwo;
+    animation: test2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
 
-@keyframes testtwo {
+@keyframes test2 {
     0%{
         width:1vw;
         height: 1vw;
@@ -391,6 +391,36 @@ body main section:first-child>div:nth-child(3)>div:nth-child(2){
     100%{
         width: 35vw;
         height: 35vw;
+        border: solid 4px transparent;
+    }
+}
+
+body main section:first-child>div:nth-child(3)>div:nth-child(3){
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    border: solid 3px #fac921;
+    position: absolute;
+    right: 3vw;
+    left: 55vw;
+    top: -19vw;
+    bottom: 0;
+    margin: auto;
+    animation: test3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes test3 {
+    0%{
+        width:1vw;
+        height: 1vw;
+        border: solid 4px #fac921;
+    }
+    100%{
+        width: 30vw;
+        height: 30vw;
         border: solid 4px transparent;
     }
 }
