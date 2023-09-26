@@ -36,6 +36,7 @@
 
     body main section:first-child>div:nth-child(5)>aside>div:first-child>h2 {
         font-size: 9vw;
+        margin-left: -2vw;
     }
 
     body main section:first-child>div:nth-child(5)>aside>div:first-child>h1 {
@@ -52,6 +53,7 @@
     body main section:first-child>div:nth-child(5)>aside>div:first-child>p:last-child {
         width: 48vh;
         font-size: 4vw;
+        margin-top: 20vw;
     }
 
     .home>div:nth-child(4)>aside>div:first-child>img {
@@ -89,6 +91,29 @@
     .home>div:nth-child(5)>aside>div:first-child>img {
         top: 16vh;
         right: 83vw;
+    }
+
+    .wrapper {
+        top: -5vw;
+        left: -2vw;
+    }
+    .svg-font text {
+        font-size: 10vw;
+    }
+    .svg-font2 text {
+        font-size: 10vw;
+    }
+    .svg-font2 {
+        width: 49vw;
+    }
+
+    .wrapp {
+        top: -5vw;
+        left: 44vw;
+    }
+
+    .svg-font {
+        width: 44vw;
     }
 
 
