@@ -1,138 +1,19 @@
-@media all and (max-width: 425px) {
+@media all and (min-width: 321px) and (max-width: 425px){
 
-    body footer div>div:nth-child(1)>h1 {
+    footer {
+        width: 68vw;
+    }
+
+    .social_icons a {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .social_icons {
+        width: 50vw;
+    }
+    footer .menu li a {
         font-size: 1em;
-        left: 4vh;
-        top: 11vh;
-    }
-
-    body footer div>div:nth-child(1)>p {
-        width: 18vh;
-        font-size: 10px;
-        top: 20vh;
-        left: 4vh;
-    }
-    body footer div>div:nth-child(1)>img {
-        top: 41vh;
-        width: 17%;
-        left: 6vh;
-    }
-    body footer div>div:nth-child(1)>hr {
-        left: 30.7vw;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(1) {
-        top: 18vh;
-        left: 35vw;
-        width: 5%;
-    }
-    body footer div>div:nth-child(2)>div>img:nth-child(2) {
-        top: 25vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(3) {
-        top: 32vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(4) {
-        top: 39vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>div>img:nth-child(5) {
-        top: 46vh;
-        left: 35vw;
-        width: 5%;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(1) {
-        font-size: 15px;
-        top: 18.5vh;
-        left: 46vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(2) {
-        font-size: 15px;
-        top: 25.5vh;
-        left: 46vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(3) {
-        font-size: 15px;
-        top: 32.5vh;
-        left: 46vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(4) {
-        font-size: 15px;
-        top: 39.5vh;
-        left: 46vw;
-    }
-
-    body footer div>div:nth-child(2)>nav>ul>li:nth-child(5) {
-        font-size: 15px;
-        top: 46.5vh;
-        left: 46vw;
-    }
-
-    body footer div>div:nth-child(2)>h1 {
-        font-size: 1em;
-        left: 35vw;
-        width: 9vw;
-        top: 7vh;
-    }
-
-    body footer div>div:nth-child(2)>hr {
-        right: 34.5vw;
-    }
-
-    body footer div>div:nth-child(3)>h1 {
-        font-size: 1em;
-        left: 74vw;
-    }
-
-    body footer div>div:nth-child(3)>h2 {
-        font-size: 0.7em;
-        width: 19vh;
-        top: 20vh;
-        margin: auto;
-        left: 72vw;
-    }
-
-    body footer div>div:nth-child(3)>h3 {
-        font-size: 0.8em;
-        width: 15vh;
-        left: 74vw;
-        top: 31vh;
-    }
-
-    body footer div>div:nth-child(3)>h4 {
-        font-size: 0.7em;
-        width: 19vh;
-        left: 72vw;
-        top: 44vh;
-    }
-
-    #linkedInlogo {
-        width: 6%;
-        left: 79.7vw;
-        top: 38vh;
-    }
-
-    #instergramlogo {
-        width: 6%;
-        left: 79.7vw;
-    }
-
-    #facebooklogo {
-        width: 6%;
-        left: 79.7vw;
-        top: 15vh;
     }
 
 }

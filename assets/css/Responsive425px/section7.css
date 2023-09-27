@@ -1,7 +1,7 @@
-@media all and (max-width: 425px) {
+@media all and (min-width: 321px) and (max-width: 425px){
 
     section:nth-child(7) {
-        height: 83vh;
+        height: 65vh;
     }
 
     section:nth-child(7)>h5 {
@@ -34,18 +34,18 @@
 
     #section7Img2 {
         width: 25%;
-        top: 52vh;
+        top: 44vh;
         left: 10.8vw;
     }
 
     #section7Img4 {
         width: 25%;
-        top: 52vh;
+        top: 44vh;
     }
 
     #section7Img6 {
         width: 25%;
-        top: 69vh;
+        top: 56vh;
     }
 
 

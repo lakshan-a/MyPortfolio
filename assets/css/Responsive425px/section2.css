@@ -1,58 +1,116 @@
-@media all and (max-width: 425px) {
+@media all and (min-width: 321px) and (max-width: 425px) {
 
     section:nth-child(2) {
-        position: relative;
-        height: 105vh;
-        width: 71vw;
-        padding-left: 14vw;
-        padding-right: 14vw;
-        right: 9vw;
+        height: 595vw;
     }
 
-    #section4MyImage2 {
-        width: 45.5%;
-        left: 38vw;
-        top: 5vh;
-    }
-
-    section:nth-child(2)>div {
-        height: 26vh;
-        width: 35vw;
-        top: 81vw;
-        right: 26vw;
-    }
-
-    section:nth-child(2)>div>h5 {
-        width: 23vw;
-        bottom: 9vh;
-        position: relative;
+    section:nth-child(2)>h5 {
+        width: 25vw;
         font-size: 4.5vw;
-        left: 13vw;
+        top: 3vw;
     }
 
-    section:nth-child(2)>div>h1 {
-        top: -6vh;
-        text-align: center;
-        width: 44vw;
+
+    section:nth-child(2)>h1 {
+        width: 70vw;
         font-size: 5vw;
+        top: 7vw;
     }
 
-    section:nth-child(2)>div>h3 {
-        width: 63vw;
+    section:nth-child(2)>p {
+        width: 72vw;
         text-align: center;
         font-size: 3vw;
-        top: 4vh;
-        left: -9vw;
+        top: 12vw;
     }
-    section:nth-child(2)>div>img:first-child {
-        top: 25vh;
-        width: 67%;
+
+    .content-inner {
+        width: 70vw;
+        height: 85vw;
     }
-    section:nth-child(2)>div>img:nth-child(2) {
-        top: 25vh;
-        width: 106%;
+
+    .content-inner .cf-inner {
+        width: 80%;
+        padding: 21vw 18vw;
+    }
+
+    .content-front .cf-inner:before {
+        top: -2vw;
+        left: 3vw;
+    }
+
+    .serv-num {
+        bottom: -2vw;
+        left: 2vw;
+    }
+
+    .content-front .cf-inner:after {
+        bottom: -2vw;
+        right: 3vw;
+    }
+
+    .content-inner .cf-inner .inner h2 {
+        width: 30vw;
     }
 
 
+    .dec-icon {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .content-inner .cf-inner .inner p {
+        font-size: 3.6vw;
+    }
+
+    .content-back:after {
+        left: 56%;
+    }
+
+    .col-md-1 {
+        position: absolute;
+        top: 30vw;
+        left: 15vw;
+    }
+
+    .col-md-2 {
+        position: absolute;
+        top: 125vw;
+        left: 15vw;
+    }
+
+    .col-md-3 {
+        position: absolute;
+        top: 220vw;
+        right: 13vw;
+    }
+
+    .col-md-4 {
+        position: absolute;
+        top: 315vw;
+        left: 15vw;
+    }
+
+    .col-md-5 {
+        position: absolute;
+        top: 410vw;
+        left: 15vw;
+    }
+
+    .col-md-6 {
+        tposition: absolute;
+        top: 506vw;
+        right: 13vw;
+    }
+
+    .content-front .cf-inner:before, .content-front .cf-inner:after {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    section:nth-child(2)>div>div>div:nth-child(1)>div>div:nth-child(1) {
+        top: -12.5vw;
+        height: 139%;
+    }
 
 }

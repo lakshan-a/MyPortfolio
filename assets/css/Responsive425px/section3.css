@@ -1,137 +1,67 @@
-@media all and (max-width: 425px) {
+@media all and (min-width: 321px) and (max-width: 425px) {
 
     section:nth-child(3) {
-        height: 335vh;
-        right: 12vw;
-
+        position: relative;
+        height: 100vh;
+        width: 71vw;
+        padding-left: 14vw;
+        padding-right: 14vw;
+        right: 9vw;
     }
 
-    section:nth-child(3) > h5 {
-        font-size: 4.5vw;
-        width: 25vw;
-        left: 22vw;
-    }
-    section:nth-child(3)>h1 {
-        width: 70vw;
-        font-size: 5vw;
-        top: 8.5vw;
-        left: 25vw;
-    }
-
-    section:nth-child(3)>p {
-        width: 80vw;
-        font-size: 3vw;
-        text-align: center;
-        top: 14vw;
-        left: 22vw;
+    #section4MyImage2 {
+        width: 45.5%;
+        left: 38vw;
+        top: 5vh;
     }
 
     section:nth-child(3)>div {
-        width: 80vw;
-        height: 45vh;
+        height: 26vh;
+        width: 35vw;
+        top: 85vw;
+        right: 26vw;
     }
 
-    #box1 {
-        top: 27vh;
-        left: 22vw;
-    }
-
-    #box2 {
-        top: 76vh;
-        right: 0;
-        left: 22vw;
-    }
-
-    #box3 {
-        top: 125vh;
-        right: -4vw;
-    }
-
-    #box4 {
-        top: 175vh;
-        left: 22vw;
-    }
-
-    #box5 {
-        top: 225vh;
-        right: -26vw;
-    }
-
-    #box6 {
-        top: 275vh;
-        right: -4vw;
-    }
-
-    section:nth-child(3)>div>h4 {
+    section:nth-child(3)>div>h5 {
+        width: 23vw;
+        bottom: 9vh;
+        position: relative;
         font-size: 4.5vw;
-        top: 21vh;
+        left: 13vw;
+    }
+
+    section:nth-child(3)>div>h1 {
+        top: -6vh;
+        text-align: center;
+        width: 44vw;
+        font-size: 5vw;
     }
 
     section:nth-child(3)>div>h3 {
-        width: 40vw;
-        font-size: 3.2vw;
-        top: 30vh;
+        width: 63vw;
+        text-align: center;
+        font-size: 3.3vw;
+        top: 2vh;
+        left: -9vw;
+    }
+    section:nth-child(3)>div>img:first-child {
+        top: 23vh;
+        width: 116%;
+        left: -3vw;
+    }
+    section:nth-child(3)>div>img:nth-child(2) {
+        top: 31vh;
+        left: -3vw;
+        width: 171%;
     }
 
-    #box1>img {
-        width: 25%;
+    .about-btn-box .btn {
+        top: 41vh;
+        left: 5vw;
+        width: 31vw;
+        height: 25%;
+        font-size: 3.3vw;
     }
 
-    #box2>img {
-        width: 32%;
-    }
-
-    #box3>img {
-        width: 25%;
-    }
-
-    #box4>img {
-        width: 25%;
-    }
-
-    #box5>img {
-        width: 25%;
-    }
-
-    #box6>img {
-        width: 25%;
-    }
-
-    #box1>h4{
-        position: relative;
-        left: 0vw;
-        width: 24vw;
-    }
-
-    #box2>h4{
-        position: relative;
-        left: 3vw;
-        top: 24vh;
-        width: 48vw;
-    }
-
-    #box3>h4{
-        position: relative;
-        left: 2vw;
-        width: 38vw;
-    }
-
-    #box4>h4{
-        position: relative;
-        left: 2vw;
-        width: 33vw;
-    }
-
-    #box5>h4{
-        position: relative;
-        left: 2vw;
-        width: 36vw;
-    }
-
-    #box6>h4{
-        position: relative;
-        left: 0vw;
-        width: 24vw;
-    }
 
 }

@@ -1,120 +1,120 @@
-@media all and (max-width: 425px) and (min-width:320px){
+@media all and (min-width: 321px) and (max-width: 425px){
+
+    header{
+        display: none;
+    }
 
     body main section:first-child>div:nth-child(3){
         display: none;
     }
 
-    body main section:first-child>div:nth-child(4)>img {
-        /*width: 45%;*/
-        top: 42vw;
-        left: 37vw;
+    section:nth-child(1) {
+        height: 106vh;
     }
 
-    body main section:first-child>div:nth-child(5)>aside>div:first-child p:first-child {
-        bottom: 31vh;
-        /*font-size: 23px;*/
-        right: 5vw;
+    body main section:first-child>div:nth-child(2)>img {
+        left: 0vw;
+        top: -8vh;
+        height: 115vh;
+        width: 100%;
+        position: relative;
+    }
+
+    body main section:first-child>div:nth-child(4)>img {
+        width: 55%;
+        top: 80vw;
+        left: 21vw;
+
+    }
+
+
+    body main section:first-child>div:nth-child(5)>aside {
+        top: -5vh;
+        left: 5.5vw;
+        width: 90vw;
+    }
+
+    body main section:first-child>div:nth-child(5)>aside>div:first-child>h2 {
+        font-size: 9vw;
+        margin-left: -2vw;
     }
 
     body main section:first-child>div:nth-child(5)>aside>div:first-child>h1 {
-        bottom: 33vh;
-        font-size: 38px;
-        right: 5vw;
+        position: relative;
+        bottom: -6vw;
+        font-size: 9vw;
+        right: 0vw;
     }
 
-    .home>div:nth-child(5)>aside>div:first-child>img {
-        /*width: 9%;*/
-        /*position: absolute;*/
-        top: -10vh;
-        right: 76vw;
-    }
-
-    body main section:first-child>div:nth-child(5)>aside {
-        top: 124px;
-        left: 10.5vw;
-    }
     body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span {
-        font-size: 38px;
-    }
-
-    body main section:first-child>div:nth-child(5)>aside>div:first-child>div {
-        /*width: 35vw;*/
-        /*height: 1vh;*/
-        /*box-shadow: #ffffff 0px 1px 3px;*/
-        /*position: absolute;*/
-        top: -12vh;
-        left: -3.7vw;
-        /*margin: auto;*/
+        font-size: 30px;
     }
 
     body main section:first-child>div:nth-child(5)>aside>div:first-child>p:last-child {
-        bottom: 35vh;
-        /*position: relative;*/
-        width: 54vh;
-        right: 6vw;
-        font-size: 14px;
+        width: 48vh;
+        font-size: 4vw;
+        margin-top: 20vw;
     }
 
-    body main section:first-child>div:nth-child(5)>aside>div:last-child>h6 {
-        /*border-radius: 8px;*/
-        /*box-shadow: #fac921 0px 0px 0px;*/
-        /*position: absolute;*/
-        top: 7vh;
-        left: -3.5vw;
-        width: 9vw;
-        /*height: 2vh;*/
-        /*font-size: 8px;*/
-        /*margin: auto;*/
+    .home>div:nth-child(4)>aside>div:first-child>img {
+        width: 9%;
+        top: 15vh;
+        right: 83vw;
+
     }
 
-    #linkedIn {
-        width: 4%;
-        top: 30.5vh;
-        left: 36vw;
+    .btn-box {
+        width: 25vw;
+        height: 16vw;
+        top: 0vh;
+
     }
 
-    #instergram {
-        top: 30.7vh;
-        width: 4%;
-        left: 41vw;
+    .btn-box .btn {
+        width: 24vw;
+        height: 61%;
+        font-size: 3.3vw;
     }
 
-    #facebook {
-        top: 30.5vh;
-        width: 4%;
-        left: 45vw;
+    .home-sci {
+        bottom: 0vw;
+        left: 0.5vw;
+        width: 40vw;
     }
 
-    #discord {
-        top: 30.7vh;
-        width: 4%;
-        left: 49vw;
+    .home-sci a {
+        width: 10vw;
+        height: 10vw;
+        font-size: 5vw;
     }
 
-    body main section:first-child>div:nth-child(5)>img {
-        top: 79vw;
-        /*width: 6%;*/
-        right: 59vw;
+    .home>div:nth-child(5)>aside>div:first-child>img {
+        top: 16vh;
+        right: 83vw;
     }
 
-    body main section:first-child>div:nth-child(6)>img {
-        top: 42vw;
-        /*width: 6%;*/
-        right: 24vw;
+    .wrapper {
+        top: 0vw;
+        left: -2vw;
+    }
+    .svg-font text {
+        font-size: 10vw;
+    }
+    .svg-font2 text {
+        font-size: 10vw;
+    }
+    .svg-font2 {
+        width: 49vw;
     }
 
-    body main section:first-child>div:nth-child(7)>img {
-        top: 47vw;
-        /*width: 6%;*/
-        right: 58vw;
+    .wrapp {
+        top: 0vw;
+        left: 44vw;
     }
 
-    body main section:first-child>div:nth-child(8)>img {
-        top: 79vw;
-        /*width: 5%;*/
-        right: 21vw;
+    .svg-font {
+        width: 44vw;
     }
-
 
 
 }

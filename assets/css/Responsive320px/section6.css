@@ -1,4 +1,4 @@
-@media all and (max-width: 580px){
+@media all and (max-width: 320px){
 
 
     section:nth-child(6) > div:nth-child(2) > h1 {
@@ -65,6 +65,19 @@
         top: 40vh;
         left: 19vw;
         font-size: 22px;
+    }
+
+    .Assignment-box {
+        width: 26vw;
+        height: 10vw;
+        top: 40vh;
+        left: 22.5vw;
+    }
+
+    .Assignment-box .btn {
+        width: 24vw;
+        height: 92%;
+        font-size: 3vw;
     }
 
 

@@ -1,5 +1,4 @@
-@media all and (max-width: 425px) {
-
+@media all and (min-width: 321px) and (max-width: 425px) {
 
     section:nth-child(6) > div:nth-child(2) > h1 {
         width: 15vw;
@@ -42,7 +41,7 @@
     section:nth-child(6)>div:nth-child(2)>h4 {
         width: 22vw;
         font-size: 2vw;
-        bottom: 53vh;
+        bottom: 40vh;
         left: 38vw;
         box-shadow: #FAC921 0px 4px 9px;
     }
@@ -57,7 +56,27 @@
     }
 
     section:nth-child(6) {
-        width: 72vw;
+        width: 71.5vw;
+        height: 85vh;
+    }
+
+    section:nth-child(6)>div:nth-child(2)>a {
+        top: 40vh;
+        left: 19vw;
+        font-size: 22px;
+    }
+
+    .Assignment-box {
+        width: 26vw;
+        height: 10vw;
+        top: 40vh;
+        left: 22.5vw;
+    }
+
+    .Assignment-box .btn {
+        width: 24vw;
+        height: 92%;
+        font-size: 3vw;
     }
 
 

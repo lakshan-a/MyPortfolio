@@ -1,4 +1,5 @@
-@media all and (min-width: 321px) and (max-width: 425px){
+@media all and (max-width: 320px) {
+
 
     section:nth-child(5) {
         height: 11vh;
@@ -28,4 +29,4 @@
 
 
 
-}
+    }
