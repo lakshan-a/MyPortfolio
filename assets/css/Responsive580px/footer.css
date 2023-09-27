@@ -1,18 +1,18 @@
 @media all and (max-width: 580px) {
 
-    footer {
-        width: 76vw;
-    }
-
     .social_icons a {
         width: 7vw;
         height: 7vw;
+        font-size: 5vw;
     }
 
     .social_icons {
-        width: 50vw;
+        width: 56vw;
     }
     footer .menu li a {
         font-size: 1em;
+    }
+    footer p {
+        font-size: 4.5vw;
     }
 }

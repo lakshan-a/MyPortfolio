@@ -2180,10 +2180,10 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 92vw;
+    width: 100%;
     background: #2d2d32;
-    min-height: 100px;
-    padding: 20px 50px;
+    min-height: 11vw;
+    /* padding: 0vw 3vw; */
     align-items: center;
 }
 
@@ -2206,7 +2206,7 @@ footer {
     background: transparent;
     border: .2rem solid #fac921;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2vw;
     color: #ffffff;
     z-index: 1;
     overflow: hidden;
