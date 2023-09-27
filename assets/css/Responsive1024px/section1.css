@@ -2,19 +2,27 @@
 /*@media all and (max-width: 1024px) {*/
 
     header nav>div>menu {
-        left: 8vw;
+        left: -3vw;
+        font-size: 1.5vw;
+        width: 57vw;
     }
 
     body main section:first-child>div:nth-child(3){
         display: none;
     }
 
+    .wrapper {
+        top: -3vw;
+    }
+    .wrapp {
+        top: -3vw;
+    }
     .home>div:nth-child(5)>aside>div:first-child>img {
         top: 14vh;
     }
 
     body main section:first-child>div:nth-child(5)>aside>div:first-child>p {
-        margin-top: 5vh;
+        margin-top: 11vh;
     }
 
     .home-sci {
@@ -101,22 +109,23 @@
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>h4 {
-        left: 82vw;
+        left: 74vw;
         width: 9vw;
-        bottom: 38vh;
+        bottom: 29vh;
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a {
-        left: 73vw;
-        bottom: 38.5vh;
+        left: 71vw;
+        bottom: 31.5vh;
     }
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a {
-        left: 57vw;
-        bottom: 19.3vh;
+        left: 52vw;
+        bottom: 15.3vh;
     }
     .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>h4 {
-        bottom: 19vh;
+        bottom: 13vh;
+
     }
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i {
@@ -126,12 +135,14 @@
     .contact-section>div>aside {
         margin-top: 24vw;
     }
-    .contact-section>ul {
-        width: 104vw;
+
+    .contact-section aside>form>fieldset {
+        left: 53vh;
+        top: 40vh;
     }
 
     footer {
-        width: 86.3vw;
+        width: 100%;
     }
 
     .social_icons a {
@@ -142,6 +153,8 @@
     .social_icons {
         width: 30vw;
     }
+
+
 
 
 
