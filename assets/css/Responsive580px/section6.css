@@ -68,10 +68,10 @@
     }
 
     .Assignment-box {
-        width: 26vw;
         height: 10vw;
         top: 40vh;
         left: 22.5vw;
+        width:28vw ;
     }
 
     .Assignment-box .btn {
