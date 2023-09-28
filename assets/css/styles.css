@@ -208,8 +208,6 @@ body main section:first-child>div:nth-child(5)>aside>div:first-child>h1>span{
     line-height: normal;
 }
 
-
-
 .home>div:nth-child(5)>aside>div:first-child>img{
     width: 8%;
     position: absolute;
@@ -2193,7 +2191,7 @@ footer {
     justify-content: space-between;
 }
 
-.social_icons a {
+.social_icons>a {
     text-decoration: none;
     font-size: 1rem;
     margin-right: 1rem;
@@ -2214,12 +2212,12 @@ footer {
     text-decoration: none;
 }
 
-.social_icons a:hover {
+.social_icons>a:hover {
     color: #342E4AFF;
     transform: scale(1.15) translateY(-10px);
 }
 
-.social_icons a::before {
+.social_icons>a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -2231,11 +2229,11 @@ footer {
     transition: .5s;
 }
 
-.social_icons a:hover::before {
+.social_icons>a:hover::before {
     width: 100%;
 }
 
-footer .menu {
+footer>ul {
     position: relative;
     display: flex;
     justify-content: center;
@@ -2245,7 +2243,7 @@ footer .menu {
     list-style: none;
 }
 
-footer .menu li a {
+footer>ul>li>a {
     font-family: 'Poppins', roboto;
     text-decoration: none;
     font-size: 1.5em;
@@ -2260,7 +2258,7 @@ footer .menu li a:hover {
     color: #fac921;
 }
 
-footer p {
+footer>p {
     font-family: 'Poppins', roboto;
     color:#ffffff;
     text-align: center;
@@ -2270,7 +2268,7 @@ footer p {
     letter-spacing: 2px;
 }
 
-footer .wave {
+.wave {
     position: absolute;
     top: -80px;
     left: 0;
@@ -2280,28 +2278,28 @@ footer .wave {
     background-size: 1000px 100px;
 }
 
-footer .wave#wave1 {
+#wave1 {
     z-index: 1000;
     /* opacity: 1; */
     bottom: 0;
     animation: animateWave 5s linear infinite;
 }
 
-footer .wave#wave2 {
+#wave2 {
     z-index: 999;
     opacity: .8;
     bottom: 0;
     animation: animateWave2 4s linear infinite;
 }
 
-footer .wave#wave3 {
+#wave3 {
     z-index: 1000;
     opacity: .2;
     bottom: 15px;
     animation: animateWave 3s linear infinite;
 }
 
-footer .wave#wave4 {
+#wave4 {
     z-index: 999;
     opacity: .7;
     bottom: 20px;
