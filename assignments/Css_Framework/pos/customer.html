@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+
+<header class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">POS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placeOrder.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="container-fluid p-0 position-relative bg-danger">
+    <div class="row">
+
+<!--        <div class="col">-->
+<!--            <div style="height: 100px"></div>-->
+<!--        </div>-->
+
+    </div>
+
+    <div class="row position-absolute container-fluid">
+
+        <div class="col-1"></div>
+
+        <div class="col-4">
+
+            <div>
+
+                <form>
+
+                    <h2 style="color: black" class="text-center m-4">Customer Registration</h2>
+
+                    <div class="col  mt-5">
+                        <!--Form--> <!--Slider-->
+                        <div>
+                            <div class="mb-3">
+                                <label for="txtID" class="form-label">Customer ID</label>
+                                <input type="text" class="form-control" id="txtID" placeholder="Customer ID">
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtName" class="form-label">Customer Name</label>
+                                <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtAddress" class="form-label">Customer Address</label>
+                                <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtTP" class="form-label">Customer TP</label>
+                                <input type="text" class="form-control" id="txtTP" placeholder="Customer TP">
+                            </div>
+                            <button type="button" class="btn btn-primary">Save Customer</button>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
+                        <button class="btn btn-primary me-md-2" type="button">Save</button>
+                        <button class="btn btn-primary" type="button">Update</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class=" mt-5 col-12 col-sm-6 col-md-5 col-lg-6 col-xl-5  col-xxl-5 ">
+
+            <div>
+
+                <h2 style="color: black" class="text-center m-3">Customer Details</h2>
+
+                <table class="table  mt-5 col-10 col-sm-5 col-md-4 col-lg-5 col-xl-4  col-xxl-4">
+                    <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">C001</th>
+                        <td>Lakshan</td>
+                        <td>Matara</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">C002</th>
+                        <td>Navishka</td>
+                        <td>Matara</td>
+                        <td>25000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">C003</th>
+                        <td>Kalshan</td>
+                        <td>colombo</td>
+                        <td>30000</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+        </div>
+
+        <div class="col-1"></div>
+
+    </div>
+
+</section>
+
+
+
+</body>
+
+</html>
