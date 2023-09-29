@@ -10,33 +10,37 @@
 
 <body>
 
-<header class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark  " style="height: 70px">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">SuperMarket</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li>
+                    <a class="nav-link text-white" href="home.html">Home</a>
+                </li>
+                <li>
+                <li>
+                    <a class="nav-link text-white" href="Item.html">Item</a>
+                </li>
+                <li>
+                    <a class="nav-link text-white" href="customer.html">Customer</a>
+                </li>
+                <li>
+                    <a class="nav-link text-white" href="placeOrder.html">Order</a>
+                </li>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">POS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="customer.html">Customer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="item.html">Item</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="placeOrder.html">Order</a>
-                    </li>
-                </ul>
-            </div>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
-    </nav>
-</header>
+    </div>
+</nav>
 
 <section class="container-fluid p-0 position-relative bg-danger">
     <div class="row">
@@ -47,7 +51,7 @@
 
         <div class="col-1"></div>
 
-        <div class="mt-1 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5 ">
+        <div class="mt-0 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5 ">
 
             <div>
 
@@ -55,27 +59,27 @@
 
                     <h2 style="color: black" class="text-center m-4">Customer Registration</h2>
 
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="id" class="form-label" style="color: black">Customer ID :</label>
                         <input type="id" class="form-control" id="id">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="name" class="form-label" style="color: black">Customer Name :</label>
                         <input type="name" class="form-control" id="name">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="tel" class="form-label" style="color: black">Customer Address :</label>
                         <input type="tel" class="form-control" id="tel">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="address" class="form-label" style="color: black">Customer Salary : </label>
                         <input type="address" class="form-control" id="address">
                     </div>
 
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
                         <button class="btn btn-primary me-md-2" type="button">Save</button>
                         <button class="btn btn-primary" type="button">Update</button>
                         <button class="btn btn-primary" type="button">Delete</button>
