@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Order</title>
+    <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-</head>
 
+
+</head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark  " style="height: 70px">
@@ -22,11 +22,10 @@
                     <a class="nav-link text-white" href="home.html">Home</a>
                 </li>
                 <li>
-                <li>
-                    <a class="nav-link text-white" href="Item.html">Item</a>
+                    <a class="nav-link text-white" href="customer.html">Customer</a>
                 </li>
                 <li>
-                    <a class="nav-link text-white" href="customer.html">Customer</a>
+                    <a class="nav-link text-white" href="Item.html">Item</a>
                 </li>
                 <li>
                     <a class="nav-link text-white" href="placeOrder.html">Order</a>
@@ -36,12 +35,220 @@
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
         </div>
     </div>
 </nav>
 
-</body>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 text-black  ">
+            <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Order ID :</label>
+                            <input class="form-control" id="orderId" type="text">
+                        </div>
+                    </div>
+
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Date:</label>
+                            <input type="date"
+                                   class="form-control bg-white border-black text-dark focus-ring-dark "
+                                   id="InputDate">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-2 ">
+                        <label>Customer :</label>
+                        <select class="form-select" id="Customer" required>
+                            <option selected disabled value="">C001</option>
+                            <option>C001</option>
+                            <option>C002</option>
+                            <option>C003</option>
+                        </select>
+                    </div>
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Customer ID :</label>
+                            <input class="form-control" id="orderCustomerID" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Name :</label>
+                            <input class="form-control" id="orderCustomerName" type="text">
+                        </div>
+                    </div>
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Salary :</label>
+                            <input class="form-control" id="orderCustomerSalary" type="text">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="form-group">
+                            <label>Address :</label>
+                            <input class="form-control" id="orderCustomerAddress" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Slider-->
+        <div class="container-fluid col-lg-4 text-black ">
+            <h5 style="color: black" class="text-center m-3 mt-5">Item Select</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6 mt-2 ">
+                        <label>Item :</label>
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">P001</option>
+                            <option>P001</option>
+                            <option>P002</option>
+                            <option>P003</option>
+                        </select>
+                    </div>
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Item Code :</label>
+                            <input class="form-control" id="ItemCode" type="text">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <div class="form-group">
+                            <label>Item Name :</label>
+                            <input class="form-control" id="ItemName" type="text">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-2">
+                        <div class="form-group">
+                            <label>Price :</label>
+                            <input class="form-control" id="Price" type="text">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-2">
+                        <div class="form-group">
+                            <label>Qty :</label>
+                            <input class="form-control" id="Qty" type="text">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="form-group">
+                            <label>Order Quantity :</label>
+                            <input class="form-control" id="orderQtyy" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                <button class="btn btn-outline-danger" type="button">Add Item</button>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid col-lg-4  mt-4 m-11">
+            <div class="card">
+                <div class="card-header bg-dark text-white font-weight-bolder">Bill</div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-6 mt-2">
+                                <div class="form-group">
+                                    <label>Cash</label>
+                                    <input class="form-control" id="txtCash" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 mt-2">
+                                <div class="form-group">
+                                    <label>Discount</label>
+                                    <input class="form-control" id="txtDiscount" min="0" type="number">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Balance :</label>
+                                    <input class="form-control" id="txtOrderID" type="text">
+                                    <span class="control-error"
+                                          id="orderId-invalid-error"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-6 mt-4">
+                                    <span id="lblTotal" style="color: blue">Total</span>
+                                </div>
+                                <div class="col-5 mt-4">
+                                    <span id="lblSubTotal" style="color: red">Sub Total</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 mt-2">
+                                    <span id="txtTotal"></span> Rs/=
+                                </div>
+                                <div class="col-5 mt-2">
+                                    <span id="txtSubTotal"></span> Rs/=
+                                </div>
+                            </div>
+                            <div class="col-4 mt-4">
+                                <button class="btn btn-outline-danger" id="btnPurchase" type="button">Purchase</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<table class="table table-bordered table-hover mt-3 ">
+    <thead>
+    <tr>
+        <th class="bg-dark text-white">Item Code</th>
+        <th class="bg-dark text-white">Item Name</th>
+        <th class="bg-dark text-white">Price</th>
+        <th class="bg-dark text-white">Qty</th>
+        <th class="bg-dark text-white">Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>P001</td>
+        <td>Rice</td>
+        <td>200.00</td>
+        <td>1</td>
+        <td>200.00</td>
+    </tr>
+    <tr>
+        <td>P002</td>
+        <td>Milo</td>
+        <td>150.00</td>
+        <td>2</td>
+        <td>300.00</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
 </html>
