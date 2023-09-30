@@ -1,0 +1,141 @@
+@media all and (max-width: 580px) {
+
+    main h1 {
+        font-size: 40px;
+    }
+
+
+    section:nth-child(2) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 14vh;
+    }
+
+    section:nth-child(3) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(4) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(5) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(6) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(7) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(9) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(10) {
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(11){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(12){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(14){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(15){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(16){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(17){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    section:nth-child(19){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
+    main section>aside>img {
+        width: 40vw;
+        top: 10vh;
+        left: 20vw;
+    }
+
+    main section aside:nth-child(1)>h3 {
+        margin-left: 21vw;
+        margin-top: 1vh;
+
+    }
+
+    main section div:nth-child(2) h4 {
+        margin-top: 1vh;
+        font-size: 4.7vw;
+    }
+
+    main section div:nth-child(2) p:nth-child(2) {
+        font-size: 15px;
+        margin-left: 6vw;
+    }
+
+    main section div:nth-child(2) a {
+        margin-left: 32vw;
+    }
+
+
+
+}
