@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+
+            background: #9cbfbc;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg bg-dark   ">
+
+        <div class="container-fluid  border-0" >
+            <a class="navbar-brand" href="#">
+                <h4 style="color:white;">Finest SuperMarket</h4>
+            </a>
+        </div>
+        <div class="container-fluid  border-0">
+            <a class="navbar-brand"  style="color:white;" id="home">Home</a>
+            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active"  style="color:white;" id="custeR">Customer</a>
+                    <a class="nav-link active" aria-current="page"  style="color:white;" id="items">Items</a>
+                    <!--                    <a class="nav-link active" href="../POS/Orders.html" style="color:white;">Orders</a>-->
+                    <a class="nav-link active"  style="color:white;" id="placeOders">Orders</a>
+                    <!--                    <a class="nav-link disabled" aria-disabled="true">Iteam</a>-->
+                </div>
+                <form class="d-flex  " role="search"    >
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- ------------------------- home page------------------------>
+    <section class="container-fluid  bg-danger" id="homeN">
+
+        <div class="row bg-success container-fluid">
+        </div>
+
+
+    </section>
+
+    <!-- ------------------------- customer page------------------------>
+    <section class="container-fluid  bg-danger" style="display: none" id="customerN">
+
+        <div class="row position-absolute container-fluid ">
+
+            <div class="col-1"></div>
+
+            <div class="mt-0 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5 ">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: black" class="text-center m-4">Customer Registration</h2>
+
+                        <div class="mb-2">
+                            <label for="id" class="form-label" style="color: black">Customer ID :</label>
+                            <input type="id" class="form-control" id="customerid">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="name" class="form-label" style="color: black">Customer Name :</label>
+                            <input type="name" class="form-control" id="customername">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="tel" class="form-label" style="color: black">Customer Address :</label>
+                            <input type="tel" class="form-control" id="tel">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="address" class="form-label" style="color: black">Customer Salary : </label>
+                            <input type="address" class="form-control" id="address">
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                            <button class="btn btn-outline-primary" type="button">Save</button>
+                            <button class="btn btn-outline-primary" type="button">Update</button>
+                            <button class="btn btn-outline-primary" type="button">Delete</button>
+                            <button class="btn btn-outline-primary" type="button">Get All</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+            <div class=" mt-5 col-12 col-sm-6 col-md-5 col-lg-6 col-xl-5  col-xxl-5 ">
+
+                <div>
+
+                    <h2 style="color: black" class="text-center m-3">Customer Details</h2>
+
+                    <table class="table  mt-5 col-10 col-sm-5 col-md-4 col-lg-5 col-xl-4  col-xxl-4">
+                        <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">C001</th>
+                            <td>Lakshan</td>
+                            <td>Matara</td>
+                            <td>20000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C002</th>
+                            <td>Navishka</td>
+                            <td>Matara</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C003</th>
+                            <td>Kalshan</td>
+                            <td>colombo</td>
+                            <td>30000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+    </section>
+
+
+    <!-- ------------------------- items page------------------------>
+    <section class="container-fluid " style="display: none" id="itemN">
+        <div class="row position-absolute container-fluid ">
+
+            <div class="col-1"></div>
+
+            <div class="mt-0 col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5  col-xxl-5 ">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: black" class="text-center m-4">Item</h2>
+
+                        <div class="mb-2">
+                            <label for="id" class="form-label" style="color: black">Item Code :</label>
+                            <input type="id" class="form-control" id="id">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="name" class="form-label" style="color: black">Item Name :</label>
+                            <input type="name" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="price" class="form-label" style="color: black">Item Price :</label>
+                            <input type="price" class="form-control" id="itemprice">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="qty" class="form-label" style="color: black">Item Quantity : </label>
+                            <input type="qty" class="form-control" id="itemqty">
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                            <button class="btn btn-outline-primary" type="button">Save</button>
+                            <button class="btn btn-outline-primary" type="button">Update</button>
+                            <button class="btn btn-outline-primary" type="button">Delete</button>
+                            <button class="btn btn-outline-primary" type="button">Get All</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+            <div class=" mt-5 col-12 col-sm-6 col-md-5 col-lg-6 col-xl-5  col-xxl-5 ">
+
+                <div>
+
+                    <h2 style="color: black" class="text-center m-3">Item Details</h2>
+
+                    <table class="table  mt-5 col-10 col-sm-5 col-md-4 col-lg-5 col-xl-4  col-xxl-4">
+                        <thead>
+                        <tr>
+                            <th scope="col">Code</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Qty</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">C001</th>
+                            <td>Rice</td>
+                            <td>200.00</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C002</th>
+                            <td>Milo</td>
+                            <td>150.00</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C003</th>
+                            <td>tea</td>
+                            <td>100.00</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+    </section>
+
+    <!-- ------------------------- Place_Order page------------------------>
+
+    <section class="container-fluid mt-5" style="display: none" id="plceOderN">
+        <div class="row">
+            <div class="col-lg-4 text-black  ">
+                <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Order ID :</label>
+                                <input class="form-control" id="orderId" type="text">
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Date:</label>
+                                <input type="date"
+                                       class="form-control bg-white border-black text-dark focus-ring-dark "
+                                       id="InputDate">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2 ">
+                            <label>Customer :</label>
+                            <select class="form-select" id="Customer" required>
+                                <option selected disabled value="">C001</option>
+                                <option>C001</option>
+                                <option>C002</option>
+                                <option>C003</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Customer ID :</label>
+                                <input class="form-control" id="orderCustomerID" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Name :</label>
+                                <input class="form-control" id="orderCustomerName" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Salary :</label>
+                                <input class="form-control" id="orderCustomerSalary" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="form-group">
+                                <label>Address :</label>
+                                <input class="form-control" id="orderCustomerAddress" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Slider-->
+            <div class="container-fluid col-lg-4 text-black ">
+                <h5 style="color: black" class="text-center m-3 mt-5">Item Select</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mt-2 ">
+                            <label>Item :</label>
+                            <select class="form-select" id="validationTooltip04" required>
+                                <option selected disabled value="">P001</option>
+                                <option>P001</option>
+                                <option>P002</option>
+                                <option>P003</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Item Code :</label>
+                                <input class="form-control" id="ItemCode" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Item Name :</label>
+                                <input class="form-control" id="ItemName" type="text">
+                            </div>
+                        </div>
+                        <div class="col-3 mt-2">
+                            <div class="form-group">
+                                <label>Price :</label>
+                                <input class="form-control" id="Price" type="text">
+                            </div>
+                        </div>
+                        <div class="col-3 mt-2">
+                            <div class="form-group">
+                                <label>Qty :</label>
+                                <input class="form-control" id="Qty" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="form-group">
+                                <label>Order Quantity :</label>
+                                <input class="form-control" id="orderQtyy" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                    <button class="btn btn-outline-danger" type="button">Add Item</button>
+                </div>
+            </div>
+
+
+
+            <div class="container-fluid col-lg-4  mt-4 m-11">
+                <div class="card">
+                    <div class="card-header bg-dark text-white font-weight-bolder">Bill</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 mt-2">
+                                    <div class="form-group">
+                                        <label>Cash</label>
+                                        <input class="form-control" id="txtCash" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-2">
+                                    <div class="form-group">
+                                        <label>Discount</label>
+                                        <input class="form-control" id="txtDiscount" min="0" type="number">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Balance :</label>
+                                        <input class="form-control" id="txtOrderID" type="text">
+                                        <span class="control-error"
+                                              id="orderId-invalid-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-6 mt-4">
+                                        <span id="lblTotal" style="color: blue">Total</span>
+                                    </div>
+                                    <div class="col-5 mt-4">
+                                        <span id="lblSubTotal" style="color: red">Sub Total</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 mt-2">
+                                        <span id="txtTotal"></span> Rs/=
+                                    </div>
+                                    <div class="col-5 mt-2">
+                                        <span id="txtSubTotal"></span> Rs/=
+                                    </div>
+                                </div>
+                                <div class="col-4 mt-4">
+                                    <button class="btn btn-outline-danger" id="btnPurchase" type="button">Purchase</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <table class="table table-hover mt-3" style="display: none" id="TableN">
+        <thead>
+        <tr>
+            <th scope="col">Item Code</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>P001</td>
+            <td>Rice</td>
+            <td>200.00</td>
+            <td>1</td>
+            <td>200.00</td>
+        </tr>
+<!--        <tr>-->
+<!--            <td>P002</td>-->
+<!--            <td>Milo</td>-->
+<!--            <td>150.00</td>-->
+<!--            <td>2</td>-->
+<!--            <td>300.00</td>-->
+<!--        </tr>-->
+        </tbody>
+    </table>
+
+
+</main>
+
+<script>
+    let item = document.querySelector("#itemN")
+    let customer = document.querySelector("#customerN")
+    let home = document.querySelector("#homeN")
+    let placeOder = document.querySelector("#plceOderN")
+    let table = document.querySelector('#TableN')
+
+    document.querySelector("#items").addEventListener("click",function (){
+        customer.style.display='none';
+        placeOder.style.display='none';
+        table.style.display='none';
+        item.style.display='block';
+    })
+
+    document.querySelector("#custeR").addEventListener("click",function (){
+        placeOder.style.display='none';
+        item.style.display='none';
+        table.style.display='none';
+        customer.style.display='block';
+    })
+    document.querySelector("#placeOders").addEventListener("click",function (){
+        customer.style.display='none';
+        item.style.display='none';
+        placeOder.style.display='block';
+        table.style.display='block';
+    })
+    document.querySelector("#home").addEventListener("click",function (){
+        customer.style.display='none';
+        item.style.display='none';
+        placeOder.style.display='none';
+        table.style.display='none';
+
+    })
+
+</script>
+</body>
+</html>
