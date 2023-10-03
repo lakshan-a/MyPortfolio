@@ -59,7 +59,17 @@
     <section class="container-fluid  bg-danger" id="homeN">
 
         <div class="row bg-success container-fluid">
+            <img src="assets/bac/Frame 27 (3).png" class="img-fluid position-absolute col-12" id="image" style="height: 89.7vh;width: 98vw;">
+            <div class="position-absolute text-center w-100" id="welcome">
+
+                <h1 style="color: white">Welcome</h1>
+                <h1 style="color: white; font-size: 4vw">Finest SuperMarket</h1>
+
+            </div>
+
         </div>
+
+
 
 
     </section>
@@ -477,12 +487,17 @@
     let home = document.querySelector("#homeN")
     let placeOder = document.querySelector("#plceOderN")
     let table = document.querySelector('#TableN')
+    let image = document.querySelector('#image')
+    let welcome = document.querySelector('#welcome')
+
 
     document.querySelector("#items").addEventListener("click",function (){
         customer.style.display='none';
         placeOder.style.display='none';
         table.style.display='none';
         item.style.display='block';
+        image.style.display='none';
+        welcome.style.display='none';
     })
 
     document.querySelector("#custeR").addEventListener("click",function (){
@@ -490,18 +505,24 @@
         item.style.display='none';
         table.style.display='none';
         customer.style.display='block';
+        image.style.display='none';
+        welcome.style.display='none';
     })
     document.querySelector("#placeOders").addEventListener("click",function (){
         customer.style.display='none';
         item.style.display='none';
         placeOder.style.display='block';
         table.style.display='block';
+        image.style.display='none';
+        welcome.style.display='none';
     })
     document.querySelector("#home").addEventListener("click",function (){
         customer.style.display='none';
         item.style.display='none';
         placeOder.style.display='none';
         table.style.display='none';
+        image.style.display='block';
+        welcome.style.display='block';
 
     })
 
