@@ -117,6 +117,13 @@
         margin-top: 10vh
     }
 
+    section:nth-child(22){
+        width: 78%;
+        height: 53vh;
+        margin-left: 36px;
+        margin-top: 10vh
+    }
+
     main section>aside>img {
         width: 40vw;
         top: 10vh;
