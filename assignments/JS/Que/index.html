@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Que</title>
+
+    <style>
+        section{
+            width: 1000px;
+            height: 320px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        section>div{
+            height: 100px;
+            flex-grow: 1;
+            border: 1px solid #000000;
+        }
+
+        section>div:first-child{
+            align-self: start;
+            margin-top: 7px;
+        }
+        section>div:last-child{
+            align-self: end;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<script>
+
+    let Colours =["red","yellow","green","Blue","deeppink"]
+
+    let divarray=document.querySelector("section").children;
+
+    setInterval(function () {
+        for (let i = 0; i < divarray.length; i++) {
+            divarray[i].style.background=Colours[i];
+        }
+        let  last=Colours.pop();
+
+        Colours.unshift(last)
+    },600)
+
+
+
+</script>
+
+</body>
+</html>
