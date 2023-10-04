@@ -91,29 +91,29 @@
 
                         <div class="mb-2">
                             <label for="id" class="form-label" style="color: black">Customer ID :</label>
-                            <input type="id" class="form-control" id="customerid">
+                            <input type="text" class="form-control" id="customerid">
                         </div>
 
                         <div class="mb-2">
                             <label for="name" class="form-label" style="color: black">Customer Name :</label>
-                            <input type="name" class="form-control" id="customername">
+                            <input type="text" class="form-control" id="customername">
                         </div>
 
                         <div class="mb-2">
-                            <label for="tel" class="form-label" style="color: black">Customer Address :</label>
-                            <input type="tel" class="form-control" id="tel">
+                            <label for="customerAddress" class="form-label" style="color: black">Customer Address :</label>
+                            <input type="text" class="form-control" id="customerAddress">
                         </div>
 
                         <div class="mb-2">
-                            <label for="address" class="form-label" style="color: black">Customer Salary : </label>
-                            <input type="address" class="form-control" id="address">
+                            <label for="CustomerSalary" class="form-label" style="color: black">Customer Salary : </label>
+                            <input type="text" class="form-control" id="CustomerSalary">
                         </div>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
-                            <button class="btn btn-outline-primary" type="button">Save</button>
+                            <button class="btn btn-outline-primary" type="button" id="saveCustomer">Save</button>
                             <button class="btn btn-outline-primary" type="button">Update</button>
                             <button class="btn btn-outline-primary" type="button">Delete</button>
-                            <button class="btn btn-outline-primary" type="button">Get All</button>
+                            <button class="btn btn-outline-primary" type="button" id="getAllCustomer">Get All</button>
                         </div>
 
                     </form>
@@ -130,7 +130,7 @@
 
                     <h2 style="color: black" class="text-center m-3">Customer Details</h2>
 
-                    <table class="table  mt-5 col-10 col-sm-5 col-md-4 col-lg-5 col-xl-4  col-xxl-4">
+                    <table class="table  mt-5 col-10 col-sm-5 col-md-4 col-lg-5 col-xl-4  col-xxl-4" >
                         <thead>
                         <tr>
                             <th scope="col">ID</th>
@@ -139,7 +139,7 @@
                             <th scope="col">Salary</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="tblCustomer">
                         <tr>
                             <th scope="row">C001</th>
                             <td>Lakshan</td>
@@ -525,6 +525,79 @@
         welcome.style.display='block';
 
     })
+
+    //////////////////////////////// customer save///////////////////////////////////////
+
+    let btnSave = document.querySelector("#saveCustomer");
+    let btnGetAll = document.querySelector("#getAllCustomer");
+    let tBody = document.querySelector("#tblCustomer");
+
+    let CID =document.querySelector("#customerid");
+    let CName =document.querySelector("#customername");
+    let CAddress =document.querySelector("#customerAddress");
+    let CTp =document.querySelector("#CustomerSalary");
+
+    var customers = [
+        {id: "C001", name: "Dasun", address: "Galle", salary: 1000.22},
+        {id: "C002", name: "Iman", address: "Mathara", salary: 2000.22}
+    ];
+
+    //save a customer
+    btnSave.addEventListener("click", function () {
+        //create customer object and fill all the data
+        var customer = {
+            id: CID.value,
+            name: CName.value,
+            address: CAddress.value,
+            salary: CTp.value
+        }
+        //add customer to object to the array
+        customers.push(customer);
+        console.log(customers);
+    });
+
+    //load all customers from the array to the table
+    btnGetAll.addEventListener("click", function () {
+        for (let i = 0; i < customers.length; i++) {
+            let tr = document.createElement("tr");
+            let td1 = document.createElement("td");
+            td1.textContent=customers[i].id;
+            let td2 = document.createElement("td");
+            td2.textContent=customers[i].name;
+            let td3 = document.createElement("td");
+            td3.textContent=customers[i].address;
+            let td4 = document.createElement("td");
+            td4.textContent=customers[i].salary;
+            tr.append(td1,td2,td3,td4);
+            tBody.append(tr);
+        }
+
+    });
+
+
+
+    // document.querySelector("#saveCustomer").addEventListener("click",function (){
+    //
+    //     let id=CID.value;
+    //     let name=CName.value;
+    //     let adders=CAddress.value;
+    //     let salary=CTp.value;
+    //
+    //     console.log(id,name,adders,salary)
+    //
+    //     var customer={
+    //         id:CID.value,
+    //         name:CName.value,
+    //         adders:CAddress.value,
+    //         salary:CTp.value,
+    //     }
+    //     console.log(customer);
+    //
+    // })
+
+
+
+
 
 </script>
 </body>

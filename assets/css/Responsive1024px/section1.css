@@ -115,8 +115,8 @@
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a {
-        left: 71vw;
-        bottom: 31.5vh;
+        left: 44vw;
+        bottom: 16.5vh;
     }
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a {
@@ -137,7 +137,7 @@
     }
 
     .contact-section aside>form>fieldset {
-        left: 53vh;
+        left: 45vh;
         top: 40vh;
     }
 

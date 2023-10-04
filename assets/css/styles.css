@@ -1264,6 +1264,7 @@ section:nth-child(6)>div:nth-child(5)>i:nth-child(1){
 
 /*--------------------------------------Blog section-------------------------------------------------*/
 
+
 section:nth-child(7){
     position: relative;
     height: 190vh;
@@ -1298,9 +1299,17 @@ section:nth-child(7)>h1{
     margin: auto;
 }
 
+section:nth-child(7)>img{
+    transition: transform 0.3s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+section:nth-child(7)>img:hover{
+    transform: scale(1.1);
+
+}
+
 #section7Img1{
     width: 23%;
-
     position: absolute;
     top: 30vh;
     left: 14vw;
@@ -1355,6 +1364,8 @@ section:nth-child(7)>h1{
     right: 14vw;
     margin: auto;
 }
+
+
 
 
 /*--------------------------------------contact section-------------------------------------------------*/
