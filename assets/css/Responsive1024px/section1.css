@@ -1,4 +1,4 @@
-@media all and (max-width: 1024px) and (min-width:768px){
+@media all and (max-width: 1200px) and (min-width:768px){
 /*@media all and (max-width: 1024px) {*/
 
     header nav>div>menu {
@@ -115,9 +115,9 @@
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(1) {
-        position: relative;
-        bottom: 5vh;
+        bottom: 11vh;
         left: 34vw;
+
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a {
@@ -136,6 +136,11 @@
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i {
         bottom: 11.5vh;
+    }
+
+    .contact-section>div>address>div:nth-child(3)>div:nth-child(1) {
+        bottom: 11vh;
+        left: 48vw;
     }
 
     .contact-section>div>aside {
