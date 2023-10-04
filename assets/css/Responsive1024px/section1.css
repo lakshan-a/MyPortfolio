@@ -109,9 +109,15 @@
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>h4 {
-        left: 74vw;
-        width: 9vw;
-        bottom: 29vh;
+        left: 44vw;
+        width: 13vw;
+        bottom: 11vh;
+    }
+
+    .contact-section>div>address>div:nth-child(4)>div:nth-child(1) {
+        position: relative;
+        bottom: 5vh;
+        left: 34vw;
     }
 
     .contact-section>div>address>div:nth-child(4)>div:nth-child(2)>a {
@@ -120,12 +126,12 @@
     }
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>a {
-        left: 52vw;
+        left: 59vw;
         bottom: 15.3vh;
     }
     .contact-section>div>address>div:nth-child(3)>div:nth-child(2)>h4 {
-        bottom: 13vh;
-
+        bottom: 12vh;
+        left: 57vw;
     }
 
     .contact-section>div>address>div:nth-child(3)>div:nth-child(1)>i {
@@ -137,7 +143,7 @@
     }
 
     .contact-section aside>form>fieldset {
-        left: 45vh;
+        left: 40vh;
         top: 40vh;
     }
 
