@@ -648,6 +648,11 @@
             </svg>
         </section>
 
+        <!--               mouse cursor-->
+        <section class="mouse">
+            <div class="custom-cursor"></div>
+        </section>
+
 
 
     </main>
@@ -681,12 +686,20 @@
 <script src="assets/code.jquery.com_jquery-3.7.1.min.js"></script>
 
 <script>
+    // loading
     $(window).on('load',function (){
         $(".loading").fadeOut(1000);
         console.log("Window is fully loaded");
     });
 
 
+    // mouse cursor
+    const customCursor = document.querySelector(".custom-cursor");
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX;
+        const y = e.clientY;
+        customCursor.style.transform = `translate(${x}px, ${y}px)`;
+    });
 </script>
 
     
