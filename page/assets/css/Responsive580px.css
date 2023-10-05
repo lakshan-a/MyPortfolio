@@ -1,7 +1,12 @@
 @media all and (max-width: 580px) {
 
+    footer{
+        display: none;
+    }
+
     main h1 {
         font-size: 40px;
+        margin-top: 18vw;
     }
 
 

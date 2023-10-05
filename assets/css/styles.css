@@ -2186,12 +2186,57 @@ section:nth-child(8)>h1{
     color: white;
 }
 
-/*.contact-section>ul {*/
+/*.contact-btn-box .btn{*/
+/*    text-decoration: none;*/
 /*    position: relative;*/
-/*    top: 27vh;*/
-/*    right: 10vw;*/
-/*    width: 107.1%;*/
+/*    top: 61vh;*/
+/*    font-family: 'Poppins', roboto;*/
+/*    display: inline-flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 11vw;*/
+/*    height: 14%;*/
+/*    background: #fac921;*/
+/*    border: 0.2rem solid #2d2d32;*/
+/*    border-radius: 0.8rem;*/
+/*    font-size: 1vw;*/
+/*    font-weight: 600;*/
+/*    letter-spacing: .1rem;*/
+/*    color: #ffffff;*/
+/*    z-index: 1;*/
+/*    overflow: hidden;*/
+/*    transition: .7s;*/
 /*}*/
+
+/*.contact-btn-box .btn:hover {*/
+/*    color: #2d2d32;*/
+/*}*/
+
+
+/*.contact-btn-box .btn:nth-child(2):hover {*/
+/*    color: #2d2d32;*/
+/*}*/
+
+/*.contact-btn-box .btn:nth-child(2)::before {*/
+/*    background: #fac921;*/
+/*}*/
+
+/*.contact-btn-box .btn::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 0;*/
+/*    height: 100%;*/
+/*    background: #ffffff;*/
+/*    z-index: -1;*/
+/*    transition: .7s;*/
+/*}*/
+
+/*.contact-btn-box .btn:hover::before {*/
+/*    width: 100%;*/
+/*}*/
+
 
 
 

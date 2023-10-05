@@ -1,0 +1,10 @@
+@media all and (max-width: 1024px) and (min-width: 780px) {
+    main h1 {
+        margin-top: 18vw;
+    }
+    footer{
+        display: none;
+    }
+
+
+}
