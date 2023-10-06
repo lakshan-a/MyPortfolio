@@ -36,7 +36,7 @@ header>div>img{
 
 
 main{
-    height: 430vw;
+    height: 480vw;
 }
 
 main h1{
@@ -353,6 +353,18 @@ section:nth-child(22){
     box-shadow: 0px 2px 5px 2px #B8B8B8;
     margin-left: 53vw;
     margin-top: -83vh;
+    margin-bottom: 7vh;
+}
+
+section:nth-child(23){
+    width: 39%;
+    height: 80vh;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 2px 5px 2px #B8B8B8;
+    margin-left: 8vw;
+    margin-top: 10vh;
     margin-bottom: 7vh;
 }
 
