@@ -158,6 +158,7 @@ function getAll(){
         $('#tblBody').append(row);
 
     }
+    bindEvents();
 }
 
 
@@ -230,4 +231,31 @@ function clearFields(){
     $("#customerSalaryText").val("");
 
     $("#customerIdText").focus();
+}
+
+bindEvents();
+
+
+function bindEvents(){
+    $('#tblBody>tr').click(function () {
+        // console.log(this);//tr -> this will return tr html element
+        // console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
+        // console.log($(this).text()); // now here it will return all the text of tr
+
+        let id = $(this).children(':nth-child(1)').text();
+        let name = $(this).children(':nth-child(2)').text();
+        let address = $(this).children(':nth-child(3)').text();
+        let salary = $(this).children(':nth-child(4)').text();
+
+        setTextFieldValues(id,name,address,salary);
+    });
+}
+//check this out.?
+
+
+function setTextFieldValues(id, name, address, salary) {
+    $("#customerIdText").val(id);
+    $("#customerNameText").val(name);
+    $("#customerAddressText").val(address);
+    $("#customerSalaryText").val(salary);
 }

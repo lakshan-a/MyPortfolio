@@ -158,6 +158,8 @@ function itemGetAll(){
         $('#itemTblBody').append(row);
 
     }
+    ItembindEvents();
+
 }
 
 
@@ -228,4 +230,32 @@ function itemClearFields(){
     $("#itemQtyTxt").val("");
 
     $("#itemCodeTxt").focus();
+}
+
+
+ItembindEvents();
+
+
+function ItembindEvents(){
+    $('#itemTblBody>tr').click(function () {
+        // console.log(this);//tr -> this will return tr html element
+        // console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
+        // console.log($(this).text()); // now here it will return all the text of tr
+
+        let itemCode = $(this).children(':nth-child(1)').text();
+        let itemName = $(this).children(':nth-child(2)').text();
+        let unitePrice = $(this).children(':nth-child(3)').text();
+        let qty = $(this).children(':nth-child(4)').text();
+
+        setItemTextFieldValues(itemCode,itemName,unitePrice,qty);
+    });
+}
+//check this out.?
+
+
+function setItemTextFieldValues(itemCode, itemName, unitePrice, qty) {
+    $("#itemCodeTxt").val(itemCode);
+    $("#itemNameTxt").val(itemName);
+    $("#unitePriceTxt").val(unitePrice);
+    $("#itemQtyTxt").val(qty);
 }
