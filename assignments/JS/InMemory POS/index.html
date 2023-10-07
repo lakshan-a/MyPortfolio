@@ -1,10 +1,602 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Finest SuperMarket</title>
+
+
+    <!----------------------------------Boostrap------------------------------------>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+
 </head>
+
+<style>
+    body{
+        width: 100%;
+        height: 100vh;
+
+        background: #9cbfbc;
+    }
+
+</style>
+
+
+
 <body>
 
+
+<header class="container-fluid bg-dark " >
+
+    <div class="row p-1">
+
+        <div class="col-2">
+
+            <h1 style="font-size: 2vw; color: white"> SuperMarket</h1>
+
+        </div>
+
+        <div class="col-5">
+        </div>
+
+        <div class="col-5">
+
+            <nav class="navbar navbar-expand-lg">
+
+                <div class="container-fluid">
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" id="btnHome" style="color: white">Home</a>
+                            <a class="nav-link" id="btnCustomer" style="color: white">Customer</a>
+                            <a class="nav-link" id="btnItem" style="color: white">Item</a>
+                            <a class="nav-link" id="btnOrder" style="color: white">Order</a>
+                        </div>
+                    </div>
+                    <form class="d-flex  " role="search"    >
+                        <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main id="homePage">
+
+    <section class="container-fluid p-0 position-relative" style="height: 93vh; width: 100vw">
+
+        <img src="assest/homepage/Background.png" class="img-fluid position-absolute" style="height: 93vh; width: 100vw">
+
+        <div class="position-absolute text-center w-100">
+
+            <h1 style="color: white">Welcome</h1>
+            <h1 style="color: white; font-size: 4vw">Finest SuperMarket</h1>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<main id="customerPage">
+
+    <section class="container-fluid p-0 position-relative " style="height: 93vh; width: 100vw">
+
+
+        <div class="row">
+
+            <div class="col">
+                <div style="height: 100px"></div>
+            </div>
+
+        </div>
+
+        <div class="row position-absolute container-fluid" style="top: 1vw;">
+
+            <div class="col-1"></div>
+
+            <div class="col-4">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: black" class="text-center m-4">Customer Registration</h2>
+
+                        <div class="mb-3">
+                            <label for="id" class="form-label" style="color: black">Customer ID</label>
+                            <input id="customerIdText" type="id" class="form-control" id="id">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label" style="color: black">Customer Name</label>
+                            <input id="customerNameText" type="name" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="tel" class="form-label" style="color: black">Customer Address</label>
+                            <input id="customerTelText" type="tel" class="form-control" id="tel">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address" class="form-label" style="color: black">Customer Salary</label>
+                            <input id="customerAddressText" type="address" class="form-control" id="address">
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
+                            <button id="btnSave" class="btn btn-outline-primary me-md-2" type="button">Save</button>
+                            <button id="btnUpdate" class="btn btn-outline-primary" type="button">Update</button>
+                            <button id="btnRemove" class="btn btn-outline-primary" type="button">Remove</button>
+                            <button id="btnGetAll" class="btn btn-outline-primary" type="button">Get All</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+            <div class="col-5">
+
+                <div>
+
+                    <h2 style="color: black" class="text-center m-4">Customer Details</h2>
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" style="color: black">ID</th>
+                            <th scope="col" style="color: black">Name</th>
+                            <th scope="col" style="color: black">Address</th>
+                            <th scope="col" style="color: black">Salary</th>
+                        </tr>
+                        </thead>
+
+                        <tbody id="tblBody">
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
+<main id="itemPage">
+
+    <section class="container-fluid p-0 position-relative" style="height: 93vh; width: 100vw">
+
+        <div class="row">
+
+            <div class="col">
+                <div style="height: 100px"></div>
+            </div>
+
+        </div>
+
+        <div class="row position-absolute container-fluid" style="top: 1vw;">
+
+            <div class="col-1"></div>
+
+            <div class="col-4">
+
+                <div>
+
+                    <form>
+
+                        <h2 style="color: black" class="text-center m-4">Item</h2>
+
+                        <div class="mb-3">
+                            <label for="itemCode" class="form-label" style="color: black">Item Code</label>
+                            <input id="itemCodeTxt" type="itemCode" class="form-control" id="itemCode">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="itemName" class="form-label" style="color: black">Item Name</label>
+                            <input id="itemNameTxt" type="itemName" class="form-control" id="itemName">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="unitePrice" class="form-label" style="color: black">Unite Price</label>
+                            <input id="unitePriceTxt" type="unitePrice" class="form-control" id="unitePrice">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="itemQty" class="form-label" style="color: black">Quantity</label>
+                            <input id="itemQtyTxt" type="itemQty" class="form-control" id="itemQty">
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
+                            <button id="btnSaveItem" class="btn btn-outline-primary me-md-2" type="button">Save</button>
+                            <button id="btnUpdateItem" class="btn btn-outline-primary" type="button">Update</button>
+                            <button id="btnRemoveItem" class="btn btn-outline-primary" type="button">Remove</button>
+                            <button id="btnGetAllItem" class="btn btn-outline-primary" type="button">Get All</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+            <div class="col-5">
+
+                <div>
+
+                    <h2 style="color: black" class="text-center m-4">Item Details</h2>
+
+                    <table class="table">
+
+                        <thead>
+
+                        <tr>
+                            <th scope="col" style="color: black">Item Code</th>
+                            <th scope="col" style="color: black">Item Name</th>
+                            <th scope="col" style="color: black">Unite Price</th>
+                            <th scope="col" style="color: black">Quantity</th>
+                        </tr>
+
+                        </thead>
+
+                        <tbody id="itemTblBody">
+
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
+<main id="orderPage">
+
+    <section class="container-fluid p-0 position-relative " style="height: 93vh; width: 100vw">
+
+        <div class="row">
+
+            <div class="col">
+                <div style="height: 10px"></div>
+            </div>
+
+        </div>
+
+        <div class="row position-absolute container-fluid">
+
+<!--            <div class="col-1"></div>-->
+
+            <div class="col-lg-4 text-black  ">
+                <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Order ID :</label>
+                                <input class="form-control" id="orderId" type="text">
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Date:</label>
+                                <input type="date"
+                                       class="form-control bg-white border-black text-dark focus-ring-dark "
+                                       id="InputDate">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2 ">
+                            <label>Customer :</label>
+                            <select class="form-select" id="Customer" required>
+                                <option selected disabled value="">C001</option>
+                                <option>C001</option>
+                                <option>C002</option>
+                                <option>C003</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Customer ID :</label>
+                                <input class="form-control" id="orderCustomerID" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Name :</label>
+                                <input class="form-control" id="orderCustomerName" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Salary :</label>
+                                <input class="form-control" id="orderCustomerSalary" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="form-group">
+                                <label>Address :</label>
+                                <input class="form-control" id="orderCustomerAddress" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--            <div class="col-1"></div>-->
+
+<!--            <div class="col-2">-->
+
+                <div class="container-fluid col-lg-4 text-black ">
+                    <h5 style="color: black" class="text-center m-3 mt-5">Item Select</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 mt-2 ">
+                                <label>Item :</label>
+                                <select class="form-select" id="validationTooltip04" required>
+                                    <option selected disabled value="">P001</option>
+                                    <option>P001</option>
+                                    <option>P002</option>
+                                    <option>P003</option>
+                                </select>
+                            </div>
+                            <div class="col-6 mt-2">
+                                <div class="form-group">
+                                    <label>Item Code :</label>
+                                    <input class="form-control" id="ItemCode" type="text">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-6 mt-2">
+                                <div class="form-group">
+                                    <label>Item Name :</label>
+                                    <input class="form-control" id="ItemName" type="text">
+                                </div>
+                            </div>
+                            <div class="col-3 mt-2">
+                                <div class="form-group">
+                                    <label>Price :</label>
+                                    <input class="form-control" id="Price" type="text">
+                                </div>
+                            </div>
+                            <div class="col-3 mt-2">
+                                <div class="form-group">
+                                    <label>Qty :</label>
+                                    <input class="form-control" id="Qty" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <div class="form-group">
+                                    <label>Order Quantity :</label>
+                                    <input class="form-control" id="orderQtyy" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                        <button class="btn btn-outline-danger" type="button">Add Item</button>
+                    </div>
+                </div>
+<!--            </div>-->
+
+<!--            <div class="col-1"></div>-->
+
+
+            <div class="col-4" style="border: solid black; height: 480px">
+
+                <h3 class="mt-4" style="color: black">Total</h3>
+
+                <h1 id="orderTotal" class="m-3" style="color: black">0</h1>
+
+                <h3 class="mt-4" style="color: black">Sub Total</h3>
+
+                <h1 id="orderSubTotal" class="m-3" style="color: black">0</h1>
+
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <label for="cash" class="form-label" style="color: black">cash</label>
+                            <input id="cashTxtOrderPage" type="cash" class="form-control" id="cash">
+                        </div>
+                        <div class="col">
+                            <label for="discount" class="form-label" style="color: black">Discount</label>
+                            <input id="discountTxtOrderPage" type="discount" class="form-control" id="discount">
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <label for="balance" class="form-label" style="color: black">Balance</label>
+                            <input id="balanceTxtOrderPage" type="balance" class="form-control" id="balance">
+                        </div>
+                        <div class="col">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                                <button id="btnPlaceOrder" class="btn btn-outline-danger me-md-2" type="button">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+
+
+
+        <div class="row position-absolute container-fluid" style="top: 60vh;">
+
+            <div class="col-1"></div>
+
+            <div class="col-3">
+
+                <div>
+
+                    <h2 style="color: black" class="text-center m-4">Cart</h2>
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" style="color: black">Item ID</th>
+                            <th scope="col" style="color: black">Name</th>
+                            <th scope="col" style="color: black">Qty</th>
+                            <th scope="col" style="color: black">Total</th>
+                        </tr>
+                        </thead>
+
+                        <tbody id="tblItemBodyOrderPage">
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-2"></div>
+
+            <div class="col-1">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
+                    <button id="allOders" class="btn btn-outline-danger me-md-2" type="button">All Order</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<main id="allOrdersPage">
+
+    <section class="container-fluid p-0 position-relative" style="height: 93vh; width: 100vw">
+
+        <img src="assest/homepage/Background.png" class="img-fluid position-absolute" style="height: 93vh; width: 100vw">
+
+        <div class="row">
+
+            <div class="col">
+                <div style="height: 100px"></div>
+            </div>
+
+        </div>
+
+        <div class="row position-absolute container-fluid">
+
+            <div class="col-1"></div>
+
+            <div class="col-1"></div>
+
+            <div class="col-8">
+
+                <div>
+
+                    <h2 style="color: white" class="text-center m-4">Order Details</h2>
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" style="color: black">Order ID</th>
+                            <th scope="col" style="color: black">Customer ID</th>
+                            <th scope="col" style="color: black">Total</th>
+                            <th scope="col" style="color: black">Date</th>
+                        </tr>
+                        </thead>
+
+                        <tbody id="tblBodyAllOrders">
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-1"></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
+<!----------------------------------JQuery-------------------------------------->
+<script src="assets/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+
+
+<!------------------------------------DB---------------------------------------->
+<script src="db/DB.js"></script>
+
+
+<!------------------------------Home Java Script-------------------------------->
+<script src="controller/homeController.js"></script>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
