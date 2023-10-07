@@ -302,7 +302,7 @@
 
         </div>
 
-        <div class="row position-absolute container-fluid">
+        <div class="row position-absolute container-fluid" style="top: -1vw;">
 
 <!--            <div class="col-1"></div>-->
 
@@ -312,17 +312,15 @@
                     <div class="row">
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Order ID :</label>
-                                <input class="form-control" id="orderId" type="text">
+                                <label for="orderID" class="form-label" style="color: black">Order ID :</label>
+                                <input id="orderIDTxtOrderPage" type="orderID" class="form-control" id="orderID">
                             </div>
                         </div>
 
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Date:</label>
-                                <input type="date"
-                                       class="form-control bg-white border-black text-dark focus-ring-dark "
-                                       id="InputDate">
+                                <label for="date" class="form-label" style="color: black">Date :</label>
+                                <input id="dateTxtOrderPage" type="date" class="form-control" id="date">
                             </div>
                         </div>
 
@@ -330,38 +328,36 @@
                     </div>
                     <div class="row">
                         <div class="col-6 mt-2 ">
-                            <label>Customer :</label>
-                            <select class="form-select" id="Customer" required>
-                                <option selected disabled value="">C001</option>
-                                <option>C001</option>
-                                <option>C002</option>
-                                <option>C003</option>
+                            <label class="form-label" style="color: black">Customer :</label>
+
+                            <select class="form-select text-warning "
+                                    aria-label="Default select example" id="customerIdOrder">
                             </select>
                         </div>
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Customer ID :</label>
-                                <input class="form-control" id="orderCustomerID" type="text">
+                                <label for="customerId" class="form-label" style="color: black">Customer ID :</label>
+                                <input id="customerIdTxtOrderPage" type="customerId" class="form-control" id="customerId">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Name :</label>
-                                <input class="form-control" id="orderCustomerName" type="text">
+                                <label for="customerName" class="form-label" style="color: black">Customer Name :</label>
+                                <input id="customerNameTxtOrderPage" type="customerName" class="form-control" id="customerName">
                             </div>
                         </div>
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Salary :</label>
-                                <input class="form-control" id="orderCustomerSalary" type="text">
+                                <label for="customerSalary" class="form-label" style="color: black">Customer Salary :</label>
+                                <input id="customerSalaryTxtOrderPage" type="customerSalary" class="form-control" id="customerSalary">
                             </div>
                         </div>
                         <div class="col-12 mt-2">
                             <div class="form-group">
-                                <label>Address :</label>
-                                <input class="form-control" id="orderCustomerAddress" type="text">
+                                <label for="customerAddress" class="form-label" style="color: black">Customer Address :</label>
+                                <input id="customerAddressTxtOrderPage" type="customerAddress" class="form-control" id="customerAddress">
                             </div>
                         </div>
                     </div>
@@ -378,18 +374,16 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-6 mt-2 ">
-                                <label>Item :</label>
-                                <select class="form-select" id="validationTooltip04" required>
-                                    <option selected disabled value="">P001</option>
-                                    <option>P001</option>
-                                    <option>P002</option>
-                                    <option>P003</option>
+                                <label class="form-label" style="color: black">Item :</label>
+
+                                <select class="form-select text-warning "
+                                        aria-label="Default select example" id="itemOrder">
                                 </select>
                             </div>
                             <div class="col-6 mt-2">
                                 <div class="form-group">
-                                    <label>Item Code :</label>
-                                    <input class="form-control" id="OrderItemCode" type="text">
+                                    <label for="itemCodeOrder" class="form-label" style="color: black">Item Code :</label>
+                                    <input id="itemCodeTxtOrderPage" type="itemCode" class="form-control" id="itemCodeOrder">
                                 </div>
                             </div>
 
@@ -397,32 +391,34 @@
                         <div class="row">
                             <div class="col-6 mt-2">
                                 <div class="form-group">
-                                    <label>Item Name :</label>
-                                    <input class="form-control" id="OrderItemName" type="text">
+                                    <label for="itemNameOrder" class="form-label" style="color: black">Item Name :</label>
+                                    <input id="itemNameTxtOrderPage" type="itemName" class="form-control" id="itemNameOrder">
                                 </div>
                             </div>
                             <div class="col-3 mt-2">
                                 <div class="form-group">
-                                    <label>Price :</label>
-                                    <input class="form-control" id="Price" type="text">
+                                    <label for="unitePriceOrder" class="form-label" style="color: black">Unite Price :</label>
+                                    <input id="unitePriceTxtOrderPage" type="unitePrice" class="form-control" id="unitePriceOrder">
                                 </div>
                             </div>
                             <div class="col-3 mt-2">
                                 <div class="form-group">
-                                    <label>Qty :</label>
-                                    <input class="form-control" id="Qty" type="text">
+                                    <label for="itemQtyOrder" class="form-label" style="color: black">Quantity :</label>
+                                    <input id="itemQtyTxtOrderPage" type="itemQty" class="form-control" id="itemQtyOrder">
                                 </div>
                             </div>
                             <div class="col-12 mt-2">
                                 <div class="form-group">
-                                    <label>Order Quantity :</label>
-                                    <input class="form-control" id="orderQtyy" type="text">
+                                    <label for="itemOrderQtyOrder" class="form-label" style="color: black">Order Qty :</label>
+                                    <input id="itemOrderQtyOrderTxtOrderPage" type="itemOrderQtyOrder" class="form-control" id="itemOrderQtyOrder">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
-                        <button class="btn btn-outline-danger" type="button">Add Item</button>
+                        <button id="btnAddItemOrder" class="btn btn-outline-danger me-md-2" type="button">Add Item</button>
+
+<!--                        <button class="btn btn-outline-danger" type="button">Add Item</button>-->
                     </div>
                 </div>
 <!--            </div>-->
@@ -492,7 +488,7 @@
 
 
 
-        <div class="row position-absolute container-fluid" style="top: 60vh;">
+        <div class="row position-absolute container-fluid" style="top: 64vh;">
 
             <div class="col-2"></div>
 
@@ -614,6 +610,10 @@
 <script src="controller/itemController.js"></script>
 <script src="model/itemModel.js"></script>
 <script src="controller/validation/itemValidation.js"></script>
+
+<!------------------------------Order-------------------------------->
+<script src="controller/orderController.js"></script>
+<script src="model/orderModel.js"></script>
 
 
 
