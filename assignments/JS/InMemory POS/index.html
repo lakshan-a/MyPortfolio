@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
 
 
-
 </head>
 
 <style>
@@ -55,7 +54,7 @@
                             <a class="nav-link" id="btnCustomer" style="color: white">Customer</a>
                             <a class="nav-link" id="btnItem" style="color: white">Item</a>
                             <a class="nav-link" id="btnOrder" style="color: white">Order</a>
-                            <a class="nav-link" id="btnOrderDetail" style="color: white">Order Details</a>
+<!--                            <a class="nav-link" id="btnOrderDetail" style="color: white">Order Details</a>-->
                         </div>
                     </div>
                     <form class="d-flex  " role="search"    >
@@ -418,12 +417,12 @@
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
                         <button id="btnAddItemOrder" class="btn btn-outline-danger me-md-2" type="button">Add Item</button>
 
-<!--                        <button class="btn btn-outline-danger" type="button">Add Item</button>-->
+                                <button id="allOders" class="btn btn-outline-danger me-md-2" type="button">All Order</button>
+
+
                     </div>
                 </div>
-<!--            </div>-->
 
-<!--            <div class="col-1"></div>-->
 
 
             <div class="container-fluid col-lg-4  mt-4 m-11">
@@ -516,13 +515,7 @@
 
             </div>
 
-<!--            <div class="col-2"></div>-->
-
-<!--            <div class="col-1">-->
-<!--                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">-->
-<!--                    <button id="allOders" class="btn btn-outline-danger me-md-2" type="button">All Order</button>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="col-2"></div>
 
         </div>
 
@@ -612,6 +605,10 @@
 <!------------------------------Order-------------------------------->
 <script src="controller/orderController.js"></script>
 <script src="model/orderModel.js"></script>
+
+<!------------------------------Order Detail-------------------------------->
+<script src="controller/OrderDetailController.js"></script>
+
 
 
 
