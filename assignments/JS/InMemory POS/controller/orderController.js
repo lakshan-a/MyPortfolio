@@ -86,4 +86,46 @@ $('#btnAddItemOrder').click(function (){
 
 });
 
+$("#discountTxtOrderPage").keydown(function (e){
+    if(e.keyCode == 13) {
+        $('#orderSubTotal').text(totalFinal - parseInt($("#discountTxtOrderPage").val()));
+    }
+});
+
+
+$("#cashTxtOrderPage").keydown(function (e){
+    if(e.keyCode == 13) {
+        $('#balanceTxtOrderPage').val(parseInt($("#cashTxtOrderPage").val()) - parseInt($('#orderSubTotal').text()));
+    }
+});
+
+$('#btnPlaceOrder').click(function (){
+
+    var orderId = $('#orderIDTxtOrderPage').val();
+    var customerId = $('#customerIdOrder').val();
+    var total = $('#orderSubTotal').text();
+    var date = $('#dateTxtOrderPage').val();
+
+    order = {
+        orderId : orderId,
+        customerId : customerId,
+        total : total,
+        date : date
+    }
+
+    orderDetails.push(order);
+
+    $('#tblItemBodyOrderPage tr').remove();
+
+    $('#orderTotal').text("0");
+    $('#orderSubTotal').text("0");
+    $('#cashTxtOrderPage').val("");
+    $('#discountTxtOrderPage').val("");
+    $('#balanceTxtOrderPage').val("");
+
+
+
+});
+
+
 
