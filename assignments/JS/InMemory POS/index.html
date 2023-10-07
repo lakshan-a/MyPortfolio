@@ -40,10 +40,10 @@
 
         </div>
 
-        <div class="col-5">
+        <div class="col-3">
         </div>
 
-        <div class="col-5">
+        <div class="col-7">
 
             <nav class="navbar navbar-expand-lg">
 
@@ -55,6 +55,7 @@
                             <a class="nav-link" id="btnCustomer" style="color: white">Customer</a>
                             <a class="nav-link" id="btnItem" style="color: white">Item</a>
                             <a class="nav-link" id="btnOrder" style="color: white">Order</a>
+                            <a class="nav-link" id="btnOrderDetail" style="color: white">Order Details</a>
                         </div>
                     </div>
                     <form class="d-flex  " role="search"    >
@@ -429,49 +430,63 @@
 <!--            <div class="col-1"></div>-->
 
 
-            <div class="col-4" style="border: solid black; height: 480px">
-
-                <h3 class="mt-4" style="color: black">Total</h3>
-
-                <h1 id="orderTotal" class="m-3" style="color: black">0</h1>
-
-                <h3 class="mt-4" style="color: black">Sub Total</h3>
-
-                <h1 id="orderSubTotal" class="m-3" style="color: black">0</h1>
-
-                <div class="container text-center">
-                    <div class="row align-items-start">
-                        <div class="col">
-                            <label for="cash" class="form-label" style="color: black">cash</label>
-                            <input id="cashTxtOrderPage" type="cash" class="form-control" id="cash">
-                        </div>
-                        <div class="col">
-                            <label for="discount" class="form-label" style="color: black">Discount</label>
-                            <input id="discountTxtOrderPage" type="discount" class="form-control" id="discount">
-                        </div>
-                    </div>
-                </div>
-
-
-                <br>
-
-                <div class="container text-center">
-                    <div class="row align-items-start">
-                        <div class="col">
-                            <label for="balance" class="form-label" style="color: black">Balance</label>
-                            <input id="balanceTxtOrderPage" type="balance" class="form-control" id="balance">
-                        </div>
-                        <div class="col">
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
-                                <button id="btnPlaceOrder" class="btn btn-outline-danger me-md-2" type="button">Order</button>
+            <div class="container-fluid col-lg-4  mt-4 m-11">
+                <div class="card">
+                    <div class="card-header bg-dark text-white font-weight-bolder">Bill</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 mt-2">
+                                    <div class="form-group">
+                                        <label>Cash</label>
+                                        <input class="form-control" id="txtCash" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-2">
+                                    <div class="form-group">
+                                        <label>Discount</label>
+                                        <input class="form-control" id="txtDiscount" min="0" type="number">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Balance :</label>
+                                        <input class="form-control" id="txtOrderID" type="text">
+                                        <span class="control-error"
+                                              id="orderId-invalid-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-6 mt-4">
+                                        <span id="lblTotal" style="color: blue">Total</span>
+                                    </div>
+                                    <div class="col-5 mt-4">
+                                        <span id="lblSubTotal" style="color: red">Sub Total</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 mt-2">
+                                        <span id="txtTotal"></span> Rs/=
+                                    </div>
+                                    <div class="col-5 mt-2">
+                                        <span id="txtSubTotal"></span> Rs/=
+                                    </div>
+                                </div>
+                                <div class="col-4 mt-4">
+                                    <button class="btn btn-outline-danger" id="btnPurchase" type="button">Purchase</button>
+                                </div>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
-
             </div>
-
-            <div class="col-1"></div>
 
         </div>
 
@@ -479,9 +494,9 @@
 
         <div class="row position-absolute container-fluid" style="top: 60vh;">
 
-            <div class="col-1"></div>
+            <div class="col-2"></div>
 
-            <div class="col-3">
+            <div class="col-8">
 
                 <div>
 
@@ -507,13 +522,13 @@
 
             </div>
 
-            <div class="col-2"></div>
+<!--            <div class="col-2"></div>-->
 
-            <div class="col-1">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">
-                    <button id="allOders" class="btn btn-outline-danger me-md-2" type="button">All Order</button>
-                </div>
-            </div>
+<!--            <div class="col-1">-->
+<!--                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-4">-->
+<!--                    <button id="allOders" class="btn btn-outline-danger me-md-2" type="button">All Order</button>-->
+<!--                </div>-->
+<!--            </div>-->
 
         </div>
 
@@ -526,8 +541,6 @@
 <main id="allOrdersPage">
 
     <section class="container-fluid p-0 position-relative" style="height: 93vh; width: 100vw">
-
-        <img src="assest/homepage/Background.png" class="img-fluid position-absolute" style="height: 93vh; width: 100vw">
 
         <div class="row">
 
