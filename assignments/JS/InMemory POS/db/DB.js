@@ -1,7 +1,7 @@
 var detailsBig = [
-    {cid: "C00-001", cname: "Sachin Thamalsha", ctel: "0787155885", caddress: "Mathara"},
-    {cid: "C00-002", cname: "Ranjith Perera", ctel: "0787155885", caddress: "Panadura"},
-    {cid: "C00-003", cname: "Kavindu Perera", ctel: "0787155885", caddress: "Panadura"}
+    {cid: "C001", cname: "Lakshan", caddress: "Mathara",csalary:"12000.00" },
+    {cid: "C002", cname: "Raveen",caddress: "Panadura",csalary:"15000.00"  },
+    {cid: "C003", cname: "Navishka",  caddress: "Galle",csalary:"12500.05" }
 ];
 
 var itemDetailsBig = [

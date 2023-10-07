@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
 
+
 </head>
 
 <style>
@@ -126,13 +127,13 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="tel" class="form-label" style="color: black">Customer Address</label>
-                            <input id="customerTelText" type="tel" class="form-control" id="tel">
+                            <label for="address" class="form-label" style="color: black">Customer Address</label>
+                            <input id="customerAddressText" type="address" class="form-control" id="address">
                         </div>
 
                         <div class="mb-3">
-                            <label for="address" class="form-label" style="color: black">Customer Salary</label>
-                            <input id="customerAddressText" type="address" class="form-control" id="address">
+                            <label for="salary" class="form-label" style="color: black">Customer Salary</label>
+                            <input id="customerSalaryText" type="salary" class="form-control" id="salary">
                         </div>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end my-5">
@@ -590,6 +591,10 @@
 <!------------------------------Home Java Script-------------------------------->
 <script src="controller/homeController.js"></script>
 
+<!------------------------------Customer-------------------------------->
+<script src="controller/customerController.js"></script>
+<script src="model/customerModel.js"></script>
+<script src="controller/validation/customerValidation.js"></script>
 
 
 
