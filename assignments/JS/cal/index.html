@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <script src="asets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="asets/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="asets/css/bootstrap.css">
+
+</head>
+<body class="bg-dark">
+<div class="container bg-light h3 position-absolute  start-50 translate-middle" style="height: 560px; width: 500px;box-shadow: -8px -8px 15px rgba(225,225,225,0.1),5px 5px 15px rgba(0,0,0,0.2); border-radius: 30px; top:300px">
+    <div class="row bg-light" style="border-radius: 30px">
+
+        <div class="col-xxl-12" style="height: 70px">
+            <div class="row justify-content-center">
+                <h1 class="text-dark text-center mt-3">Calculator</h1>
+            </div>
+        </div>
+
+        <div class="col-xxl-12 bg-light" style="height: 70px">
+            <div class="row justify-content-center mt-1">
+                <input class="inputNumbers" placeholder="0" type="text" id="inputBox" style="width: 450px; height: 70px;box-shadow: 5px 5px 32px rgba(13,39,80,0.25) inset,-10px 10px 15px #fff; border: none; background-color: transparent; color: #2c3034; border-radius: 10px; font-size: 70px; text-align: right" fdprocessedid="28tdts">
+            </div>
+        </div>
+
+        <div class="col-xxl-12 mt-3" style="height: 60px">
+            <div class="row mt-3 justify-content-center" style="height: 60px">
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="ea8hlo">AC</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="8kcqjg">DEL</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="u90f2">%</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="903s6a">/</button>
+            </div>
+        </div>
+
+        <div class="col-xxl-12 mt-3" style="height: 60px">
+            <div class="row mt-3 justify-content-center" style="height: 60px">
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="nldkjc">7</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="nl468">8</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="8phev">9</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="mfevbn">*</button>
+            </div>
+        </div>
+
+        <div class="col-xxl-12 mt-3" style="height: 60px">
+            <div class="row mt-3 justify-content-center" style="height: 60px">
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="w5mdhe">4</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="7r96m">5</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="vozgy7">6</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="z76bpm">-</button>
+            </div>
+        </div>
+
+        <div class="col-xxl-12 mt-3" style="height: 60px">
+            <div class="row mt-3 justify-content-center" style="height: 60px">
+                <button class="button col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="xd47c9">1</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="aklr7a">2</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="t1ggce">3</button>
+                <button class="operations col-xxl-3 ms-3 me-4 rounded-4 text-warning bg-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="zhde5">+</button>
+
+            </div>
+        </div>
+
+        <div class="col-xxl-12 mt-3" style="height: 60px">
+            <div class="row mt-3 justify-content-center" style="height: 60px">
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="cnagnk">.</button>
+                <button class="col-xxl-3 ms-3 me-4 rounded-4 text-dark" type="button" style="width: 80px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="b93dil">0</button>
+                <button class="col-xxl-6 ms-3 me-4 text-dark bg-light" type="button" style="width: 200px; border-radius: 15px; box-shadow: 12px 12px 32px rgba(13,39,80,0.25),-10px 10px 15px #fff; border: none; background-color: transparent" fdprocessedid="biqss">=</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let input = document.getElementById("inputBox");
+    let buttons = document.querySelectorAll('button');
+
+    let string = "";
+    let array = Array.from(buttons);
+
+    string.value
+
+    array.forEach(button => {
+        button.addEventListener('click',(e) => {
+            if (e.target.innerHTML == '=') {
+                string = eval(string);
+                input.value = string;
+            }
+
+            else if (e.target.innerHTML == 'AC') {
+                string = '';
+                input.value = string;
+            }
+
+            else if (e.target.innerHTML == 'DEL') {
+                string = string.substring(0, string.length-1);
+                input.value = string;
+            }
+
+            else {
+                string += e.target.innerHTML;
+                input.value = string;
+            }
+        })
+    })
+</script>
+
+
+</body>
+</html>
