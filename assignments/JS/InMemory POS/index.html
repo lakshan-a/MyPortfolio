@@ -434,14 +434,14 @@
                             <div class="row">
                                 <div class="col-6 mt-2">
                                     <div class="form-group">
-                                        <label>Cash</label>
-                                        <input class="form-control" id="txtCash" type="text">
+                                        <label for="cash" class="form-label" style="color: #000000">cash :</label>
+                                        <input id="cashTxtOrderPage" type="cash" class="form-control" id="cash">
                                     </div>
                                 </div>
                                 <div class="col-6 mt-2">
                                     <div class="form-group">
-                                        <label>Discount</label>
-                                        <input class="form-control" id="txtDiscount" min="0" type="number">
+                                        <label for="discount" class="form-label" style="color: #000000">Discount :</label>
+                                        <input id="discountTxtOrderPage" type="discount" class="form-control" id="discount">
                                     </div>
                                 </div>
                             </div>
@@ -449,10 +449,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <label>Balance :</label>
-                                        <input class="form-control" id="txtOrderID" type="text">
-                                        <span class="control-error"
-                                              id="orderId-invalid-error"></span>
+                                        <label for="balance" class="form-label" style="color: #000000">Balance :</label>
+                                        <input id="balanceTxtOrderPage" type="balance" class="form-control" id="balance">
                                     </div>
                                 </div>
                             </div>
@@ -468,14 +466,14 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-6 mt-2">
-                                        <span id="txtTotal"></span> Rs/=
+                                        <span id="orderTotal"></span> Rs/=
                                     </div>
                                     <div class="col-5 mt-2">
-                                        <span id="txtSubTotal"></span> Rs/=
+                                        <span id="orderSubTotal"></span> Rs/=
                                     </div>
                                 </div>
                                 <div class="col-4 mt-4">
-                                    <button class="btn btn-outline-danger" id="btnPurchase" type="button">Purchase</button>
+                                    <button id="btnPlaceOrder" class="btn btn-outline-danger me-md-2" type="button">Purchase</button>
                                 </div>
                             </div>
 

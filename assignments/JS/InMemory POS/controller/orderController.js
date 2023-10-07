@@ -34,7 +34,7 @@ function generateOrderId(){
     }
 }
 
-$('#customerIdOrder').change(function(){ //the event here is change
+$('#customerIdOrder').change(function(){
 
     for (let i=0; i < detailsBig.length; i++){
         if ($(this).val() == detailsBig[i].cid){
@@ -47,7 +47,7 @@ $('#customerIdOrder').change(function(){ //the event here is change
     }
 });
 
-$('#itemOrder').change(function(){ //the event here is change
+$('#itemOrder').change(function(){
 
     for (let i=0; i < itemDetailsBig.length; i++){
         if ($(this).val() == itemDetailsBig[i].itemCode){
@@ -59,4 +59,31 @@ $('#itemOrder').change(function(){ //the event here is change
         }
     }
 });
+
+$('#btnAddItemOrder').click(function (){
+    var code = $('#itemOrder').val();
+    var name = $('#itemNameTxtOrderPage').val();
+    var qty = $('#itemOrderQtyOrderTxtOrderPage').val();
+    var total = parseInt($('#itemOrderQtyOrderTxtOrderPage').val()) * parseInt($('#unitePriceTxtOrderPage').val());
+
+
+    let tr=$('<tr> <td>'+code+'</td> <td>'+name+'</td> <td>'+qty+'</td> <td>'+total+'</td></tr>');
+    $("#tblItemBodyOrderPage").append(tr);
+
+    totalFinal = totalFinal + total;
+
+    $('#orderTotal').text(totalFinal);
+
+    for(let i = 0; i < itemDetailsBig.length; i++){
+        if(itemDetailsBig[i].itemCode == code){
+            itemDetailsBig[i].qty = parseInt(itemDetailsBig[i].qty) - parseInt(qty);
+            $('#itemQtyTxtOrderPage').val(itemDetailsBig[i].qty);
+            break;
+        }
+    }
+
+    $('#itemOrderQtyOrderTxtOrderPage').val("");
+
+});
+
 
