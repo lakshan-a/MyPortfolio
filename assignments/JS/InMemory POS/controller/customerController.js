@@ -99,7 +99,7 @@ function save(){
 
             var id = $("#customerIdText").val();
             var name = $("#customerNameText").val();
-            var address = $("#customerAddress").val();
+            var address = $("#customerAddressText").val();
             var salary = $("#customerSalaryText").val();
 
             customer = {

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
 
 
+
 </head>
 
 <style>
@@ -117,22 +118,22 @@
                         <h2 style="color: black" class="text-center m-4">Customer Registration</h2>
 
                         <div class="mb-3">
-                            <label for="id" class="form-label" style="color: black">Customer ID</label>
+                            <label for="id" class="form-label" style="color: black">Customer ID :</label>
                             <input id="customerIdText" type="id" class="form-control" id="id">
                         </div>
 
                         <div class="mb-3">
-                            <label for="name" class="form-label" style="color: black">Customer Name</label>
+                            <label for="name" class="form-label" style="color: black">Customer Name :</label>
                             <input id="customerNameText" type="name" class="form-control" id="name">
                         </div>
 
                         <div class="mb-3">
-                            <label for="address" class="form-label" style="color: black">Customer Address</label>
+                            <label for="address" class="form-label" style="color: black">Customer Address :</label>
                             <input id="customerAddressText" type="address" class="form-control" id="address">
                         </div>
 
                         <div class="mb-3">
-                            <label for="salary" class="form-label" style="color: black">Customer Salary</label>
+                            <label for="salary" class="form-label" style="color: black">Customer Salary :</label>
                             <input id="customerSalaryText" type="salary" class="form-control" id="salary">
                         </div>
 
@@ -213,22 +214,22 @@
                         <h2 style="color: black" class="text-center m-4">Item</h2>
 
                         <div class="mb-3">
-                            <label for="itemCode" class="form-label" style="color: black">Item Code</label>
+                            <label for="itemCode" class="form-label" style="color: black">Item Code :</label>
                             <input id="itemCodeTxt" type="itemCode" class="form-control" id="itemCode">
                         </div>
 
                         <div class="mb-3">
-                            <label for="itemName" class="form-label" style="color: black">Item Name</label>
+                            <label for="itemName" class="form-label" style="color: black">Item Name :</label>
                             <input id="itemNameTxt" type="itemName" class="form-control" id="itemName">
                         </div>
 
                         <div class="mb-3">
-                            <label for="unitePrice" class="form-label" style="color: black">Unite Price</label>
+                            <label for="unitePrice" class="form-label" style="color: black">Item Price :</label>
                             <input id="unitePriceTxt" type="unitePrice" class="form-control" id="unitePrice">
                         </div>
 
                         <div class="mb-3">
-                            <label for="itemQty" class="form-label" style="color: black">Quantity</label>
+                            <label for="itemQty" class="form-label" style="color: black">Item Quantity :</label>
                             <input id="itemQtyTxt" type="itemQty" class="form-control" id="itemQty">
                         </div>
 
@@ -387,7 +388,7 @@
                             <div class="col-6 mt-2">
                                 <div class="form-group">
                                     <label>Item Code :</label>
-                                    <input class="form-control" id="ItemCode" type="text">
+                                    <input class="form-control" id="OrderItemCode" type="text">
                                 </div>
                             </div>
 
@@ -396,7 +397,7 @@
                             <div class="col-6 mt-2">
                                 <div class="form-group">
                                     <label>Item Name :</label>
-                                    <input class="form-control" id="ItemName" type="text">
+                                    <input class="form-control" id="OrderItemName" type="text">
                                 </div>
                             </div>
                             <div class="col-3 mt-2">
@@ -596,6 +597,10 @@
 <script src="model/customerModel.js"></script>
 <script src="controller/validation/customerValidation.js"></script>
 
+<!------------------------------Item-------------------------------->
+<script src="controller/itemController.js"></script>
+<script src="model/itemModel.js"></script>
+<script src="controller/validation/itemValidation.js"></script>
 
 
 

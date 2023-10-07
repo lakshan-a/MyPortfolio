@@ -5,9 +5,9 @@ var detailsBig = [
 ];
 
 var itemDetailsBig = [
-    {itemCode:"I00-001",itemName:"Lux",unitePrice: 145.00,qty: 100},
-    {itemCode:"I00-002",itemName:"Sunlight",unitePrice: 345.00,qty: 150},
-    {itemCode:"I00-003",itemName:"Light Boy",unitePrice: 245.00,qty: 400}
+    {itemCode:"I001",itemName:"Lenovo",unitePrice: "145.00",qty: 100},
+    {itemCode:"I002",itemName:"Sunlight",unitePrice: "345.00",qty: 150},
+    {itemCode:"I003",itemName:"Mac",unitePrice: "245.00",qty: 400}
 ];
 
-var orderDetails = [];
+// var orderDetails = [];

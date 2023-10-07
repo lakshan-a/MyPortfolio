@@ -1,6 +1,6 @@
 var customer = {
     cid : "",
     cname : "",
-    ctel : "",
-    caddress : ""
+    caddress : "",
+    csalary : ""
 }
