@@ -25,46 +25,33 @@
 
 </style>
 
-
-
 <body>
 
-
 <header class="container-fluid bg-dark " >
+            <nav class="navbar navbar-expand-lg bg-dark   ">
 
-    <div class="row p-1">
-
-        <div class="col-2">
-
-            <h1 style="font-size: 2vw; color: white"> SuperMarket</h1>
-
-        </div>
-
-        <div class="col-3">
-        </div>
-
-        <div class="col-7">
-
-            <nav class="navbar navbar-expand-lg">
-
-                <div class="container-fluid">
-
+                <div class="container-fluid  border-0" >
+                    <a class="navbar-brand" href="#">
+                        <h4 style="color:white;">Finest SuperMarket</h4>
+                    </a>
+                </div>
+                <div class="container-fluid  border-0">
+                    <a class="navbar-brand"  style="color:white;" id="btnHome">Home</a>
+                    <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" id="btnHome" style="color: white">Home</a>
-                            <a class="nav-link" id="btnCustomer" style="color: white">Customer</a>
-                            <a class="nav-link" id="btnItem" style="color: white">Item</a>
-                            <a class="nav-link" id="btnOrder" style="color: white">Order</a>
-<!--                            <a class="nav-link" id="btnOrderDetail" style="color: white">Order Details</a>-->
+                            <a class="nav-link active"  style="color:white;" id="btnCustomer">Customer</a>
+                            <a class="nav-link active" aria-current="page"  style="color:white;" id="btnItem">Items</a>
+                            <a class="nav-link active"  style="color:white;" id="btnOrder">Orders</a>
                         </div>
+                        <form class="d-flex  " role="search"    >
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit">Search</button>
+                        </form>
                     </div>
-                    <form class="d-flex  " role="search"    >
-                        <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Search</button>
-                    </form>
-
                 </div>
-
             </nav>
 
         </div>
