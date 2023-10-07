@@ -34,7 +34,7 @@ document.getElementById("btnOrder").addEventListener("click",function (){
     document.getElementById("itemPage").style.display="none";
     document.getElementById("orderPage").style.display="block";
     document.getElementById("allOrdersPage").style.display="none";
-    // loadCusIds();
+    loadCusIds();
     loadItemIds();
     generateOrderId();
 });

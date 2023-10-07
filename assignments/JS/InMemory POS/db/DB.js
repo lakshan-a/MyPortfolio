@@ -10,4 +10,4 @@ var itemDetailsBig = [
     {itemCode:"I003",itemName:"Mac",unitePrice: "245.00",qty: 400}
 ];
 
-// var orderDetails = [];
+var orderDetails = [];
