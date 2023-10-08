@@ -159,6 +159,7 @@ function getAll(){
 
     }
     bindEvents();
+
 }
 
 
