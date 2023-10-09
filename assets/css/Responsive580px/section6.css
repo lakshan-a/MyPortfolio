@@ -1,65 +1,97 @@
 @media all and (max-width: 580px){
 
 
-    section:nth-child(6) > div:nth-child(2) > h1 {
-        width: 15vw;
-        font-size: 4.5vw;
-        top: 10vh;
-        left: 41vw;
-    }
+    /*section:nth-child(6) > div:nth-child(2) > h1 {*/
+    /*    width: 15vw;*/
+    /*    font-size: 4.5vw;*/
+    /*    top: 10vh;*/
+    /*    left: 41vw;*/
+    /*}*/
 
-    section:nth-child(6)>div:nth-child(2)>h2 {
-        width: 70vw;
-        font-size: 5vw;
-        top: 14vh;
-        left: 14vw;
-        text-align: center;
-    }
+    /*section:nth-child(6)>div:nth-child(2)>h2 {*/
+    /*    width: 70vw;*/
+    /*    font-size: 5vw;*/
+    /*    text-align: center;*/
+    /*}*/
 
-    section:nth-child(6)>div:nth-child(2)>p {
-        width: 68vw;
-        font-size: 3vw;
-        top: 25vh;
-        left: 15vw;
-        text-align: center;
-    }
+    /*section:nth-child(6)>div:nth-child(2)>p {*/
+    /*    width: 68vw;*/
+    /*    font-size: 3vw;*/
+    /*    top: 25vh;*/
+    /*    left: 15vw;*/
+    /*    text-align: center;*/
+    /*}*/
 
-    #section6Project3 {
-        width: 68%;
-        top: 51vh;
-        right: 0vw;
-        left: 2vw;
-    }
+    /*#section6Project3 {*/
+    /*    width: 68%;*/
+    /*    top: 51vh;*/
+    /*    right: 0vw;*/
+    /*    left: 2vw;*/
+    /*}*/
 
-    #section6Project1 {
-        display: none;
-    }
+    /*#section6Project1 {*/
+    /*    display: none;*/
+    /*}*/
 
-    #section6Project2 {
-        display: none;
-    }
+    /*#section6Project2 {*/
+    /*    display: none;*/
+    /*}*/
 
-    section:nth-child(6)>div:nth-child(2)>h4 {
-        width: 22vw;
-        font-size: 2vw;
-        bottom: 40vh;
-        left: 38vw;
-        box-shadow: #FAC921 0px 4px 9px;
-    }
+    /*section:nth-child(6)>div:nth-child(2)>h4 {*/
+    /*    width: 22vw;*/
+    /*    font-size: 2vw;*/
+    /*    bottom: 40vh;*/
+    /*    left: 38vw;*/
+    /*    box-shadow: #FAC921 0px 4px 9px;*/
+    /*}*/
 
-    section:nth-child(6)>div:nth-child(4)>i:nth-child(1) {
-        top: 78vw;
-        right: 6vw;
-    }
-    section:nth-child(6)>div:nth-child(5)>i:nth-child(1) {
-        top: 73.49vw;
-        left: 76vw;
-    }
+    /*section:nth-child(6)>div:nth-child(4)>i:nth-child(1) {*/
+    /*    top: 78vw;*/
+    /*    right: 6vw;*/
+    /*}*/
+    /*section:nth-child(6)>div:nth-child(5)>i:nth-child(1) {*/
+    /*    top: 73.49vw;*/
+    /*    left: 76vw;*/
+    /*}*/
 
     section:nth-child(6) {
-        width: 71.5vw;
-        height: 85vh;
+        width: 99.5vw;
+        height: 65vh;
     }
+
+    section:nth-child(6)>h5 {
+        font-size: 4.5vw;
+    }
+
+    section:nth-child(6)>h5>span {
+        top: 5vw;
+        left: 14vw;
+        width: 71%;
+        font-size: 3vw;
+    }
+
+    .swiper-slide {
+        width: 377px;
+        height: 205px;
+    }
+
+    .swiper-container {
+        padding-top: 19vh;
+    }
+
+    .info h5 {
+        width: 78%;
+        height: 30px;
+        font-size: 3vw;
+    }
+
+    button {
+        font-size: 7px;
+        top: 37.5vw;
+        left: 65vw;
+    }
+
+
 
     section:nth-child(6)>div:nth-child(2)>a {
         top: 40vh;
@@ -69,9 +101,9 @@
 
     .Assignment-box {
         height: 10vw;
-        top: 40vh;
-        left: 22.5vw;
-        width:28vw ;
+        top: 1vh;
+        left: 38.5vw;
+        width: 28vw;
     }
 
     .Assignment-box .btn {
