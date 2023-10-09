@@ -1,23 +1,23 @@
 @media all and (max-width: 580px) {
 
-    section:nth-child(2) {
+    .expertise {
         height: 595vw;
     }
 
-    section:nth-child(2)>h5 {
+    .expertise>h5 {
         width: 25vw;
         font-size: 4.5vw;
         top: 3vw;
     }
 
 
-    section:nth-child(2)>h1 {
+    .expertise>h1 {
         width: 70vw;
         font-size: 5vw;
         top: 7vw;
     }
 
-    section:nth-child(2)>p {
+    .expertise>p {
         width: 72vw;
         text-align: center;
         font-size: 3vw;
@@ -108,7 +108,7 @@
         height: 10vw;
     }
 
-    section:nth-child(2)>div>div>div:nth-child(1)>div>div:nth-child(1) {
+    .expertise>div>div>div:nth-child(1)>div>div:nth-child(1) {
         top: -12.5vw;
         height: 139%;
     }
