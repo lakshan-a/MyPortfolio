@@ -1112,7 +1112,7 @@ section:nth-child(5)>img:hover{
 /*/*--------------------------------------Project section-------------------------------------------------*/
 section:nth-child(6){
     position: relative;
-    height: 125vh;
+    height: 100vh;
     width: 100%;
     /*padding-left: 14vw;*/
     /*padding-right: 14vw;*/
@@ -1123,7 +1123,7 @@ section:nth-child(6){
 
 section:nth-child(6)>h5{
     margin: 0;
-    top: 4vw;
+    top: 5vw;
     position: absolute;
     bottom: 0;
     font-family: 'Signika';
