@@ -707,9 +707,9 @@
         </section>
 
         <!--               mouse cursor-->
-<!--        <section class="mouse">-->
-<!--            <div class="custom-cursor"></div>-->
-<!--        </section>-->
+        <section class="mouse">
+            <div class="custom-cursor"></div>
+        </section>
 
 
 
@@ -752,12 +752,12 @@
 
 
     // mouse cursor
-    // const customCursor = document.querySelector(".custom-cursor");
-    // document.addEventListener('mousemove', (e) => {
-    //     const x = e.clientX;
-    //     const y = e.clientY;
-    //     customCursor.style.transform = `translate(${x}px, ${y}px)`;
-    // });
+    const customCursor = document.querySelector(".custom-cursor");
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX;
+        const y = e.clientY;
+        customCursor.style.transform = `translate(${x}px, ${y}px)`;
+    });
 </script>
 
     
