@@ -151,7 +151,7 @@
 /*    box-sizing: border-box;*/
 /*}*/
 
-button {
+.projectBtn {
     position: relative;
     background: #444;
     color: #fff;
@@ -166,7 +166,7 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+.projectBtn:hover {
     letter-spacing: 0.2rem;
     padding: 10px 25px;
     background: var(--clr);
@@ -175,27 +175,27 @@ button:hover {
     animation: box 3s infinite;
 }
 
-button::before {
+.projectBtn::before {
     content: "";
     position: absolute;
     inset: 2px;
     background: #272822;
 }
 
-button a {
+.projectBtn a {
     text-decoration: none;
     position: relative;
     font-family:  'Signika';
     color: #FFFFFF;
     z-index: 1;
 }
-button i {
+.projectBtn i {
     position: absolute;
     inset: 0;
     display: block;
 }
 
-button i::before {
+.projectBtn i::before {
     content: "";
     position: absolute;
     width: 10px;
@@ -207,13 +207,13 @@ button i::before {
     transition: 0.2s;
 }
 
-button:hover i::before {
+.projectBtn:hover i::before {
     width: 15px;
     left: 20%;
     animation: move 3s infinite;
 }
 
-button i::after {
+.projectBtn i::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -225,7 +225,7 @@ button i::after {
     transition: 0.2s;
 }
 
-button:hover i::after {
+.projectBtn:hover i::after {
     width: 15px;
     left: 80%;
     animation: move 3s infinite;
