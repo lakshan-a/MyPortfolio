@@ -54,7 +54,9 @@
     <!-----------------------------------1024px----------------------------------->
     <link rel="stylesheet" href="assets/css/Responsive1024px/section1.css">
     <link rel="stylesheet" href="assets/css/Responsive1024px/min.css">
-
+    <script src="assets/css/swipper/swiper.min.js"></script>
+    <link rel="stylesheet" href="assets/css/swipper/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/swipper/style.css">
 
 
     <!-----------------------------------425px----------------------------------->
@@ -476,33 +478,85 @@
         </section>
 
 
-        <!--        project section-->
+<!--                project section-->
 
-        <section id="projects">
-            <dfn id="project-section"></dfn>
-            <div>
-                <h1>Projects</h1>
-                <h2>MY Featured Projects and Assignments</h2>
-                <p>In this section I mention my specific featured projects. you can click that projects and go to that websites.
-                    and also you can go to the other project page click using the "My project and Assignments" button.
-                </p>
-                <div class="Assignment-box">
-                    <a href="page/Assignment.html" class="btn" target="_blank">Assignment</a>
-                    <span class="animate" style="--i:5;"></span>
+        <section id="Achievements">
+            <h5>
+                Project <span>This is where I proudly present my accomplishments and showcase the valuable
+                certifications I have earned throughout my professional journey.</span>
+
+
+            </h5>
+
+            <section>
+
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(assets/images/project/Project1.png)">
+                            <div class="info">
+                                <h5>Resturanr Management</h5>
+                                <button   style="--clr:#fac921" ><a href="https://github.com/lakshan-a/Restaurant-Management-System" target="_blank">Click</a><i></i></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(assets/images/project/Project1.png)">
+                            <div class="info">
+                                <h5>Great Learning</h5>
+                                <h5>Resturanr Management</h5>
+                                <button   style="--clr:#fac921" ><a href="#about-section">Click</a><i></i></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(assets/images/project/Project1.png)">
+                            <div class="info">
+                                <h5>Great Learning</h5>
+                                <h5>Resturanr Management</h5>
+                                <button   style="--clr:#fac921" ><a href="#about-section">Click</a><i></i></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(assets/images/project/Project1.png)">
+                            <div class="info">
+                                <h5>Sololearn</h5>
+                                <h5>Resturanr Management</h5>
+                                <button   style="--clr:#fac921" ><a href="#about-section">Click</a><i></i></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(assets/images/project/Project1.png)">
+                            <div class="info">
+                                <h5>Great Learning</h5>
+                                <h5>Resturanr Management</h5>
+                                <button   style="--clr:#fac921" ><a href="#about-section">Click</a><i></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
-            </div>
 
-            <div>
-                <img id="section6Project1" src="assets/images/project/Project3.png">
-                <img id="section6Project2" src="assets/images/project/Project2.png">
-                <img id="section6Project3" src="assets/images/project/Project1.png">
-            </div>
-
-            <div class="sp-cont sp-arr sp-cont-prev">
-                <i class="fa-solid fa-long-arrow-left"></i>
-            </div>
-            <div class="sp-cont sp-arr sp-cont-next">
-                <i class="fa-solid fa-long-arrow-right"></i>
+                <script src="assets/styles/swipper/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        effect: 'coverflow',
+                        grabCursor: true,
+                        centeredSlides: true,
+                        slidesPerView: 'auto',
+                        coverflowEffect: {
+                            rotate: 10,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 5,
+                            slideShadows: true,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                        },
+                    });
+                </script>
+            </section>
+            <div class="Assignment-box">
+                <a href="page/Assignment.html" class="btn" target="_blank">Assignment</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
         </section>
 
@@ -648,9 +702,9 @@
         </section>
 
         <!--               mouse cursor-->
-        <section class="mouse">
-            <div class="custom-cursor"></div>
-        </section>
+<!--        <section class="mouse">-->
+<!--            <div class="custom-cursor"></div>-->
+<!--        </section>-->
 
 
 
@@ -693,12 +747,12 @@
 
 
     // mouse cursor
-    const customCursor = document.querySelector(".custom-cursor");
-    document.addEventListener('mousemove', (e) => {
-        const x = e.clientX;
-        const y = e.clientY;
-        customCursor.style.transform = `translate(${x}px, ${y}px)`;
-    });
+    // const customCursor = document.querySelector(".custom-cursor");
+    // document.addEventListener('mousemove', (e) => {
+    //     const x = e.clientX;
+    //     const y = e.clientY;
+    //     customCursor.style.transform = `translate(${x}px, ${y}px)`;
+    // });
 </script>
 
     
