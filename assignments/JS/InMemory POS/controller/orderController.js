@@ -99,12 +99,52 @@ $("#cashTxtOrderPage").keydown(function (e){
     }
 });
 
+// $('#btnPlaceOrder').click(function (){
+//
+//     var orderId = $('#orderIDTxtOrderPage').val();
+//     var customerId = $('#customerIdOrder').val();
+//     var total = $('#orderSubTotal').text();
+//     var date = $('#dateTxtOrderPage').val();
+//
+//     order = {
+//         orderId : orderId,
+//         customerId : customerId,
+//         total : total,
+//         date : date
+//     }
+//
+//     orderDetails.push(order);
+//
+//     $('#tblItemBodyOrderPage tr').remove();
+//
+//     $('#orderTotal').text("0");
+//     $('#orderSubTotal').text("0");
+//     $('#cashTxtOrderPage').val("");
+//     $('#discountTxtOrderPage').val("");
+//     $('#balanceTxtOrderPage').val("");
+//
+//
+//
+// });
+
+
+
 $('#btnPlaceOrder').click(function (){
+
+    let totl =parseFloat( $('#orderTotal').text());
+    let cash =parseFloat( $('#cashTxtOrderPage').val());
+    console.log(totl,cash);
+    let result = cash-totl;
+    console.log(result);
+    $('#balanceTxtOrderPage').val(result);
 
     var orderId = $('#orderIDTxtOrderPage').val();
     var customerId = $('#customerIdOrder').val();
     var total = $('#orderSubTotal').text();
     var date = $('#dateTxtOrderPage').val();
+
+    totl = 0;
+
 
     order = {
         orderId : orderId,
@@ -117,11 +157,11 @@ $('#btnPlaceOrder').click(function (){
 
     $('#tblItemBodyOrderPage tr').remove();
 
-    $('#orderTotal').text("0");
-    $('#orderSubTotal').text("0");
-    $('#cashTxtOrderPage').val("");
-    $('#discountTxtOrderPage').val("");
-    $('#balanceTxtOrderPage').val("");
+    /* $('#orderTotal').text("0");
+     $('#orderSubTotal').text("0");
+     $('#cashTxtOrderPage').val("");
+     $('#discountTxtOrderPage').val("");
+     $('#balanceTxtOrderPage').val("");*/
 
 
 
