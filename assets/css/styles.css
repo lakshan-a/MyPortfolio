@@ -537,7 +537,7 @@ body main section:first-child>div:nth-child(3)>div:nth-child(3){
 
 .content-inner {
     width: 20vw;
-    height: 25vw;
+    height: 24vw;
     color: #000000;
     position: relative;
     transform-style: preserve-3d;
@@ -612,8 +612,8 @@ body main section:first-child>div:nth-child(3)>div:nth-child(3){
 .content-inner .cf-inner {
     transform-style: preserve-3d;
     backface-visibility: hidden;
-    width:100%;
-    padding:150px 30px;
+    width: 94%;
+    padding: 90px 30px;
 }
 .content-inner .cf-inner .inner {
     align-items: stretch;
